@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Project specific
+# 참고 자료 PDF는 용량이 클 수 있으므로 제외 (필요시 주석 해제)
+# library/references/**/*.pdf
+
+# Lock files (uv.lock은 포함하는 것이 일반적이지만, 필요시 제외 가능)
+# uv.lock
