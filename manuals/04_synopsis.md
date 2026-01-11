@@ -82,8 +82,8 @@ Step 3의 로그라인을 바탕으로, `_templates/Sheets/04_synopsis_sheet.md`
 
 ### 5-2. Step별 결과 파일
 **저장 위치:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/03_synopsis.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/03_synopsis.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/04_synopsis_sheet.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/04_synopsis_sheet.md` (이동됨)
 
 **저장 내용:** 최종 확정된 시놉시스와 작품명(확정된 경우)을 저장합니다.
 
