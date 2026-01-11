@@ -9,7 +9,7 @@
 | 2 | **LMoP** | D&D/D&D 5e 2014 Lost Mine of Phandelver.pdf | Done |
 | 3 | **MM** | D&D/D&D 5e 2014 Monster Manual.pdf | Done |
 | 4 | **PHB** | D&D/D&D 5e 2014 Player’s Handbook (2014).pdf | Creature Statistics (Appendix D) - 변신/소환 생물 통계만 포함 |
-| 5 | **ToD** | D&D/D&D 5e 2014 Tyranny of Dragons.pdf | In Progress |
+| 5 | **ToD** | D&D/D&D 5e 2014 Tyranny of Dragons.pdf | Error: PDF Incomplete/No Text |
 | 6 | **SCAG** | D&D/D&D 5e 2015 Sword Coast Adventurer's Guide.pdf | |
 | 7 | **CoS** | D&D/D&D 5e 2016 Curse of Strahd.pdf | |
 | 8 | **VGtM** | D&D/D&D 5e 2016 Volo's Guide to Monsters.pdf | |
