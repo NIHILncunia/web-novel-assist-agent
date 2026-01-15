@@ -30,100 +30,15 @@
 
 ## 🏗️ 폴더 구조 (Directory Structure)
 
-```
-novel-assist-agent/
-│
-├── 📄 README.md                    # 프로젝트 개요 (현재 문서)
-│
-├── 📂 manuals/                     # 11단계 창작 프로세스 가이드
-│   ├── 00_idea_generation.md       # [Step 0] 아이디어 발상
-│   ├── 01_style_config.md          # [Step 1] 집필 스타일 설정
-│   ├── 02_world_concept.md         # [Step 2] 세계관 분기 및 컨셉 제안
-│   ├── 03_logline.md               # [Step 3] 로그라인 확정
-│   ├── 04_synopsis.md              # [Step 4] 기승전결 시놉시스
-│   ├── 05_world_detail.md          # [Step 5] 세계관 디테일 확정 (메인 가이드)
-│   ├── 05-00_framework_guide.md    #  └─ 세계관 구조 설정
-│   ├── 05-01_races_guide.md        #  └─ 종족 설정
-│   ├── 05-02_character_guide.md    #  └─ 인물 설정 (주연/조연)
-│   ├── 05-03_regions_guide.md      #  └─ 지역 설정
-│   ├── 05-04_organizations_guide.md #  └─ 단체 설정
-│   ├── 05-05_nations_guide.md      #  └─ 국가 설정
-│   ├── 05-06_items_guide.md        #  └─ 아이템 설정
-│   ├── 05-07_history_guide.md      #  └─ 사건 설정
-│   ├── 05-08_stories_guide.md      #  └─ 전설 설정
-│   ├── 06_story_arc.md             # [Step 6] 플롯 아웃라인 및 스토리 아크
-│   ├── 07_chapter_plan.md          # [Step 7] 편별 설정 및 골인 지점
-│   ├── 08_final_review.md          # [Step 8] 최종 점검 (Pre-flight Check)
-│   ├── 09_drafting.md              # [Step 9] 본문 집필
-│   └── 10_revision.md              # [Step 10] 퇴고 및 수정
-│
-├── 📂 _templates/                  # 표준 양식 (빈 서식 모음)
-│   ├── Sheets/                     # 기획 시트 모음
-│   │   ├── logline_sheet.md            # 로그라인 기획 양식
-│   │   ├── synopsis_sheet.md           # 시놉시스 기획 양식
-│   │   ├── plot_outline_sheet.md       # 플롯 아웃라인 양식
-│   │   ├── episode_sheet.md            # 에피소드 기획 양식
-│   │   ├── story_arc_sheet.md          # 스토리 아크 양식
-│   │   ├── revision_sheet.md           # 퇴고 시트 양식
-│   │   └── world_sheet.md              # 세계관 시트 양식
-│   ├── world_detail/               # 세계관 요소별 템플릿
-│   │   ├── 00_framework_template.md   # 세계관 구조 양식
-│   │   ├── 01_races_template.md       # 종족 양식
-│   │   ├── 02-1_character_template.md # 주연 인물 양식
-│   │   ├── 02-2_sub_character_template.md # 조연 인물 양식
-│   │   ├── 03_regions_template.md     # 지역 양식
-│   │   ├── 04_organizations_template.md # 단체 양식
-│   │   ├── 05_nations_template.md     # 국가 양식
-│   │   ├── 06_items_template.md       # 아이템 양식
-│   │   ├── 07_history_template.md     # 사건 양식
-│   │   └── 08_stories_template.md     # 전설 양식
-│   └── world_checklist.md          # 세계관 체크리스트
-│
-├── 📂 library/                     # 공용 자산 라이브러리
-│   └── shared_world/               # 재사용 가능한 공용 세계관
-│       └── [Shared_World_Name]/    # 예: 사용자의 공용 세계관
-├── 📂 data/                        # 중앙 데이터 저장소
-│   └── word_list/                  # 장르별 키워드 사전
-│       └── fantasy.md              # 판타지 장르 키워드
-│
-├── 📂 incubator/                   # 아이디어 인큐베이터 (제목 미정 기획물)
-│   └── [Idea_Concept_A]/           # 아이디어별 폴더로 관리
-│       ├── 00_conversation_log.md  # 통합 대화 로그 (모든 Step의 요청-응답 기록)
-│       ├── 00_bible/               # 작품 전용 설정집 (제목 확정 전)
-│       │   ├── style_profile.md    # 작가 문체 프로필
-│       │   ├── framework.md        # 세계관 구조
-│       │   ├── races/              # 종족 설정들
-│       │   ├── characters/        # 인물 설정들
-│       │   └── ...
-│       ├── 01_planning/            # 기획 문서
-│       │   ├── 01_concept_note.md # Step 1 최종 결과
-│       │   ├── 02_logline.md
-│       │   ├── 03_synopsis.md
-│       │   ├── 05_plot_outline.md
-│       │   ├── 06_chapter_plan.md
-│       │   └── 00_idea_seed.md    # Step 0 추가에 따른 아이디어 시드 노트 경로 수정
-│       └── reference_img/          # 참고 이미지 (선택 사항)
-│
-└── 📂 projects/                    # 정식 프로젝트 (제목 확정 후 이동)
-    └── [Project_Title]/
-        ├── 00_conversation_log.md  # 통합 대화 로그 (모든 Step의 요청-응답 기록)
-        ├── 00_bible/               # 작품 전용 설정집
-        │   ├── style_profile.md    # 작가 문체 프로필
-        │   ├── framework.md        # 세계관 구조
-        │   ├── races/              # 종족 설정들
-        │   ├── characters/         # 인물 설정들
-        │   └── ...
-        ├── 01_planning/            # 기획 문서
-        │   ├── 02_logline.md
-        │   ├── 03_synopsis.md
-        │   ├── 05_plot_outline.md
-        │   ├── 06_chapter_plan.md
-│       │   └── 00_idea_seed.md    # Step 0 추가에 따른 아이디어 시드 노트 경로 수정
-        └── 02_drafts/              # 실제 원고
-            ├── 001화.md
-            ├── 002화.md
-            └── ...
-```
+이 프로젝트는 체계적인 창작 과정을 지원하기 위해 다음과 같은 주요 폴더들로 구성됩니다. 각 폴더와 파일의 상세한 역할 및 AI 에이전트의 작동 방식에 대한 기술적인 설명은 **[GEMINI.md](./GEMINI.md)** 파일을 참조하십시오.
+
+-   `manuals/`: 11단계 창작 프로세스를 안내하는 핵심 가이드 문서들이 저장됩니다.
+-   `_templates/`: 기획 시트, 세계관 설정 등 모든 표준 템플릿을 보관합니다.
+-   `library/`: 여러 작품에서 재사용될 수 있는 공용 세계관, 참고 자료 등을 관리합니다.
+-   `data/`: 장르별 키워드, 생성된 스킬/아이템 등 중앙 데이터를 저장합니다.
+-   `incubator/`: 아이디어를 구체화하고 제목을 정하기 전의 초기 기획 프로젝트를 위한 공간입니다.
+-   `projects/`: 제목이 확정된 정식 프로젝트들이 위치합니다.
+-   `prompt/`: AI 에이전트에게 특정 작업을 지시하기 위한 프롬프트를 모아둡니다.
 
 ---
 
