@@ -61,7 +61,10 @@
     19. **상승 (Ascension):** 밑바닥에서 정상으로 올라감. (성공 신화)
     20. **하강 (Descension):** 정상에서 밑바닥으로 추락. (몰락의 서사)
 
-- [ ] **Modern & Web Novel Specific Plots (Research Findings)**
+- [ ] **Narrative Structures & Web Novel Trends (Research Findings)**
+    *   **3막 구조 (Three-Act Structure):**
+        *   가장 기초적인 이야기 형태. **설정(Setup) -> 대립(Confrontation) -> 해결(Resolution)**.
+        *   모든 스토리텔링의 기본이 되는 뼈대.
     *   **댄 하몬의 스토리 서클 (Dan Harmon's Story Circle):**
         *   8단계 순환 구조: **일상(You) -> 욕망(Need) -> 탐험(Go) -> 적응(Search) -> 발견(Find) -> 대가(Take) -> 귀환(Return) -> 변화(Change)**.
         *   캐릭터의 심리적 변화와 성장에 초점. 미드(릭앤모티 등)와 현대 웹소설에 적합.
