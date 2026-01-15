@@ -35,7 +35,7 @@
 -   `manuals/`: 11단계 창작 프로세스를 안내하는 핵심 가이드 문서들이 저장됩니다.
 -   `_templates/`: 기획 시트, 세계관 설정 등 모든 표준 템플릿을 보관합니다.
 -   `library/`: 여러 작품에서 재사용될 수 있는 공용 세계관, 참고 자료 등을 관리합니다.
--   `data/`: 장르별 키워드, 생성된 스킬/아이템 등 중앙 데이터를 저장합니다.
+-   `data/`: 장르별 키워드, 특성(traits), 스킬(skill), 아이템 등 중앙 데이터를 저장합니다.
 -   `incubator/`: 아이디어를 구체화하고 제목을 정하기 전의 초기 기획 프로젝트를 위한 공간입니다.
 -   `projects/`: 제목이 확정된 정식 프로젝트들이 위치합니다.
 -   `prompt/`: AI 에이전트에게 특정 작업을 지시하기 위한 프롬프트를 모아둡니다.
@@ -395,16 +395,18 @@ Step 2~Step 6까지의 산출물은 그대로 출판사나 플랫폼에 제출�
 
 **파일 구조 (인큐베이터와 프로젝트 동일):**
 - **Step 0:** `00_bible/style_profile.md` - 작가 문체 프로필
-- **Step 1:** `01_planning/01_concept_note.md` - 최종 확정된 컨셉
-- **Step 2:** `01_planning/02_logline.md` - 최종 확정된 로그라인
-- **Step 3:** `01_planning/03_synopsis.md` - 최종 확정된 시놉시스
-- **Step 4:** 
+- **Step 1:** `01_planning/01_style_survey.md` - 스타일 설문 결과
+- **Step 2:** `01_planning/01_concept_note.md` - 최종 확정된 컨셉
+- **Step 3:** `01_planning/02_logline.md` - 최종 확정된 로그라인
+- **Step 4:** `01_planning/03_synopsis.md` - 최종 확정된 시놉시스
+- **Step 5:** 
   - `00_bible/` 하위 폴더들 - 최종 확정된 세계관 설정 파일들
   - `01_planning/04_world_detail_check.md` - 설정 목표 리스트 및 점검 결과
-- **Step 5:** `01_planning/05_plot_outline.md` - 최종 확정된 플롯 아웃라인
-- **Step 6:** `01_planning/06_chapter_plans/` - 최종 확정된 챕터 설계
-- **Step 7:** `01_planning/07_review_reports/` - 최종 점검 리포트
-- **Step 8:** `02_drafts/` - 최종 원고
+- **Step 6:** `01_planning/05_story_arc.md` - 최종 확정된 스토리 아크
+- **Step 7:** `01_planning/06_chapter_plans/` - 최종 확정된 챕터 설계
+- **Step 8:** `01_planning/07_review_reports/` - 최종 점검 리포트
+- **Step 9:** `02_drafts/` - 최종 원고
+- **Step 10:** `03_revisions/` - 퇴고 및 수정본
 
 **핵심 원칙:**
 - **로그 파일:** 전체 대화 과정 (요청-응답 반복)

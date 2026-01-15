@@ -18,25 +18,27 @@ NOVEL-AGENT-REPO/
 │
 ├── 📄 README.md                  # [메인 지침서] 에이전트 페르소나 및 작동 규칙
 │
-├── 📂 manuals/                   # [기능 지침서] 리뉴얼된 9단계 매뉴얼
-│   ├── 00_style_config.md        # 집필 스타일 및 선호도 설정
-│   ├── 01_world_concept.md       # [시작] 세계관 분기 및 컨셉 제안
-│   ├── 02_logline.md             # 로그라인 확정
-│   ├── 03_synopsis.md            # 기승전결 시놉시스
-│   ├── 04_world_detail.md        # 세계관 디테일 (메인 가이드)
-│   ├── 04-00_framework_guide.md  # 세계관 구조 설정 가이드
-│   ├── 04-01_races_guide.md      # 종족 설정 가이드
-│   ├── 04-02_character_guide.md  # 인물 설정 가이드 (주연/조연)
-│   ├── 04-03_regions_guide.md    # 지역 설정 가이드
-│   ├── 04-04_organizations_guide.md # 단체 설정 가이드
-│   ├── 04-05_nations_guide.md    # 국가 설정 가이드
-│   ├── 04-06_items_guide.md     # 아이템 설정 가이드
-│   ├── 04-07_history_guide.md   # 사건 설정 가이드
-│   ├── 04-08_stories_guide.md   # 전설 설정 가이드
-│   ├── 05_story_arc.md           # 플롯 아웃라인 및 에피소드 분리
-│   ├── 06_chapter_plan.md        # 편(화)별 설정 및 골인 지점
-│   ├── 07_final_review.md        # 최종 점검 (Pre-flight Check)
-│   └── 08_drafting.md            # 본문 집필
+├── 📂 manuals/                   # [기능 지침서] 11단계 매뉴얼
+│   ├── 00_idea_generation.md     # [Step 0] 아이디어 발상
+│   ├── 01_style_config.md        # [Step 1] 집필 스타일 설정
+│   ├── 02_world_concept.md       # [Step 2] 세계관 분기 및 컨셉 제안
+│   ├── 03_logline.md             # [Step 3] 로그라인 확정
+│   ├── 04_synopsis.md            # [Step 4] 기승전결 시놉시스
+│   ├── 05_world_detail.md        # [Step 5] 세계관 디테일 (메인 가이드)
+│   ├── 05-00_framework_guide.md  # 세계관 구조 설정 가이드
+│   ├── 05-01_races_guide.md      # 종족 설정 가이드
+│   ├── 05-02_character_guide.md  # 인물 설정 가이드 (주연/조연)
+│   ├── 05-03_regions_guide.md    # 지역 설정 가이드
+│   ├── 05-04_organizations_guide.md # 단체 설정 가이드
+│   ├── 05-05_nations_guide.md    # 국가 설정 가이드
+│   ├── 05-06_items_guide.md     # 아이템 설정 가이드
+│   ├── 05-07_history_guide.md   # 사건 설정 가이드
+│   ├── 05-08_stories_guide.md   # 전설 설정 가이드
+│   ├── 06_story_arc.md           # [Step 6] 플롯 아웃라인 및 에피소드 분리
+│   ├── 07_chapter_plan.md        # [Step 7] 편(화)별 설정 및 골인 지점
+│   ├── 08_final_review.md        # [Step 8] 최종 점검 (Pre-flight Check)
+│   ├── 09_drafting.md            # [Step 9] 본문 집필
+│   └── 10_revision.md            # [Step 10] 퇴고 및 수정
 │
 ├── 📂 _templates/                # [표준 양식] 빈 서식 모음
 │   ├── world_detail/             # 세계관 디테일 템플릿 모음
@@ -61,8 +63,11 @@ NOVEL-AGENT-REPO/
 ├── 📂 library/                   # [공용 자산] 프로젝트 공통 데이터
 │   └── shared_world/             # 사용자의 공용 세계관 설정 파일들
 ├── 📂 data/                      # [중앙 데이터] 프로젝트 공통 데이터
-│   └── word_list/                # 용어집 모음
-│       └── fantasy.md            # 판타지 용어집
+│   ├── word_list/                # 용어집 모음
+│   ├── traits/                   # [특성] 신체적 특징 (유전/변형)
+│   ├── skill/                    # [능력] 발동형/지속형 기술
+│   └── 아이템.md                 # 아이템 요약 테이블
+│
 │
 ├── 📂 incubator/                 # [아이디어] 제목 미정 기획물 저장소
 │   └── [Idea_Concept_A]/         # 아이디어별로 '폴더'를 만들어 관리
@@ -84,59 +89,63 @@ NOVEL-AGENT-REPO/
 
 ---
 
-## 3. 9단계 창작 프로세스 (Workflow)
-본 프로젝트는 **[배경 선정 → 스토리 구상 → 구조 설계]**의 순서로 진행됩니다.
+## 3. 11단계 창작 프로세스 (Workflow)
+본 프로젝트는 **[아이디어 → 설정 → 설계 → 집필 → 퇴고]**의 순서로 진행됩니다.
 
-### **Step 0. 스타일 및 선호도 설정 (Config)**
-* **설명:** 프로젝트 시작 전 필수 실행. 작가의 문체, 시점, 톤앤매너를 미리 설정하여 에이전트에 이식합니다.
-* **참조:** 📄 [00_style_config.md](./manuals/00_style_config.md)
+### **Step 0. 아이디어 발상 (Idea Generation)**
+* **설명:** 백지 상태에서 키워드 조합이나 What-if 질문을 통해 창작의 씨앗을 발견합니다.
+* **참조:** 📄 [00_idea_generation.md](./manuals/00_idea_generation.md)
 
-### **Step 1. 세계관 분기 및 컨셉 제안 (Initiation)**
-* **설명:** 사용자의 아이디어를 듣고 **두 가지 분기**로 진행합니다.
-    1. **기존 세계관:** `library/shared_world` 활용.
-    2. **신규 세계관:** 컨셉에 맞는 3~4가지 테마 제안 및 선택.
-* **저장:** `incubator` 내에 임시 폴더를 생성하여 저장합니다.
-* **참조:** 📄 [01_world_concept.md](./manuals/01_world_concept.md)
+### **Step 1. 스타일 및 선호도 설정 (Style Config)**
+* **설명:** 작가의 문체, 시점, 톤앤매너를 미리 설정하여 에이전트에 이식합니다.
+* **참조:** 📄 [01_style_config.md](./manuals/01_style_config.md)
 
-### **Step 2. 로그라인 (Logline)**
+### **Step 2. 세계관 분기 및 컨셉 제안 (World Concept)**
+* **설명:** 사용자의 아이디어를 듣고 **기존 세계관** 활용 또는 **신규 세계관** 창조(3가지 테마 제안)를 결정합니다.
+* **참조:** 📄 [02_world_concept.md](./manuals/02_world_concept.md)
+
+### **Step 3. 로그라인 (Logline)**
 * **설명:** 확정된 세계관 위에서 주인공의 목표와 갈등을 한 줄로 요약합니다.
-* **참조:** 📄 [02_logline.md](./manuals/02_logline.md)
+* **참조:** 📄 [03_logline.md](./manuals/03_logline.md)
 
-### **Step 3. 기승전결 시놉시스 (Synopsis)**
-* **설명:** 시작부터 결말까지의 전체 흐름을 잡습니다. (배경이 깔려 있으므로 이야기 전개에 집중)
-* **작품명 확정:** 시놉시스 완성 후 반드시 작품명 확정 여부를 확인합니다. 작품명이 확정되면 `incubator/[가제_컨셉명]/` 폴더의 모든 내용을 `projects/[작품명]/` 폴더로 이동합니다.
-* **참조:** 📄 [03_synopsis.md](./manuals/03_synopsis.md)
+### **Step 4. 기승전결 시놉시스 (Synopsis)**
+* **설명:** 시작부터 결말까지의 전체 흐름을 잡습니다.
+* **작품명 확정:** 이 단계 완료 후 작품명을 확정하고 `incubator`에서 `projects`로 폴더를 이동합니다.
+* **참조:** 📄 [04_synopsis.md](./manuals/04_synopsis.md)
 
-### **Step 4. 세계관 디테일 확정 (Detailing)**
-* **설명:** 시놉시스 소화에 필요한 구체적 설정(국가, 종족, 마법 체계, 주요 인물)을 확정하여 '설정집'을 완성합니다.
-* **메인 가이드:** 📄 [04_world_detail.md](./manuals/04_world_detail.md)
-* **하위 가이드 (템플릿별):**
-  * 📄 [04-00_framework_guide.md](./manuals/04-00_framework_guide.md) - 세계관 구조 설정
-  * 📄 [04-01_races_guide.md](./manuals/04-01_races_guide.md) - 종족
-  * 📄 [04-02_character_guide.md](./manuals/04-02_character_guide.md) - 인물 (주연/조연)
-  * 📄 [04-03_regions_guide.md](./manuals/04-03_regions_guide.md) - 지역
-  * 📄 [04-04_organizations_guide.md](./manuals/04-04_organizations_guide.md) - 단체
-  * 📄 [04-05_nations_guide.md](./manuals/04-05_nations_guide.md) - 국가
-  * 📄 [04-06_items_guide.md](./manuals/04-06_items_guide.md) - 아이템
-  * 📄 [04-07_history_guide.md](./manuals/04-07_history_guide.md) - 사건
-  * 📄 [04-08_stories_guide.md](./manuals/04-08_stories_guide.md) - 전설
+### **Step 5. 세계관 디테일 확정 (World Detailing)**
+* **설명:** 시놉시스를 뒷받침할 구체적 설정(국가, 종족, 단체, 인물 등)을 확정하여 '설정집'을 완성합니다.
+* **메인 가이드:** 📄 [05_world_detail.md](./manuals/05_world_detail.md)
+* **하위 가이드:**
+  * 📄 [05-00_framework_guide.md](./manuals/05-00_framework_guide.md)
+  * 📄 [05-01_races_guide.md](./manuals/05-01_races_guide.md)
+  * 📄 [05-02_character_guide.md](./manuals/05-02_character_guide.md)
+  * 📄 [05-03_regions_guide.md](./manuals/05-03_regions_guide.md)
+  * 📄 [05-04_organizations_guide.md](./manuals/05-04_organizations_guide.md)
+  * 📄 [05-05_nations_guide.md](./manuals/05-05_nations_guide.md)
+  * 📄 [05-06_items_guide.md](./manuals/05-06_items_guide.md)
+  * 📄 [05-07_history_guide.md](./manuals/05-07_history_guide.md)
+  * 📄 [05-08_stories_guide.md](./manuals/05-08_stories_guide.md)
 
-### **Step 5. 플롯 아웃라인 및 스토리 아크 (Structure)**
-* **설명:** 시놉시스를 바탕으로 큰 이야기 덩어리(Story Arc)를 나누고, 이를 에피소드 별로 분리합니다.
-* **참조:** 📄 [05_story_arc.md](./manuals/05_story_arc.md)
+### **Step 6. 스토리 아크 (Story Arc)**
+* **설명:** 전체 이야기를 큰 덩어리(Arc)로 나누고 에피소드를 배치하여 완급 조절을 설계합니다.
+* **참조:** 📄 [06_story_arc.md](./manuals/06_story_arc.md)
 
-### **Step 6. 편별 설정 및 골인 지점 (Chapter Plan)**
-* **설명:** 각 에피소드를 실제 연재 회차로 쪼개고, 각 화마다 도달해야 할 **'골인 지점(엔딩/목표)'**을 설정합니다.
-* **참조:** 📄 [06_chapter_plan.md](./manuals/06_chapter_plan.md)
+### **Step 7. 챕터 플랜 (Chapter Plan)**
+* **설명:** 각 에피소드를 실제 연재 회차로 쪼개고, '골인 지점(엔딩)'을 설정합니다.
+* **참조:** 📄 [07_chapter_plan.md](./manuals/07_chapter_plan.md)
 
-### **Step 7. 최종 점검 (Final Review)**
-* **설명:** 집필 전 설정/세팅의 최종 점검 단계입니다. 집필 직전, 설계도(챕터 설계, 플롯 아웃라인)와 세계관 설정에 오류나 구멍이 없는지 종합적으로 검토합니다.
-* **⚠️ 중요:** 이 단계는 집필된 소설의 점검이 아니라, 집필 전 설계도와 설정의 최종 점검입니다.
-* **참조:** 📄 [07_final_review.md](./manuals/07_final_review.md)
+### **Step 8. 최종 점검 (Final Review)**
+* **설명:** 집필 전 설계도와 설정의 정합성을 최종 검토합니다.
+* **참조:** 📄 [08_final_review.md](./manuals/08_final_review.md)
 
-### **Step 8. 본문 집필 (Drafting)**
-* **설명:** 검증된 설계도와 Step 0의 문체를 바탕으로 실제 원고를 집필합니다.
-* **참조:** 📄 [08_drafting.md](./manuals/08_drafting.md)
+### **Step 9. 본문 집필 (Drafting)**
+* **설명:** 에이전트는 설계도와 문체 프로필을 바탕으로 초고를 작성합니다.
+* **참조:** 📄 [09_drafting.md](./manuals/09_drafting.md)
+
+### **Step 10. 퇴고 및 수정 (Revision)**
+* **설명:** 작성된 초고의 묘사를 강화하고 문장을 다듬습니다.
+* **참조:** 📄 [10_revision.md](./manuals/10_revision.md)
 
 ---
 
