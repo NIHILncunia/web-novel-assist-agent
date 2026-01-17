@@ -165,16 +165,16 @@
 - `manuals/05-nn_xxx_guide.md` 지침 준수
 - YAML Frontmatter 필수 포함
 - **장르별 키워드 리스트 참조:** 설정 작성 시 적절한 용어 선택을 위해 `data/word_list/` 활용
-  - 판타지: `data/word_list/fantasy.md` (종족, 직업, 마법, 아이템, 지역, 분위기 등)
-  - 무협: `data/word_list/martial_arts.md` (예정)
+  - 판타지: `data/word_list/fantasy/판타지_용어.md` (종족, 직업, 마법, 아이템, 지역, 분위기 등)
+  - 무협: `data/word_list/murim/무협_용어.md` (예정)
   - 기타 장르: 해당 장르의 키워드 리스트 우선 참조
-- **스킬 분류 지침 참조:** 인물이나 몬스터의 능력을 설정할 때는 `prompt/skill_create.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 명시합니다.
-- **스킬 저장 위치:** 분류된 스킬은 `data/스킬.md`에 저장하며, 인물 파일에는 스킬 이름만 기록하고 상세 정보는 `data/스킬.md`를 참조하도록 합니다.
-- **아이템 생성 프롬프트 참조:** 아이템을 설정할 때는 `prompt/item_create.md`의 분류 규칙 인터뷰를 진행하여 [대분류/소분류/등급/자아/속성/피해 유형]을 결정합니다.
-- **종족 생성 프롬프트 참조:** 종족을 설정할 때는 `prompt/create_race.md`의 인터뷰 지침을 따라 9가지 축을 질문하여 채웁니다.
-- **지역 생성 프롬프트 참조:** 지역을 설정할 때는 `prompt/create_region.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
-- **단체 생성 프롬프트 참조:** 단체를 설정할 때는 `prompt/create_organization.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
-- **국가 생성 프롬프트 참조:** 국가를 설정할 때는 `prompt/create_nation.md`의 인터뷰 지침을 따라 8가지 축을 질문하여 채웁니다.
+- **스킬 분류 지침 참조:** 인물이나 몬스터의 능력을 설정할 때는 `prompt/01_creation/create_active_skill.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 명시합니다.
+- **스킬 저장 위치:** 분류된 스킬은 `data/skill/` 폴더에 저장하며, 인물 파일에는 스킬 이름만 기록하고 상세 정보는 `data/skill/`을 참조하도록 합니다.
+- **아이템 생성 프롬프트 참조:** 아이템을 설정할 때는 `prompt/01_creation/create_item.md`의 분류 규칙 인터뷰를 진행하여 [대분류/소분류/등급/자아/속성/피해 유형]을 결정합니다.
+- **종족 생성 프롬프트 참조:** 종족을 설정할 때는 `prompt/01_creation/create_race.md`의 인터뷰 지침을 따라 9가지 축을 질문하여 채웁니다.
+- **지역 생성 프롬프트 참조:** 지역을 설정할 때는 `prompt/01_creation/create_region.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
+- **단체 생성 프롬프트 참조:** 단체를 설정할 때는 `prompt/01_creation/create_organization.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
+- **국가 생성 프롬프트 참조:** 국가를 설정할 때는 `prompt/01_creation/create_nation.md`의 인터뷰 지침을 따라 8가지 축을 질문하여 채웁니다.
 - **아이템 저장 위치:** 
   - **중앙 저장소:** 분류된 아이템의 요약 정보(테이블 형식)는 `data/아이템.md`에 저장합니다. 아이템이 필요할 때는 먼저 `data/아이템.md` 파일에서 기존 아이템을 검색하여 재사용 가능한지 확인합니다.
   - **개별 파일:** 아이템의 상세한 서사적 설명은 `00_bible/06_items/[Item_Name].md` 파일에 기록합니다. 템플릿(`_templates/world_detail/06_items_template.md`)을 사용하여 생성하며, 분류 정보는 `data/아이템.md`에 테이블로 저장하고 개별 파일에는 상세 내용을 서술합니다.
@@ -195,8 +195,8 @@
 | :--- | :--- | :--- | :--- |
 | **00** | 세계관 구조 설정 | `world_detail/00_framework_template.md` | **[[05-00_framework_guide]]** |
 | **01** | 종족 | `world_detail/01_races_template.md` | **[[05-01_races_guide]]** |
-| **02-1** | 주연/주요 인물 | `world_detail/02-1_character_template.md` | **[[05-1_character_guide]]** (주연) |
-| **02-2** | 조연/단역 인물 | `world_detail/02-2_sub_character_template.md` | **[[05-1_character_guide]]** (조연) |
+| **02-1** | 주연/주요 인물 | `world_detail/02-1_character_template.md` | **[[05-02_character_guide]]** (주연) |
+| **02-2** | 조연/단역 인물 | `world_detail/02-2_sub_character_template.md` | **[[05-02_character_guide]]** (조연) |
 | **03** | 지역 | `world_detail/03_regions_template.md` | **[[05-03_regions_guide]]** |
 | **04** | 단체 | `world_detail/04_organizations_template.md` | **[[05-04_organizations_guide]]** |
 | **05** | 국가 | `world_detail/05_nations_template.md` | **[[05-05_nations_guide]]** |
@@ -297,7 +297,7 @@
 
 5. **이미지 및 자료 첨부**
    - 필요 시 `_assets/` 폴더에 이미지나 참고 자료를 저장하고 링크합니다.
-   - 예: `![엘프 의상 참고](../../_assets/elves_costume_ref.jpg)`
+   - 예: `![엘프 의상 참고](../../_assets/elves_costume_ref.jpg)` (파일이 존재할 경우)
 
 ### 4-2. 작성 시 고려사항
 
@@ -704,13 +704,13 @@ AI 에이전트는 `data/word_list/Thesaurus/` 폴더에 축적된 구조화된 
   - 판타지: `data/word_list/fantasy.md` (종족, 직업, 마법, 아이템, 지역, 분위기 등)
   - 무협: `data/word_list/martial_arts.md` (예정)
   - 기타 장르: 해당 장르의 키워드 리스트 우선 참조
-- **스킬 분류 지침 참조:** 인물이나 몬스터의 능력을 설정할 때는 `prompt/skill_create.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 명시합니다.
-- **스킬 저장 위치:** 분류된 스킬은 `data/스킬.md`에 저장하며, 인물 파일에는 스킬 이름만 기록하고 상세 정보는 `data/스킬.md`를 참조하도록 합니다.
-- **아이템 생성 프롬프트 참조:** 아이템을 설정할 때는 `prompt/item_create.md`의 분류 규칙 인터뷰를 진행하여 [대분류/소분류/등급/자아/속성/피해 유형]을 결정합니다.
-- **종족 생성 프롬프트 참조:** 종족을 설정할 때는 `prompt/create_race.md`의 인터뷰 지침을 따라 9가지 축을 질문하여 채웁니다.
-- **지역 생성 프롬프트 참조:** 지역을 설정할 때는 `prompt/create_region.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
-- **단체 생성 프롬프트 참조:** 단체를 설정할 때는 `prompt/create_organization.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
-- **국가 생성 프롬프트 참조:** 국가를 설정할 때는 `prompt/create_nation.md`의 인터뷰 지침을 따라 8가지 축을 질문하여 채웁니다.
+- **스킬 분류 지침 참조:** 인물이나 몬스터의 능력을 설정할 때는 `prompt/01_creation/create_active_skill.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 명시합니다.
+- **스킬 저장 위치:** 분류된 스킬은 `data/skill/` 폴더에 저장하며, 인물 파일에는 스킬 이름만 기록하고 상세 정보는 `data/skill/`을 참조하도록 합니다.
+- **아이템 생성 프롬프트 참조:** 아이템을 설정할 때는 `prompt/01_creation/create_item.md`의 분류 규칙 인터뷰를 진행하여 [대분류/소분류/등급/자아/속성/피해 유형]을 결정합니다.
+- **종족 생성 프롬프트 참조:** 종족을 설정할 때는 `prompt/01_creation/create_race.md`의 인터뷰 지침을 따라 9가지 축을 질문하여 채웁니다.
+- **지역 생성 프롬프트 참조:** 지역을 설정할 때는 `prompt/01_creation/create_region.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
+- **단체 생성 프롬프트 참조:** 단체를 설정할 때는 `prompt/01_creation/create_organization.md`의 인터뷰 지침을 따라 7가지 축을 질문하여 채웁니다.
+- **국가 생성 프롬프트 참조:** 국가를 설정할 때는 `prompt/01_creation/create_nation.md`의 인터뷰 지침을 따라 8가지 축을 질문하여 채웁니다.
 - **아이템 저장 위치:** 
   - **중앙 저장소:** 분류된 아이템의 요약 정보(테이블 형식)는 `data/아이템.md`에 저장합니다. 아이템이 필요할 때는 먼저 `data/아이템.md` 파일에서 기존 아이템을 검색하여 재사용 가능한지 확인합니다.
   - **개별 파일:** 아이템의 상세한 서사적 설명은 `00_bible/06_items/[Item_Name].md` 파일에 기록합니다. 템플릿(`_templates/world_detail/06_items_template.md`)을 사용하여 생성하며, 분류 정보는 `data/아이템.md`에 테이블로 저장하고 개별 파일에는 상세 내용을 서술합니다.

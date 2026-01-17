@@ -77,7 +77,7 @@
 ## [Template 04] 단체 (Organization)
 > **저장 위치:** `00_bible/04_organizations/[Organization_Name].md`  
 > **템플릿 참조:** `_templates/world_detail/04_organizations_template.md`  
-> **프롬프트 참조:** `prompt/create_organization.md`
+> **프롬프트 참조:** `prompt/01_creation/create_organization.md`
 
 ```markdown
 ---

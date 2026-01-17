@@ -106,7 +106,7 @@
 ## 5. 출력 템플릿 참조
 
 - **템플릿 경로:** `_templates/world_detail/04_organizations_template.md`
-- **가이드 참조:** `manuals/04-04_organizations_guide.md`의 "[Template 04] 단체" 섹션
+- **가이드 참조:** `manuals/05-04_organizations_guide.md`의 "[Template 04] 단체" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.
 
 ---
@@ -135,5 +135,5 @@
 2. **인터뷰 진행:** 7가지 축(Axis)별 세부 항목을 질문하여 채움
 3. **템플릿 적용:** 완성된 내용을 템플릿 형식에 맞춰 작성
 4. **저장:** 지정된 저장 경로에 파일 생성
-5. **가이드 확인:** `manuals/04-04_organizations_guide.md`의 체크리스트로 최종 검토
+5. **가이드 확인:** `manuals/05-04_organizations_guide.md`의 체크리스트로 최종 검토
 

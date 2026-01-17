@@ -14,62 +14,62 @@
 ### 그룹 1: 아이디어 확장 및 컨셉 추출
 > 새로운 아이디어를 얻거나, 외부 소스에서 영감을 추출하여 데이터베이스를 확장하는 데 사용됩니다.
 
-*   **`brainstorm_from_keyword.md` (키워드 확장 엔진)**
+*   **`prompt/02_refinement/brainstorm_from_keyword.md` (키워드 확장 엔진)**
     *   **기능:** 단일 키워드를 입력받아 연관/반전 특성, 지속/발동 능력 등 다채로운 아이디어를 생성합니다. 기존 데이터베이스를 먼저 분석하여 중복을 피하고 시너지를 낼 수 있는 아이디어를 제안합니다.
     *   **사용 예시:** "키워드 '고독'으로 브레인스토밍 해줘."
 
-*   **`extract_concepts_from_character.md` (외부 캐릭터 컨셉 추출)**
+*   **`prompt/02_refinement/extract_concepts_from_character.md` (외부 캐릭터 컨셉 추출)**
     *   **기능:** 외부의 유명 캐릭터를 분석하여 핵심 키워드를 추출하고, '키워드 확장 엔진'을 통해 프로젝트 데이터베이스에 추가할 범용 특성 및 능력을 대량으로 생성합니다.
     *   **사용 예시:** "워크래프트의 '아서스 메네실'을 분석해서 우리 데이터베이스에 추가할 만한 특성과 능력을 제안해줘."
 
 ### 그룹 2: 핵심 세계관 요소 생성
 > 캐릭터, 종족, 국가 등 세계관의 근간이 되는 핵심 요소들을 생성합니다.
 
-*   **`create_character.md` (인물 생성)**
+*   **`prompt/01_creation/create_character.md` (인물 생성)**
     *   **기능:** 상세한 인터뷰를 통해 주연급 또는 조연 캐릭터를 생성합니다.
     *   **사용 예시:** "새로운 주인공 캐릭터를 만들자."
 
-*   **`create_race.md`, `create_organization.md`, `create_nation.md`, `create_region.md` (종족/조직/국가/지역 생성)**
+*   **`prompt/01_creation/create_race.md`, `prompt/01_creation/create_organization.md`, `prompt/01_creation/create_nation.md`, `prompt/01_creation/create_region.md` (종족/조직/국가/지역 생성)**
     *   **기능:** 세계관을 구성하는 각 핵심 요소를 생성하는 지침들입니다.
     *   **사용 예시:** "새로운 종족으로 '그림자 엘프'를 만들어보자."
 
-*   **`item_create.md` (아이템 생성)**
+*   **`prompt/01_creation/create_item.md` (아이템 생성)**
     *   **기능:** 무기, 방어구, 마법 아이템 등 세계관의 아이템을 상세히 설정하고 생성합니다.
     *   **사용 예시:** "전설 등급의 검 '서리 절단기'를 만들어줘."
 
 ### 그룹 3: 특성 및 능력 관리
 > 캐릭터와 몬스터의 개성을 부여하는 특성과 능력을 관리하고 제안합니다.
 
-*   **`enhance_entity_with_tags.md` (내 엔티티 강화)**
+*   **`prompt/02_refinement/enhance_entity_with_tags.md` (내 엔티티 강화)**
     *   **기능:** 프로젝트 내의 특정 캐릭터/몬스터를 분석하고, 데이터베이스에서 어울리는 기존 특성/능력을 찾아 설정을 강화하도록 제안합니다.
     *   **사용 예시:** "내가 만든 '그림자 늑대' 몬스터에게 어울릴 만한 특성이나 능력을 추천해줘."
 
-*   **`create_active_skill.md`, `create_passive_skill.md` (발동/지속 능력 생성)**
+*   **`prompt/01_creation/create_active_skill.md`, `prompt/01_creation/create_passive_skill.md` (발동/지속 능력 생성)**
     *   **기능:** 각각 '발동 능력'과 '지속 능력'을 체계적으로 생성하여 `data/skill/` 폴더에 저장합니다.
     *   **사용 예시:** "'화염 폭발'이라는 발동 능력을 새로 만들자."
 
-*   **`get_creature_tag.md` (생물 특성 및 능력 추출)**
+*   **`prompt/02_refinement/get_creature_tag.md` (생물 특성 및 능력 추출)**
     *   **기능:** 몬스터의 설정을 분석하여 신체, 정신, 기원 등 범용적인 '특성'과 '능력'을 추출합니다. 이 데이터는 인물에게도 적용 가능한 **'공용 레고 블록'**으로 활용됩니다.
     *   **사용 예시:** (주로 다른 프롬프트 내부에서 호출됨)
 
 ### 그룹 4: 데이터 추출 및 가공
 > 외부 소스에서 대량의 데이터를 가져와 프로젝트 형식에 맞게 가공합니다.
 
-*   **`extract_dnd_monsters.md` (D&D 몬스터 정보 추출)**
+*   **`prompt/05_data_processing/extract_dnd_monsters.md` (D&D 몬스터 정보 추출)**
     *   **기능:** D&D 룰북 PDF에서 몬스터 정보를 추출하여, '특성-지속-발동' 분류에 맞춰 프로젝트 데이터베이스에 저장합니다.
     *   **사용 예시:** "몬스터 매뉴얼 10페이지부터 15페이지까지 몬스터 정보를 추출해줘."
 
 ### 그룹 5: 집필 및 수정
 > 실제 소설 원고를 작성하거나 기존 내용을 수정/개선합니다.
 
-*   **`write_scene.md` (장면 작성)**
+*   **`prompt/04_writing/write_scene.md` (장면 작성)**
     *   **기능:** 특정 인물, 장소, 사건을 바탕으로 소설의 한 장면을 직접 작성합니다.
     *   **사용 예시:** "'아르웬'이 '그림자 숲'에서 '고블린'과 만나는 장면을 써줘."
 
-*   **`update_synopsis.md` (시놉시스 업데이트)**
+*   **`prompt/04_writing/update_synopsis.md` (시놉시스 업데이트)**
     *   **기능:** 새롭게 정의된 플롯이나 설정을 바탕으로 기존 시놉시스를 수정하고 발전시킵니다.
     *   **사용 예시:** "플롯이 변경되었으니, 시놉시스를 업데이트하자."
 
-*   **`revision/*` (퇴고 관련 프롬프트)**
-    *   **기능:** `check_consistency.md` (설정 일관성 검토), `refine_dialogue.md` (대사 개선) 등 퇴고 과정에 필요한 다양한 작업을 수행합니다.
+*   **`prompt/04_writing/revision/*` (퇴고 관련 프롬프트)**
+    *   **기능:** `prompt/04_writing/revision/check_consistency.md` (설정 일관성 검토), `prompt/04_writing/revision/refine_dialogue.md` (대사 개선) 등 퇴고 과정에 필요한 다양한 작업을 수행합니다.
     *   **사용 예시:** "이번 챕터의 대화가 자연스러운지 검토해줘."

@@ -114,7 +114,7 @@
 
 몬스터가 전투나 상황 속에서 실제로 발휘하는 힘입니다. 실질적인 기술을 나타냅니다.
 
-**참조 지침:** 능력 분류 시 `prompt/skill_create.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 함께 기록합니다.
+**참조 지침:** 능력 분류 시 `prompt/01_creation/create_active_skill.md` 및 `prompt/01_creation/create_passive_skill.md`의 분류 규칙을 적용하여 [계통/형태/대상/피해 유형/상태 이상 유형]을 함께 기록합니다.
 
 **능력 분류 체계:**
 - **일반 능력:** 일반적인 몬스터가 가진 능력
@@ -134,7 +134,7 @@
 - **일반 발동 (Active):** 일반적인 행동(Action)으로 사용하는 능력
 - **전설 발동 (Legendary Active):** 전설적 행동(Legendary Action)으로 사용하는 능력
 
-**분류 규칙:** `prompt/skill_create.md`의 Axis 1(계통), Axis 3(대상), Axis 4(피해 유형), Axis 5(상태 이상 유형)을 적용하여 분류합니다.
+**분류 규칙:** `prompt/01_creation/create_active_skill.md`의 Axis 1(계통), Axis 3(대상), Axis 4(피해 유형), Axis 5(상태 이상 유형)을 적용하여 분류합니다.
 - **형태 (Form):** "발동 (Active)" 또는 "전설 발동 (Legendary Active)"
 - **계통 (Type):** 물리/원소/정신/소환/치유/생산/특수 중 선택
 - **대상 (Target):** 자신/단일/다수/범위 중 선택
@@ -159,7 +159,7 @@
 - **일반 상시 (Passive):** 일반적인 상시 능력
 - **전설 상시 (Legendary Passive):** 전설적 특성(Legendary Trait)으로 항상 적용되는 효과 (예: Legendary Resistance)
 
-**분류 규칙:** `prompt/skill_create.md`의 Axis 1(계통), Axis 3(대상), Axis 4(피해 유형), Axis 5(상태 이상 유형)을 적용하여 분류합니다.
+**분류 규칙:** `prompt/01_creation/create_passive_skill.md`의 Axis 1(계통), Axis 3(대상), Axis 4(피해 유형), Axis 5(상태 이상 유형)을 적용하여 분류합니다.
 - **형태 (Form):** "상시 (Passive)" 또는 "전설 상시 (Legendary Passive)"
 - **계통 (Type):** 물리/원소/정신/소환/치유/생산/특수 중 선택
 - **대상 (Target):** 자신/단일/다수/범위 중 선택
@@ -240,7 +240,7 @@
     *   발동 능력: `data/skill/발동.md`
     *   지속 능력: `data/skill/지속.md`
 2.  **저장 방식:**
-    *   `prompt/skill_create.md` (혹은 새로 생성될 `create_active_skill.md`와 `create_passive_skill.md`)의 분류 규칙에 따라 [계통/형태/대상/피해 유형/상태 이상 유형]을 결정합니다.
+    *   `prompt/01_creation/create_active_skill.md`와 `prompt/01_creation/create_passive_skill.md`의 분류 규칙에 따라 [계통/형태/대상/피해 유형/상태 이상 유형]을 결정합니다.
     *   **형태(Form) 분류 규칙:**
         *   일반 발동 능력: "발동 (Active)"
         *   전설 발동 능력: "전설 발동 (Legendary Active)"

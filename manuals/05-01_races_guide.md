@@ -61,7 +61,7 @@
 ## [Template 01] 종족 (Species)
 > **저장 위치:** `00_bible/01_races/종족_[Species_Name].md`  
 > **템플릿 참조:** `_templates/world_detail/01_races_template.md`
-> **프롬프트 참조:** `prompt/create_race.md`
+> **프롬프트 참조:** `prompt/01_creation/create_race.md`
 
 ```markdown
 ---

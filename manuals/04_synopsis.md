@@ -14,8 +14,21 @@
 
 ## 2. 작업 프로세스
 
-### Phase 1. 뼈대 세우기 (Structure Mapping)
-Step 3의 로그라인을 바탕으로, `_templates/Sheets/04_synopsis_sheet.md` 템플릿의 기승전결 구조를 설계합니다. 에이전트는 사용자에게 각 단계의 핵심 질문을 던져 내용을 채웁니다.
+### Phase 1. 구조 설계 (Structure Design)
+
+#### 1-1. 플롯 패턴 선택 (Select Plot Pattern)
+시놉시스 작성 전, 사용자에게 **작품에 적합한 이야기 구조(Plot Pattern)**를 먼저 제안하고 선택하게 하십시오. 다음 `_templates/plot_patterns/` 폴더 내의 가이드를 참조하여 제안합니다.
+
+1.  **마스터 플롯 (Master Plots):** `_templates/plot_patterns/01_master_plots_part1.md` (추구, 모험, 복수 등)
+2.  **서사 구조 (Narrative Structures):** `_templates/plot_patterns/03_narrative_structures.md` (3막, 스토리 서클, 세이브 더 캣 등)
+3.  **웹소설 트렌드 (Web Novel Tropes):** `_templates/plot_patterns/04_webnovel_tropes.md` (광대물, 성좌물, 후회물 등)
+4.  **기본 (Default):** 별도 선택이 없으면 아래의 **'기승전결(起承轉結)'** 표준 공식을 사용합니다.
+
+> **작업 지침:** 사용자가 특정 패턴(예: '복수' 플롯)을 선택하면, 해당 템플릿 파일에 명시된 **'3막 구조(Structure)'**와 **'체크리스트'**를 가져와서 아래 '뼈대 세우기' 질문을 대체하거나 보강하십시오.
+
+#### 1-2. 뼈대 세우기 (Structure Mapping)
+확정된 플롯 패턴(또는 기본 기승전결)을 바탕으로 상세 구조를 설계합니다.
+**[기본 기승전결 사용 시]:** Step 3의 로그라인을 바탕으로 다음 질문을 던져 내용을 채웁니다.
 
 1.  **기(起) - 발단 & 각성:**
     * 주인공이 왜 모험(또는 복수)을 시작하는가?

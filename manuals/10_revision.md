@@ -17,23 +17,23 @@
 
 ## ⚙️ 작업 프로세스: `10_revision_sheet.md` 기반의 3단계 퇴고
 
-퇴고는 `_templates/Sheets/10_revision_sheet.md` 템플릿을 사용하여 생성된 **`10_revision_sheet_[화차].md`** 파일을 중심으로 진행됩니다. 각 단계의 체크리스트를 채우기 위해 `prompt/revision/` 폴더의 특화된 프롬프트들을 활용합니다.
+퇴고는 `_templates/Sheets/10_revision_sheet.md` 템플릿을 사용하여 생성된 **`10_revision_sheet_[화차].md`** 파일을 중심으로 진행됩니다. 각 단계의 체크리스트를 채우기 위해 `prompt/04_writing/revision/` 폴더의 특화된 프롬프트들을 활용합니다.
 
 ### 1단계: 구조적 퇴고 (숲 보기)
 **목표:** 이야기의 뼈대와 관련된 문제를 해결합니다. `revision_sheet`의 '1차 검토' 항목을 진행합니다.
 
 - **설정 일관성 검토:**
-  - **사용 도구:** `prompt/revision/check_consistency.md`
+  - **사용 도구:** `prompt/04_writing/revision/check_consistency.md`
   - **작업 내용:** 이 프롬프트에 원고와 관련 설정 파일(`bible`의 내용, 이전 회차 요약 등)을 입력하여 설정 충돌 여부를 검토하고, 결과를 `revision_sheet`에 기록합니다.
 
 ### 2단계: 서사 및 문장 퇴고 (나무 보기)
 **목표:** 문장 단위의 가독성과 이야기의 흐름을 개선합니다. `revision_sheet`의 '2차 검토' 및 '3차 검토' 항목을 진행합니다.
 
 - **전개 속도(Pacing) 조절:**
-  - **사용 도구:** `prompt/revision/improve_pacing.md`
+  - **사용 도구:** `prompt/04_writing/revision/improve_pacing.md`
   - **작업 내용:** 원고에서 너무 느리거나 빠른 부분을 지정하고, 이 프롬프트를 사용해 속도감 조절을 요청합니다.
 - **대사 개선:**
-  - **사용 도구:** `prompt/revision/refine_dialogue.md`
+  - **사용 도구:** `prompt/04_writing/revision/refine_dialogue.md`
   - **작업 내용:** 캐릭터 시트와 원고를 프롬프트에 입력하여, 캐릭터의 개성이 더 잘 드러나는 대사로 수정을 요청합니다.
 
 - **시소러스 기반 심층 퇴고 (Thesaurus-based Deep Revision):**

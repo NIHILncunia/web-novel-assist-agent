@@ -198,7 +198,7 @@
 ### 6-3. 템플릿 및 가이드 참조
 
 - **템플릿 참조:** `_templates/world_detail/06_items_template.md`
-- **가이드 참조:** `manuals/04-06_items_guide.md`
+- **가이드 참조:** `manuals/05-06_items_guide.md`
 
 **⚠️ 중요:** 템플릿의 **"1. 정의 및 외형"** 섹션에 분류 정보(대분류, 소분류, 등급)를 포함하고, **"2. 기능"** 섹션에 속성, 피해 유형, 자아 정보를 포함하세요:
 - **Section 1에 포함:** 대분류, 소분류, 등급
@@ -239,7 +239,7 @@
 ## 7. 출력 템플릿 참조
 
 - **템플릿 경로:** `_templates/world_detail/06_items_template.md`
-- **가이드 참조:** `manuals/04-06_items_guide.md`의 "[Template 06] 아이템" 섹션
+- **가이드 참조:** `manuals/05-06_items_guide.md`의 "[Template 06] 아이템" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.
 
 ---
@@ -253,4 +253,4 @@
 5. **저장:**
    - `data/아이템.md`에 분류 정보를 테이블 형식으로 추가
    - 지정된 저장 경로에 개별 파일 생성
-6. **가이드 확인:** `manuals/04-06_items_guide.md`의 체크리스트로 최종 검토
+6. **가이드 확인:** `manuals/05-06_items_guide.md`의 체크리스트로 최종 검토
