@@ -42,6 +42,7 @@ NOVEL-AGENT-REPO/
 │
 ├── 📂 _templates/                # [표준 양식] 빈 서식 모음
 │   ├── world_detail/             # 세계관 디테일 템플릿 모음
+│   │   ├── examples/             # [NEW] 템플릿 작성 예시 (참조용)
 │   │   ├── 00_framework_template.md  # 세계관 구조 설정 템플릿
 │   │   ├── 01_races_template.md      # 종족 템플릿
 │   │   ├── 02-1_character_template.md # 주연 인물 템플릿

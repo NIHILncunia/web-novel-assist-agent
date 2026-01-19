@@ -97,7 +97,9 @@
 **(템플릿 내용은 `_templates/world_detail/02-1_character_template.md` 파일을 참조하세요.)**
 
 #### ✅ 작성 예시 (주요 빌런)
-> **[예시: 카이젠 (Kaizen)](examples/character_kaizen.md)** - 상세 설정이 포함된 전체 예시는 링크를 참조하세요.
+> **[상세 예시: 카이젠 (Kaizen)](../../_templates/world_detail/examples/02-1_example_char_kaizen.md)**
+>
+> 위 링크를 클릭하여 `02-1` 템플릿의 전체 예시를 확인하세요. 욕망의 피라미드와 트라우마가 구조화된 예시입니다.
 
 ---
 
@@ -110,4 +112,6 @@
 **(내용은 `_templates/world_detail/02-2_sub_character_template.md` 참조)**
 
 #### ✅ 작성 예시 (조연 기사)
-> **[예시: 마르쿠스 (Marcus)](examples/character_marcus.md)** - 상세 설정이 포함된 전체 예시는 링크를 참조하세요.
+> **[상세 예시: 마르쿠스 (Marcus)](../../_templates/world_detail/examples/02-2_example_sub_marcus.md)**
+>
+> 위 링크를 클릭하여 `02-2` 템플릿의 전체 예시를 확인하세요. 역할과 기능 위주로 간결하게 작성된 예시입니다.

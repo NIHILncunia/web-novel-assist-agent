@@ -29,14 +29,16 @@ novel-assist-agent/
 │
 ├── 📂 _templates/                  # 표준 양식 (파일 생성의 기반)
 │   ├── Sheets/                     # 기획 시트 템플릿
-│   └── world_detail/               # 세계관 요소별 템플릿
+│   ├── world_detail/               # 세계관 요소별 템플릿
+│   │   └── examples/               # [NEW] 템플릿 작성 예시 (참조용)
+│   └── detail_upgrade/             # (구조 개선 작업용)
 │
 ├── 📂 library/                     # 공용 자산 라이브러리
 │   └── shared_world/               # 재사용 가능한 공용 세계관
 │
 ├── 📂 data/                        # [중앙 데이터] 프로젝트 공통 데이터
 │   ├── word_list/                  # 장르별 키워드 사전
-│   ├── traits/                     # [특성] 신체적 특징 (유전/변형/소재)
+│   ├── traits/                     # [특성] 총 13종 (00_유형 ~ 12_외교)
 │   ├── skill/                      # [능력] 발동형/지속형 기술
 │   └── 아이템.md                   # 아이템 요약 테이블
 │
