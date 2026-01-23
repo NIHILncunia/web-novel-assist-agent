@@ -196,7 +196,7 @@
 
 | 템플릿 번호 | 대상(Type) | 템플릿 파일 | 참조 문서 |
 | :--- | :--- | :--- | :--- |
-| **00** | 세계관 구조 설정 | `world_detail/00_framework_template.md` | **[[05-00_framework_guide]]** |
+| **00** | 세계관 코어 규칙 | `world_detail/00_core_rules_template.md` | **[[05-00_core_rules_guide]]** |
 | **01** | 종족 | `world_detail/01_races_template.md` | **[[05-01_races_guide]]** |
 | **02-1** | 주연/주요 인물 | `world_detail/02-1_character_template.md` | **[[05-02_character_guide]]** (주연) |
 | **02-2** | 조연/단역 인물 | `world_detail/02-2_sub_character_template.md` | **[[05-02_character_guide]]** (조연) |
@@ -220,7 +220,7 @@
 **폴더 구조:**
 ```
 [작품명 또는 가제_컨셉명]/00_bible/
-├── 00_framework/          # 세계관 구조, 마법 법칙, 시스템 등
+├── 00_core_rules/          # 코어 규칙, 마법 법칙, 시스템 등
 ├── 01_races/              # 종족 (엘프, 드워프, 드래곤족 등)
 ├── 02_characters/         # 인물 (주연/조연/단역)
 │   ├── protagonists/      # 주연급 인물
@@ -237,7 +237,7 @@
 ### 폴더별 설명
 | 폴더명 | 내용 | 파일명 예시 |
 |--------|------|-------------|
-| `00_framework/` | 세계관의 근간이 되는 시스템·법칙 | `마법체계_서클이론.md`, `레벨시스템.md` |
+| `00_core_rules/` | 세계관의 근간이 되는 코어 규칙, 시스템·법칙 | `마법체계_서클이론.md`, `레벨시스템.md` |
 | `01_races/` | 종족별 특성, 문화, 능력 | `종족_엘프.md`, `종족_드래곤족.md` |
 | `02_characters/` | 작품에 등장하는 모든 인물 | `주연_카엘.md`, `조연_마법사길드장.md` |
 | `03_regions/` | 지리적 장소 및 공간 | `지역_마법의숲.md`, `던전_고룡의둥지.md` |
@@ -732,7 +732,7 @@ AI 에이전트는 `data/word_list/Thesaurus/` 폴더에 축적된 구조화된 
 
 | 템플릿 번호 | 대상(Type) | 템플릿 파일 | 참조 문서 |
 | :--- | :--- | :--- | :--- |
-| **00** | 세계관 구조 설정 | `world_detail/00_framework_template.md` | **[[05-00_framework_guide]]** |
+| **00** | 세계관 코어 규칙 | `world_detail/00_core_rules_template.md` | **[[05-00_core_rules_guide]]** |
 | **01** | 종족 | `world_detail/01_races_template.md` | **[[05-01_races_guide]]** |
 | **02-1** | 주연/주요 인물 | `world_detail/02-1_character_template.md` | **[[05-1_character_guide]]** (주연) |
 | **02-2** | 조연/단역 인물 | `world_detail/02-2_sub_character_template.md` | **[[05-1_character_guide]]** (조연) |
@@ -756,7 +756,7 @@ AI 에이전트는 `data/word_list/Thesaurus/` 폴더에 축적된 구조화된 
 **폴더 구조:**
 ```
 [작품명 또는 가제_컨셉명]/00_bible/
-├── 00_framework/          # 세계관 구조, 마법 법칙, 시스템 등
+├── 00_core_rules/          # 코어 규칙, 마법 법칙, 시스템 등
 ├── 01_races/              # 종족 (엘프, 드워프, 드래곤족 등)
 ├── 02_characters/         # 인물 (주연/조연/단역)
 │   ├── protagonists/      # 주연급 인물
@@ -773,7 +773,7 @@ AI 에이전트는 `data/word_list/Thesaurus/` 폴더에 축적된 구조화된 
 ### 폴더별 설명
 | 폴더명 | 내용 | 파일명 예시 |
 |--------|------|-------------|
-| `00_framework/` | 세계관의 근간이 되는 시스템·법칙 | `마법체계_서클이론.md`, `레벨시스템.md` |
+| `00_core_rules/` | 세계관의 근간이 되는 코어 규칙, 시스템·법칙 | `마법체계_서클이론.md`, `레벨시스템.md` |
 | `01_races/` | 종족별 특성, 문화, 능력 | `종족_엘프.md`, `종족_드래곤족.md` |
 | `02_characters/` | 작품에 등장하는 모든 인물 | `주연_카엘.md`, `조연_마법사길드장.md` |
 | `03_regions/` | 지리적 장소 및 공간 | `지역_마법의숲.md`, `던전_고룡의둥지.md` |

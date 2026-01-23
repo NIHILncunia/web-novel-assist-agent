@@ -7,7 +7,7 @@
 수정일자: {{date}}
 ---
 
-# {{Framework_Name}}
+# {{Core_Rule_Name}}
 
 ## 1. 개요
 * **코어 설정 명:** 
