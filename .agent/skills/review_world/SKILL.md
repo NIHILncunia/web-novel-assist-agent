@@ -35,4 +35,4 @@ description: Comprehensive review of World Settings, Plot Outlines, and Chapter 
 
 ## 3. 출력 양식
 - **파일:** `report/[YYYY-MM-DD]_Ep[N]_검토_리포트.md` (예시)
-- **템플릿:** `templates/08_final_review_checklist.md` 기반 리포트.
+- **템플릿:** `templates/final_review_checklist.md` 기반 리포트.

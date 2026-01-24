@@ -11,7 +11,7 @@ description: Design Religions, Cults, or Belief Systems. Covers Deity, Doctrine,
 
 - **저장 위치:** `00_bible/04_organizations/`
 - **파일명:** `교단_[이름].md`
-- **템플릿:** `templates/04_organizations_template.md` (종교용으로 내용 변형)
+- **템플릿:** `templates/religion_template.md`
 
 ## 2. 인터뷰 프로세스 (5 Axes)
 
@@ -42,5 +42,5 @@ description: Design Religions, Cults, or Belief Systems. Covers Deity, Doctrine,
 
 ## 3. 데이터 저장 지침
 
-1. **템플릿:** `templates/04_organizations_template.md` 사용.
+1. **템플릿:** `templates/religion_template.md` 사용.
 2. **저장:** `00_bible/04_organizations/교단_[이름].md`.

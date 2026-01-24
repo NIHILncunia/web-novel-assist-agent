@@ -11,9 +11,9 @@
 ## 2. 에이전트 작업 지침
 
 ### 2-0. 아이템 분류 규칙 (필수)
-**⚠️ 중요:** 아이템을 생성할 때는 반드시 `prompt/01_creation/create_item.md`의 분류 규칙을 적용하여 구조화된 데이터로 변환합니다.
+**⚠️ 중요:** 아이템을 생성할 때는 반드시 **skills create_item**을 사용하여 구조화된 데이터로 변환합니다.
 
-1. **프롬프트 참조:** `prompt/01_creation/create_item.md`의 분류 규칙 인터뷰에 따라 다음 4가지 축을 판단합니다:
+1. **스킬 참조:** **skills create_item**의 분류 규칙 인터뷰에 따라 다음 4가지 축을 판단합니다:
    - **Axis 1. 대분류 & 소분류:** 무기/방어구/장신구/도구/소모품/재료·기타
    - **Axis 2. 등급:** 일반/고급/희귀/고유/영웅/전설/신화 (영웅 이상은 아티팩트)
    - **Axis 3. 자아 여부:** 없음/잠재/각성
@@ -125,8 +125,8 @@
 
 ## [Template 06] 아이템 (Item)
 > **저장 위치:** `00_bible/06_items/[Item_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/06_items_template.md`  
-> **프롬프트 참조:** `prompt/01_creation/create_item.md`
+> **템플릿 참조:** `.agent/skills/create_item/templates/item_template.md`  
+> **스킬 참조:** `**skills create_item**`
 > **아이템 목록:** `data/아이템.md` (아이템 검색 및 저장 위치)
 
 ```markdown

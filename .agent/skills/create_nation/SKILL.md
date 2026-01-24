@@ -120,7 +120,7 @@ description: An interactive interview skill for detailed Nation Creation. It cov
 
 ## 5. 출력 템플릿 참조
 
-- **템플릿:** `templates/05_nations_template.md`
+- **템플릿:** `templates/nation_template.md`
 - **가이드 참조:** `manuals/05-05_nations_guide.md`의 "[Template 05] 국가" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.
 

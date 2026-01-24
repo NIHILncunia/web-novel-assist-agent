@@ -91,8 +91,8 @@
 ## [Template 02-1] 주연/주요 인물용
 > **대상:** 주인공, 메인 빌런, 핵심 조력자, 비중 있는 조연  
 > **저장 위치:** `00_bible/02_characters/protagonists/주연_[Name].md`  
-> **템플릿 참조:** `_templates/world_detail/02-1_character_template.md`
-> **프롬프트 참조:** `prompt/01_creation/create_character.md`
+> **템플릿 참조:** `.agent/skills/create_character/templates/02-1_character_template.md`
+> **스킬 참조:** `**skills create_character**`
 
 **(템플릿 내용은 `_templates/world_detail/02-1_character_template.md` 파일을 참조하세요.)**
 
@@ -107,7 +107,7 @@
 > **대상:** 이름만 등장하거나 대사가 적은 주변인물, 단역
 > **저장 위치:** `00_bible/02_characters/minor/단역_[Name].md`
 > **템플릿 참조:** `_templates/world_detail/02-2_sub_character_template.md`
-> **프롬프트 참조:** `prompt/01_creation/create_character.md`
+> **스킬 참조:** `**skills create_character**`
 
 **(내용은 `_templates/world_detail/02-2_sub_character_template.md` 참조)**
 

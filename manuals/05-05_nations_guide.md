@@ -77,8 +77,8 @@
 
 ## [Template 05] 국가 (Nation)
 > **저장 위치:** `00_bible/05_nations/[Nation_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/05_nations_template.md`  
-> **프롬프트 참조:** `prompt/01_creation/create_nation.md`
+> **템플릿 참조:** `.agent/skills/create_nation/templates/05_nations_template.md`  
+> **스킬 참조:** `**skills create_nation**`
 
 ```markdown
 ---

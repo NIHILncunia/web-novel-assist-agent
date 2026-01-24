@@ -10,7 +10,7 @@ description: A skill to design the plot outline (Arcs and Episodes) based on the
 ## 1. 개요 및 저장 위치
 
 - **저장 위치:** `01_planning/06_plot_outline.md`
-- **템플릿:** `templates/06_story_arc_sheet.md`
+- **템플릿:** `templates/story_arc_template.md`
 
 ## 2. 작업 프로세스
 
@@ -41,5 +41,6 @@ description: A skill to design the plot outline (Arcs and Episodes) based on the
 
 ## 4. 데이터 저장 지침
 
-1. **템플릿 사용:** `templates/06_story_arc_sheet.md`
+1. **템플릿 사용 (아크):** `templates/story_arc_template.md`
+2. **템플릿 사용 (에피소드):** `templates/episode_sheet.md`
 2. **저장:** `01_planning/06_plot_outline.md` (프로젝트 폴더 내)

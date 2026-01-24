@@ -123,7 +123,7 @@
     - 작품명이 확정되면 `projects/[작품명]/` 폴더로 이동합니다.
     - **중요:** 제목이 없는 한은 인큐베이터에 유지합니다.
 2.  **파일 저장:** 
-    * **저장 파일:** `02_world_concept_sheet.md` (기반 템플릿: `_templates/Sheets/02_world_concept_sheet.md`)
+    * **저장 파일:** `02_world_concept_sheet.md` (참조: **skills create_core_rules** -> `world_concept_sheet.md`)
     * **저장 위치:** 
       - **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/02_world_concept.md`
       - **작품명 확정 후:** `projects/[작품명]/01_planning/02_world_concept.md` (이동됨)

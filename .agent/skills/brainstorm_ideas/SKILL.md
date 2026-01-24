@@ -11,6 +11,7 @@ description: A keyword brainstorming engine that expands a single keyword into r
 
 - **목적:** 데이터베이스 풍부화.
 - **저장 위치:** `data/traits/` 및 `data/ability/`
+- **아이디어 노트 템플릿:** `templates/idea_note_template.md` (옵션)
 
 ## 2. 작업 프로세스
 

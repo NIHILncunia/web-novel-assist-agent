@@ -89,7 +89,7 @@
 
 ## [Template 08] 전설 (Lore)
 > **저장 위치:** `00_bible/08_stories/[Lore_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/08_stories_template.md`
+> **템플릿 참조:** `.agent/skills/create_lore/templates/08_stories_template.md`
 
 ```markdown
 ---

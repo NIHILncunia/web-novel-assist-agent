@@ -25,3 +25,4 @@ description: Update the 'Master Synopsis' (`01_planning/04_synopsis.md`) based o
 
 ## 4. 데이터 저장 지침
 - **저장 위치:** `01_planning/04_synopsis.md` (승인 시).
+- **템플릿:** `templates/synopsis_sheet.md` (구조 참조).

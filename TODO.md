@@ -7,7 +7,7 @@
 - **작업 내용:**
     - [ ] **Fate/Zero 캐릭터 분석:** 7명의 서번트(세이버, 아처, 랜서, 라이더, 캐스터, 어쌔신, 버서커) 핵심 컨셉 추출
     - [ ] **Fate/Stay Night 캐릭터 분석:** 5차 성배전쟁의 주요 서번트 및 마스터 분석
-    - [ ] **브레인스토밍:** 추출된 키워드에서 파생되는 연관/반전 트레잇 및 능력 생성 (`prompt/02_refinement/brainstorm_from_keyword.md` 활용)
+    - [ ] **브레인스토밍:** 추출된 키워드에서 파생되는 연관/반전 트레잇 및 능력 생성 (**skills brainstorm_ideas** 활용)
     - [ ] **데이터화:** `data/traits/` 및 `data/ability/`에 정제된 데이터 입력
 
 - **진행 현황 (2026-01-21 기준 / `archive/report/concept_analyze/character` Fate만)**

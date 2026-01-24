@@ -41,7 +41,7 @@
 2.  사용자의 답변을 모두 취합하여 `style_profile.md` 파일을 생성합니다.
 
 ### Phase 3. 스타일 프로필 확정 및 저장
-모든 과정의 최종 결과물은 **`style_profile.md`** 파일입니다. 이 파일은 `_templates/Sheets/01_style_profile_template.md` 템플릿 양식을 기반으로 생성되며, `00_bible/` 폴더에 저장됩니다. 이후 모든 집필 단계(Step 9, 10)에서 저의 서술 방식을 결정하는 최우선 지침이 됩니다.
+모든 과정의 최종 결과물은 **`style_profile.md`** 파일입니다. 이 파일은 **skills improve_writing**의 `style_profile_template.md` 템플릿 양식을 기반으로 생성되며, `00_bible/` 폴더에 저장됩니다. 이후 모든 집필 단계(Step 9, 10)에서 저의 서술 방식을 결정하는 최우선 지침이 됩니다.
 
 ---
 

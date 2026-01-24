@@ -11,6 +11,10 @@ description: Write a high-quality novel scene using provided context, style prot
 - **역할:** 전문 웹소설 작가.
 - **입력:** 주인공, 장소, 상황, 문체 프로토콜, 시소러스 데이터.
 - **출력:** 사족 없는 마크다운 소설 본문.
+- **템플릿:**
+  - `templates/scene_list_template.md` (장면 설계)
+  - `templates/draft_template.md` (초고)
+  - `templates/chapter_plan_sheet.md` (챕터 기획)
 
 ## 2. 4대 처리 규칙 (Processing Rules)
 

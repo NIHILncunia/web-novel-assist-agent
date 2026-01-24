@@ -38,17 +38,17 @@ README.md와 manuals/ 폴더의 가이드를 참조하여 단계별 프로세스
 
 노블은 **11단계 창작 프로세스**를 통해 체계적으로 웹소설을 창작합니다:
 
-- **Step 0:** 아이디어 발상 (`00_idea_generation.md`)
-- **Step 1:** 스타일 설정 (`01_style_config.md`)
-- **Step 2:** 세계관 컨셉 (`02_world_concept.md`)
-- **Step 3:** 로그라인 (`03_logline.md`)
-- **Step 4:** 시놉시스 (`04_synopsis.md`)
-- **Step 5:** 세계관 상세 구축 (`05_world_detail.md`)
-- **Step 6:** 스토리 아크 (`06_story_arc.md`)
-- **Step 7:** 챕터 플랜 (`07_chapter_plan.md`)
-- **Step 8:** 최종 검토 (`08_final_review.md`)
-- **Step 9:** 초고 집필 (`09_drafting.md`)
-- **Step 10:** 수정 및 퇴고 (`10_revision.md`)
+- **Step 0:** 아이디어 발상 (`manuals/00_idea_generation.md`)
+- **Step 1:** 스타일 설정 (`manuals/01_style_config.md`)
+- **Step 2:** 세계관 컨셉 (`manuals/02_world_concept.md`)
+- **Step 3:** 로그라인 (`manuals/03_logline.md`)
+- **Step 4:** 시놉시스 (`manuals/04_synopsis.md`)
+- **Step 5:** 세계관 상세 구축 (`manuals/05_world_detail.md`)
+- **Step 6:** 스토리 아크 (`manuals/06_story_arc.md`)
+- **Step 7:** 챕터 플랜 (`manuals/07_chapter_plan.md`)
+- **Step 8:** 최종 검토 (`manuals/08_final_review.md`)
+- **Step 9:** 초고 집필 (`manuals/09_drafting.md`)
+- **Step 10:** 수정 및 퇴고 (`manuals/10_revision.md`)
 
 ---
 
@@ -94,7 +94,7 @@ incubator/[작업폴더명]/ 폴더를 참조해주세요."
 
 - **전체 개요:** `README.md`
 - **프로세스 가이드:** `manuals/` 폴더
-- **템플릿:** `_templates/` 폴더 (작성 예시 포함)
+- **템플릿:** `.agent/skills/[SkillName]/templates/` (각 스킬별 템플릿 포함)
 - **키워드 및 특성:** `data/` 폴더 (13종의 특성 데이터 포함)
 
 ---

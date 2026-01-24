@@ -32,8 +32,8 @@
     *   특히, 이야기의 시작, 전개, 위기, 절정, 결말이 명확하게 드러나도록 서술합니다.
     *   `00_bible/`에 있는 각 설정 파일들과 `01_planning/06_story_arc.md`의 내용을 기반으로, 고유명사와 플롯 포인트를 정확하게 명시합니다.
 
-4.  **AI 에이전트 활용 (`prompt/04_writing/update_synopsis.md` 사용):**
-    *   수동으로 업데이트하는 것이 어렵거나, 새로운 관점에서 시놉시스 개선 아이디어를 얻고 싶을 때 AI 에이전트에게 `prompt/04_writing/update_synopsis.md` 프롬프트와 함께 다음 정보를 제공합니다.
+4.  **AI 에이전트 활용 (**skills update_synopsis** 사용):**
+    *   수동으로 업데이트하는 것이 어렵거나, 새로운 관점에서 시놉시스 개선 아이디어를 얻고 싶을 때 AI 에이전트에게 **skills update_synopsis** 스킬과 함께 다음 정보를 제공합니다.
         *   현재의 `01_planning/04_synopsis_sheet.md` 파일 내용 (수정 전 또는 수정 중인 내용)
         *   `01_planning/06_story_arc.md` 파일 내용
         *   핵심 설정 파일들 (예: 주요 인물, 핵심 지역, 갈등의 원인이 되는 단체 등에 대한 `.md` 파일 내용 요약)

@@ -11,7 +11,7 @@ description: An interactive skill to design historical events, wars, disasters, 
 
 - **저장 위치:** `00_bible/07_history/`
 - **파일명:** `사건_[이름].md` 또는 `전쟁_[이름].md`
-- **템플릿:** `templates/07_history_template.md`
+- **템플릿:** `templates/history_template.md`
 
 ## 2. 인터뷰 프로세스 (6 Axes)
 
@@ -51,7 +51,7 @@ description: An interactive skill to design historical events, wars, disasters, 
 
 ## 3. 데이터 저장 지침
 
-1. **템플릿 적용:** `templates/07_history_template.md` 사용.
+1. **템플릿 적용:** `templates/history_template.md` 사용.
 2. **저장:**
    - `00_bible/07_history/` 폴더에 저장.
    - 필요 시 `data/word_list/history.md` (연표)에 요약 추가.

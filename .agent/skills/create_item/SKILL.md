@@ -128,7 +128,7 @@ description: An interactive interview skill for detailed Item Creation (Equipmen
 | **피해 유형** | (분류 규칙 인터뷰에서 이미 결정됨) 피해 유형을 확인합니다. (무기인 경우에만 해당) |
 | **주요 기능** | 이 아이템의 가장 중요한 기능은 무엇입니까? (서술적으로 표현, 수치 지양) |
 | **부가 효과** | 주요 기능 외에 추가로 제공하는 효과나 어빌리티가 있습니까? |
-| **특수 어빌리티** | 이 아이템이 부여하는 고유한 특수 어빌리티가나 효과는 무엇입니까? (`data/ability/` 또는 `data/traits/`의 데이터를 참조하여 제안하세요.) **(Tip: 몬스터의 강력한 어빌리티를 아이템의 효과로 치환하여 적용해보세요. - 공용 레고 블록)** |
+| **특수 어빌리티** | 이 아이템이 부여하는 고유한 특수 어빌리티가나 효과는 무엇입니까? (`**skills create_ability**`의 구조를 따르되, **[이름/권역/대상/피해 유형]** 위주로 제안하세요.) |
 | **자아** | (분류 규칙 인터뷰에서 이미 결정됨) 자아가 있는 경우, 소통 방식과 자아의 성격은 무엇입니까? |
 
 ### Section 3. 조건/사용법 (Conditions & Usage)
@@ -181,7 +181,7 @@ description: An interactive interview skill for detailed Item Creation (Equipmen
 
 2. **개별 파일: `[프로젝트폴더]/00_bible/06_items/[Item_Name].md`**
    - 아이템의 상세한 서사적 설명을 기록하는 개별 파일
-   - 템플릿(`templates/06_items_template.md`)을 사용하여 생성
+   - 템플릿(`templates/item_template.md`)을 사용하여 생성
    - 작품명이 확정되지 않은 경우 `incubator/[가제_컨셉명]/00_bible/06_items/` 폴더에 저장
    - 작품명 확정 후 `projects/[작품명]/00_bible/06_items/` 폴더로 이동
 
@@ -201,7 +201,7 @@ description: An interactive interview skill for detailed Item Creation (Equipmen
 
 ### 6-3. 템플릿 및 가이드 참조
 
-- **템플릿:** `templates/06_items_template.md`
+- **템플릿:** `templates/item_template.md`
 - **가이드 참조:** `manuals/05-06_items_guide.md`
 
 **⚠️ 중요:** 템플릿의 **"1. 정의 및 외형"** 섹션에 분류 정보(대분류, 소분류, 등급)를 포함하고, **"2. 기능"** 섹션에 속성, 피해 유형, 자아 정보를 포함하세요:
@@ -236,12 +236,12 @@ description: An interactive interview skill for detailed Item Creation (Equipmen
 ### 6-6. 기타 저장 규칙
 
 1. **아티팩트 표기:** [영웅] 등급 이상은 이름 옆에 `(Artifact)`를 병기하거나, 별도의 아티팩트 섹션에서 관리할 수 있습니다.
-2. **어빌리티 연동:** 아이템 고유 효과가 복잡할 경우, 해당 효과가 '지속 어빌리티'인지 '발동 어빌리티'인지에 따라 `data/ability/지속.md` 또는 `data/ability/발동.md`에 어빌리티를 등록하고 아이템 설명에 `[지속 어빌리티: 어빌리티명]` 또는 `[발동 어빌리티: 어빌리티명]` 형태로 기재합니다.
+2. **어빌리티 연동:** 아이템 고유 효과가 복잡할 경우, `**skills create_ability**` 규칙에 따라 **[권역:원천]-[계통]-[형태]** 구조를 참조하되, 테이블에는 **[이름, 권역, 대상, 피해 유형]**만 기재하여 가독성을 높입니다. 상세 내용은 `data/ability/`를 참조합니다.
 
 ---
 
 ## 7. 출력 템플릿 참조
 
-- **템플릿 경로:** `templates/06_items_template.md`
+- **템플릿 경로:** `templates/item_template.md`
 - **가이드 참조:** `manuals/05-06_items_guide.md`의 "[Template 06] 아이템" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.

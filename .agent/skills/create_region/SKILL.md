@@ -106,7 +106,7 @@ description: An interactive interview skill for detailed Region Creation. It cov
 
 ## 5. 출력 템플릿 참조
 
-- **템플릿:** `templates/03_regions_template.md`
+- **템플릿:** `templates/region_template.md`
 - **가이드 참조:** `manuals/05-03_regions_guide.md`의 "[Template 03] 지역" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.
 

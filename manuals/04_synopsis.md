@@ -4,7 +4,7 @@
 > **수정일:** 2026-01-04
 
 ## 1. 개요
-이 단계는 확정된 **[로그라인]**을 확장하여, 이야기의 **시작(Start)**부터 **결말(Ending)**까지의 전체 지도를 그리는 과정입니다. 모든 작업은 `_templates/Sheets/04_synopsis_sheet.md` 템플릿을 기반으로 진행되며, 세부적인 사건보다는 이야기의 **거대한 줄기(Main Stream)**를 확정하는 데 집중합니다.
+이 단계는 확정된 **[로그라인]**을 확장하여, 이야기의 **시작(Start)**부터 **결말(Ending)**까지의 전체 지도를 그리는 과정입니다. 모든 작업은 **skills update_synopsis** (Template: `synopsis_sheet.md`)를 기반으로 진행되며, 세부적인 사건보다는 이야기의 **거대한 줄기(Main Stream)**를 확정하는 데 집중합니다.
 
 **[목표 결과물]**
 1.  **기승전결(起承轉結) 구조**의 전체 줄거리 (A4 1~2장 분량)
@@ -17,11 +17,11 @@
 ### Phase 1. 구조 설계 (Structure Design)
 
 #### 1-1. 플롯 패턴 선택 (Select Plot Pattern)
-시놉시스 작성 전, 사용자에게 **작품에 적합한 이야기 구조(Plot Pattern)**를 먼저 제안하고 선택하게 하십시오. 다음 `_templates/plot_patterns/` 폴더 내의 가이드를 참조하여 제안합니다.
+시놉시스 작성 전, 사용자에게 **작품에 적합한 이야기 구조(Plot Pattern)**를 먼저 제안하고 선택하게 하십시오. 다음 `.agent/skills/create_plot/resources/plot_patterns/` 폴더 내의 가이드를 참조하여 제안합니다.
 
-1.  **마스터 플롯 (Master Plots):** `_templates/plot_patterns/01_master_plots_part1.md` (추구, 모험, 복수 등)
-2.  **서사 구조 (Narrative Structures):** `_templates/plot_patterns/03_narrative_structures.md` (3막, 스토리 서클, 세이브 더 캣 등)
-3.  **웹소설 트렌드 (Web Novel Tropes):** `_templates/plot_patterns/04_webnovel_tropes.md` (광대물, 성좌물, 후회물 등)
+1.  **마스터 플롯 (Master Plots):** `.agent/skills/create_plot/resources/plot_patterns/01_master_plots_part1.md` (추구, 모험, 복수 등)
+2.  **서사 구조 (Narrative Structures):** `.agent/skills/create_plot/resources/plot_patterns/03_narrative_structures.md` (3막, 스토리 서클, 세이브 더 캣 등)
+3.  **웹소설 트렌드 (Web Novel Tropes):** `.agent/skills/create_plot/resources/plot_patterns/04_webnovel_tropes.md` (광대물, 성좌물, 후회물 등)
 4.  **기본 (Default):** 별도 선택이 없으면 아래의 **'기승전결(起承轉結)'** 표준 공식을 사용합니다.
 
 > **작업 지침:** 사용자가 특정 패턴(예: '복수' 플롯)을 선택하면, 해당 템플릿 파일에 명시된 **'3막 구조(Structure)'**와 **'체크리스트'**를 가져와서 아래 '뼈대 세우기' 질문을 대체하거나 보강하십시오.
@@ -86,7 +86,7 @@
 ---
 
 ## 4. 출력 양식 (Output Template)
-시놉시스 작성 및 출력은 `_templates/Sheets/04_synopsis_sheet.md` 템플릿의 구조를 엄격히 따릅니다. 에이전트는 해당 템플릿의 각 항목을 사용자에게 질문하고, 그 결과를 채워나가야 합니다. 자세한 구조는 원본 템플릿 파일을 참조하십시오.
+시놉시스 작성 및 출력은 **skills update_synopsis**의 `synopsis_sheet.md` 템플릿 구조를 엄격히 따릅니다. 에이전트는 해당 템플릿의 각 항목을 사용자에게 질문하고, 그 결과를 채워나가야 합니다. 자세한 구조는 원본 템플릿 파일을 참조하십시오.
 
 ## 5. 데이터 저장 및 관리
 

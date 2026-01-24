@@ -11,7 +11,7 @@ description: An interactive interview skill for detailed Species Creation. It co
 
 - **저장 위치:** `00_bible/01_races/`
 - **파일명:** `종족_[Species_Name].md`
-- **템플릿:** `templates/01_races_template.md`
+- **템플릿:** `templates/race_template.md`
 
 ## 2. 작업 모드 (Operation Modes)
 

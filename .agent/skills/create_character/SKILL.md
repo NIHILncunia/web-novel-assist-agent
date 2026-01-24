@@ -1,6 +1,8 @@
 ---
 name: create_character
 description: An interactive interview skill for detailed Character Creation. It supports two templates: Protagonists (Type A, 18 Axes) and Supporting Characters (Type B, 8 Axes), covering detailed profiling including psychology, backstory, and relationships. Saves to `00_bible/02_characters/`.
+- **템플릿 A (주연):** `templates/protagonist_template.md`
+- **템플릿 B (조연):** `templates/supporting_template.md`
 ---
 # 기능: 인물 생성 (Character Creation)
 

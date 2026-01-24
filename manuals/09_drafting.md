@@ -79,7 +79,7 @@ AI의 기억력 한계와 묘사력 저하를 막기 위해, 한 번에 한 화�
 
 ## 5. 데이터 저장 및 관리
 1.  **파일 명명:**
-    - **작품명 미정 시:** `incubator/[가제_컨셉명]/02_drafts/[001화]_소제목.md` (템플릿: `_templates/Sheets/09_draft_template.md`)
+    - **작품명 미정 시:** `incubator/[가제_컨셉명]/02_drafts/[001화]_소제목.md` (참조: **skills write_scene** -> `draft_template.md`)
     - **작품명 확정 후:** `projects/[작품명]/02_drafts/[001화]_소제목.md` (이동됨)
     2.  **통합 로그:** 모든 작업 내역은 `manuals/99_common_logger.md` 지침에 따라 `00_conversation_log.md`에 기록합니다.
 2.  **내용 구성:**

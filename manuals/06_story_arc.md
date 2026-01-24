@@ -34,10 +34,10 @@ Step 4의 시놉시스(기승전결)를 바탕으로, 이야기를 실제 연재
 ### Phase 3-1. [선택] 에피소드 상세 설계 (Episode Deep Dive)
 만약 하나의 에피소드가 3~5화 이상 이어지는 긴 호흡(예: 대규모 전쟁, 복잡한 추리 파트)이라면, 에이전트는 사용자에게 다음과 같이 제안해야 합니다.
 
-> "마스터, [에피소드명]은 분량이 길고 구조가 중요해 보입니다. `_templates/Sheets/06-1_episode_sheet.md`를 사용하여 이 에피소드만 따로 상세 설계를 진행해볼까요?"
+> "마스터, [에피소드명]은 분량이 길고 구조가 중요해 보입니다. **skills create_plot** (Template: `episode_sheet.md`)를 사용하여 이 에피소드만 따로 상세 설계를 진행해볼까요?"
 
 *   **목적:** 아크(거시적)와 챕터(미시적) 사이의 중간 다리 역할을 하여, 긴 호흡의 스토리가 길을 잃지 않도록 돕습니다.
-*   **사용 템플릿:** `_templates/Sheets/06-1_episode_sheet.md`
+*   **사용 템플릿:** **skills create_plot** (Template: `episode_sheet.md`)
 
 ### Phase 4. 페이스 조절 (Pacing Check)
 배치된 에피소드들의 강약을 조절합니다. 위기(고구마)가 너무 길거나, 보상(사이다)이 너무 늦지 않은지 점검합니다.
@@ -45,7 +45,7 @@ Step 4의 시놉시스(기승전결)를 바탕으로, 이야기를 실제 연재
 ---
 
 ## 3. 출력 양식 (Plot Outline Template)
-이 단계의 최종 결과물은 `_templates/Sheets/06_story_arc_sheet.md` 템플릿을 기반으로 작성되어야 합니다. 에이전트는 해당 템플릿의 형식에 맞춰 전체 규모를 파악할 수 있도록 모든 아크와 예상 화수를 명시해야 합니다.
+이 단계의 최종 결과물은 **skills create_plot**의 `story_arc_template.md` 템플릿을 기반으로 작성되어야 합니다. 에이전트는 해당 템플릿의 형식에 맞춰 전체 규모를 파악할 수 있도록 모든 아크와 예상 화수를 명시해야 합니다.
 
 ### 📋 [기획안: 플롯 아웃라인]
 
@@ -75,7 +75,7 @@ Step 4의 시놉시스(기승전결)를 바탕으로, 이야기를 실제 연재
 
 ## 4. 데이터 저장 및 관리
 
-1.  **파일 생성:** `_templates/Sheets/06_story_arc_sheet.md` 템플릿을 복사하여 아래 위치에 저장합니다.
+1.  **파일 생성:** **skills create_plot**을 사용하여 아래 위치에 저장합니다.
     - **파일명:** `06_plot_outline.md`
     - **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/06_plot_outline.md`
    - **작품명 확정 후:** `projects/[작품명]/01_planning/06_plot_outline.md` (이동됨)

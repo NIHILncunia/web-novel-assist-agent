@@ -5,7 +5,7 @@ description: Analyze relationship settings (from template) to generate plot idea
 
 # 기능: 관계 분석 및 플롯 아이디어 도출 (`analyze_relations`)
 
-제공된 관계 설정(`templates/09_relationships_template.md` 기반 파일)을 분석하여 잠재적 갈등, 사건, 동기를 도출합니다.
+제공된 관계 설정(`templates/relationship_template.md` 기반 파일)을 분석하여 잠재적 갈등, 사건, 동기를 도출합니다.
 
 ## 1. 개요
 - **입력:** 관계 설정 파일.

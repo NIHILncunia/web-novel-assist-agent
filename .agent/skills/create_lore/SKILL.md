@@ -11,7 +11,7 @@ description: Create Legends, Myths, Folktales, or Rumors (Lore) that influence t
 
 - **저장 위치:** `00_bible/08_stories/`
 - **파일명:** `전설_[이름].md` 또는 `신화_[이름].md`
-- **템플릿:** `templates/08_stories_template.md`
+- **템플릿:** `templates/lore_template.md`
 
 ## 2. 인터뷰 프로세스 (5 Axes)
 
@@ -40,5 +40,5 @@ description: Create Legends, Myths, Folktales, or Rumors (Lore) that influence t
 
 ## 3. 데이터 저장 지침
 
-1. **템플릿:** `templates/08_stories_template.md` 사용.
+1. **템플릿:** `templates/lore_template.md` 사용.
 2. **저장:** `00_bible/08_stories/[Lore_Name].md`.

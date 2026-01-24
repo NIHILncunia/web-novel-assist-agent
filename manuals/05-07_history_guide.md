@@ -81,7 +81,7 @@
 
 ## [Template 07] 사건 (Event)
 > **저장 위치:** `00_bible/07_history/[Event_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/07_history_template.md`
+> **템플릿 참조:** `.agent/skills/create_history/templates/07_history_template.md`
 
 ```markdown
 ---

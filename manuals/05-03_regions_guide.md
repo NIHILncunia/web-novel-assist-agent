@@ -80,8 +80,8 @@
 
 ## [Template 03] 지역 (Region)
 > **저장 위치:** `00_bible/03_regions/[Region_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/03_regions_template.md`  
-> **프롬프트 참조:** `prompt/01_creation/create_region.md`
+> **템플릿 참조:** `.agent/skills/create_region/templates/03_regions_template.md`  
+> **스킬 참조:** `**skills create_region**`
 
 ```markdown
 ---

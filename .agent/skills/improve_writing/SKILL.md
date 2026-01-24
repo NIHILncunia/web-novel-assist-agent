@@ -15,7 +15,8 @@ description: Analyze and improve specific aspects of the writing such as Consist
 
 ### Mode 1: 일관성 검토 (Consistency)
 - **목적:** 캐릭터, 세계관, 이전 줄거리와의 모순 발견.
-- **기준:** [Bible 설정] 및 [이전 회차 요약(`templates/episode_sheet.md`)] 대조.
+- **기준:** [Bible 설정] 및 [이전 회차 요약(`../create_plot/templates/episode_sheet.md` 참조)] 대조.
+- **템플릿:** `templates/revision_sheet.md` 활용.
 - **출력:** 오류 위치, 문제점 번호, 참고 설정, 수정 제안.
 
 ### Mode 2: 전개 속도 조절 (Pacing)

@@ -78,7 +78,7 @@ Step 2에서 확정된 세계관 컨셉을 바탕으로, 사용자에게 다음 
 - **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/03_logline.md`
 - **작품명 확정 후:** `projects/[작품명]/01_planning/03_logline.md` (이동됨)
 
-**저장 내용:** 최종 확정된 로그라인만 저장합니다. (기반 템플릿: `_templates/Sheets/03_logline_sheet.md`)
+**저장 내용:** 최종 확정된 로그라인만 저장합니다. (참조: **skills update_synopsis** -> `logline_sheet.md`)
 ```markdown
 # 로그라인 확정
 

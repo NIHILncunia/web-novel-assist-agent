@@ -109,7 +109,7 @@ description: An interactive interview skill for detailed Organization Creation (
 
 ## 5. 출력 템플릿 참조
 
-- **템플릿:** `templates/04_organizations_template.md`
+- **템플릿:** `templates/organization_template.md`
 - **가이드 참조:** `manuals/05-04_organizations_guide.md`의 "[Template 04] 단체" 섹션
 - 템플릿의 형식을 엄격히 따릅니다.
 

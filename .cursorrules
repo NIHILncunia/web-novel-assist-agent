@@ -40,33 +40,19 @@ NOVEL-AGENT-REPO/
 │   ├── 09_drafting.md            # [Step 9] 본문 집필
 │   └── 10_revision.md            # [Step 10] 퇴고 및 수정
 │
-├── 📂 _templates/                # [표준 양식] 빈 서식 모음
-│   ├── world_detail/             # 세계관 디테일 템플릿 모음
-│   │   ├── examples/             # [NEW] 템플릿 작성 예시 (참조용)
-│   │   ├── 00_framework_template.md  # 세계관 구조 설정 템플릿
-│   │   ├── 01_races_template.md      # 종족 템플릿
-│   │   ├── 02-1_character_template.md # 주연 인물 템플릿
-│   │   ├── 02-2_sub_character_template.md # 조연 인물 템플릿
-│   │   ├── 03_regions_template.md    # 지역 템플릿
-│   │   ├── 04_organizations_template.md # 단체 템플릿
-│   │   ├── 05_nations_template.md    # 국가 템플릿
-│   │   ├── 06_items_template.md      # 아이템 템플릿
-│   │   ├── 07_history_template.md   # 사건 템플릿
-│   │   └── 08_stories_template.md   # 전설 템플릿
-│   ├── episode_sheet.md          # 에피소드 기획 양식
-│   ├── logline_sheet.md          # 로그라인 양식
-│   ├── note_template.md          # 메모 템플릿
-│   ├── plot_outline_sheet.md    # 플롯 아웃라인 양식
-│   ├── synopsis_sheet.md        # 시놉시스 양식
-│   ├── world_checklist.md        # 세계관 체크리스트
-│   └── world_sheet.md            # 세계관 시트
+├── 📂 _templates/                # [공용 양식]
+│   └── note_template.md          # 메모 템플릿
+│
+├── 📂 .agent/                    # [AI 자원]
+│   └── skills/                   # 스킬 및 전용 템플릿
+│
 │
 ├── 📂 library/                   # [공용 자산] 프로젝트 공통 데이터
 │   └── shared_world/             # 사용자의 공용 세계관 설정 파일들
 ├── 📂 data/                      # [중앙 데이터] 프로젝트 공통 데이터
 │   ├── word_list/                # 용어집 모음
-│   ├── traits/                   # [특성] 신체적 특징 (유전/변형)
-│   ├── skill/                    # [능력] 발동형/지속형 기술
+│   ├── traits/                   # [특성] 신체적 특징
+│   ├── ability/                  # [어빌리티] 발동형/지속형 기술
 │   └── 아이템.md                 # 아이템 요약 테이블
 │
 │
@@ -213,7 +199,7 @@ NOVEL-AGENT-REPO/
     * Step 0 또는 Step 1에서 작업을 시작할 때, 아직 작업 폴더가 없다면 `incubator/[가제_컨셉명]/` 폴더를 생성합니다.
     * 폴더 구조는 인큐베이터와 프로젝트에서 동일하게 유지됩니다.
 4. **공용 자산 활용:** 기존 세계관을 선택한 경우, `library`의 원본을 훼손하지 않고 프로젝트 폴더 내에 사본을 가져오거나 참조 링크를 겁니다.
-5. **양식 우선:** 문서 작성 시 `_templates` 폴더의 서식을 최우선으로 복제하여 사용합니다. 각 설정 타입에 맞는 템플릿을 선택하여 사용하십시오.
+5. **양식 우선:** 문서 작성 시 **skills** 내의 `templates/` 폴더 서식을 최우선으로 복제하여 사용합니다. 각 스킬에 맞는 템플릿을 선택하여 사용하십시오.
 
 ---
 

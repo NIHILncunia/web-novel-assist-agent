@@ -16,7 +16,7 @@
 ---
 
 ## 2. 5대 핵심 검열 영역 (The 5-Point Inspection)
-에이전트는 제공된 설계도를 검토할 때 `_templates/Sheets/08_final_review_checklist.md` 체크리스트를 활용하여 다음 5가지 관점에서 집요하게 파고들어야 합니다.
+에이전트는 제공된 설계도를 검토할 때 **skills review_world** (Templates: `final_review_checklist.md`) 체크리스트를 활용하여 다음 5가지 관점에서 집요하게 파고들어야 합니다.
 
 ### Sector 1. 구조 및 연재 리듬 (Structure & Rhythm)
 *숲을 봅니다. 이야기의 흐름이 늘어지지 않는지 확인합니다.*
