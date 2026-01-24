@@ -1,0 +1,312 @@
+지식 (Knowledge)
+생명 (Life)
+빛 (Light)
+자연 (Nature)
+폭풍 (Tempest)
+속임수 (Trickery)
+전쟁 (War)
+죽음 (Death)
+대장간/제작 (Forge)
+무덤/사후 (Grave)
+질서 (Order)
+평화 (Peace)
+황혼 (Twilight)
+공기 (Air)
+동물 (Animal)
+장치/기술 (Artifice)
+혼돈 (Chaos)
+매혹 (Charm)
+공동체 (Community)
+어둠 (Darkness)
+죽음 (Death)
+파괴 (Destruction)
+대지 (Earth)
+악 (Evil)
+화염 (Fire)
+영광 (Glory)
+선 (Good)
+치유 (Healing)
+지식 (Knowledge)
+법 (Law)
+해방 (Liberation)
+행운 (Luck)
+광기 (Madness)
+마법 (Magic)
+귀족/지도자 (Nobility)
+식물 (Plant)
+보호 (Protection)
+휴식 (Repose)
+룬 (Rune)
+힘 (Strength)
+태양 (Sun)
+여행 (Travel)
+속임수 (Trickery)
+전쟁 (War)
+물 (Water)
+날씨 (Weather)
+공기: 구름 (Cloud), 번개 (Lightning), 바람 (Wind)
+동물: 깃털 (Feather), 털 (Fur), 곤충 (Insect)
+장치: 연금술 (Alchemy), 구성체 (Construct), 산업 (Industry), 노동 (Toil), 트랩 (Trap)
+혼돈: 엔트로피 (Entropy), 축제/연회 (Revelry), 폭동 (Riot), 변덕 (Whimsy)
+매혹: 사로잡음 (Captivation), 사랑 (Love), 정욕 (Lust)
+공동체: 협력 (Cooperation), 교육 (Education), 가족 (Family), 집 (Home)
+어둠: 상실 (Loss), 달 (Moon), 밤 (Night)
+죽음: 살인 (Murder), 역병 (Plague), 영혼전령 (Psychopomp), 언데드 (Undead)
+파괴: 재앙 (Catastrophe), 증오 (Hatred), 분노 (Rage), 고문 (Torture)
+대지: 동굴 (Caves), 금속 (Metal), 석화 (Petrification), 방사 (Radiation)
+악: 식인 (Cannibalism), 부패 (Corruption), 공포 (Fear), 키톤적 요소 (Kyton)
+영광: 영웅 (Heroism), 명예 (Honor), 오만 (Hubris), 전설 (Legend)
+선: 우정 (Friendship), 구원 (Redemption)
+지식: 첩보 (Espionage), 기억 (Memory), 사고 (Thought)
+법: 심판 (Judgment), 법률 (Legislation), 충성 (Loyalty), 폭군 (Tyranny)
+해방: 자유 (Freedom), 혁명 (Revolution), 자기실현 (Self-Realization)
+행운: 저주 (Curse), 운명 (Fate), 상상 (Imagination)
+광기: 광기 (Insanity), 악몽 (Nightmare), 진실 (Truth)
+마법: 연금술 (Alchemy), 의식 (Rites)
+냉기 (Cold), 힘/강인함 (Force/Endurance), 부 (Wealth), 스톰/폭풍 (Storm), 태양 (Sun), 바람/하늘 (Sky), 초목 (Plant), 바다/해양 (Ocean), 그림자 (Shadow), 시간 (Time), 진리 (Truth), 치유/회복 (Purification), 번영 (Prosperity), 악습/탐욕 (Avarice), 음주/맥주 (Beer), 질병 (Disease), 독 (Venom), 영혼/정신 (Spirit)
+시간 (Time)
+
+아름다움 (Beauty)
+
+피 (Blood)
+
+재난/대격변 (Cataclysm)
+
+혼돈 (Chaos)
+
+난로/화로 (Hearth)
+
+행운 (Luck)
+
+타락/타락성 (Corruption)
+
+어둠 (Darkness)
+
+땅 (Earth)
+
+악덕/나쁜 버릇 (Vice)
+
+미덕/선함 (Virtue)
+
+대지/지면 (Ground)
+
+기계/시계 (Clockwork)
+
+질서/균형 (Balance)
+
+전투/공격 (Battle)
+
+병기/파괴 (Destruction)
+
+냉기/얼음 (Cold)
+
+질병 (Disease)
+
+폭풍/폭격 (Storm)
+
+자유 (Freedom)
+
+희망 (Hope)
+
+사냥 (Hunt)
+
+인내/지속 (Endurance)
+
+폭력/난폭함 (Violence)
+
+비전/마법 (Magic)
+
+정령/영혼 (Spirit)
+
+질서/심판 (Judgment)
+
+예언/점술 (Prophecy)
+
+보호/수호 (Protection)
+
+정화 (Purification)
+
+부/번영 (Prosperity)
+
+바다/해양 (Ocean/Sea)
+
+그림자 (Shadow)
+
+독/독성 (Venom)
+
+악몽/꿈 (Nightmare)
+
+경쟁/경쟁심 (Rivalry)
+
+상실/그리움 (Loss)
+
+욕망/열정 (Passion)
+
+탐욕/부 (Avarice/Wealth)
+
+본능/야성 (Beast/Animal)
+
+망각/무 (Oblivion/Emptiness)
+
+유적/비밀 (Secrets)
+
+여행/방랑 (Wanderer/Wanderlust)
+
+슬픔/절망 (Despair)
+
+질서/자유 사이 (Liberty)
+
+벌/보복 (Retribution)
+
+희생 (Sacrifice)
+
+길/통로 (Passage)
+
+미신/주술 (Pact)
+
+사악함/비열함 (Vile Darkness)
+
+말/소리 (Sound)
+
+속도 (Speed)
+
+영혼/영적 힘 (Soul)
+
+가지/숲 (Woodlands)
+
+구속/지배 (Domination)
+
+악마적/지옥 (Infernal Style)
+모래 (Sand)
+
+점액/슬라임 (Ooze/Slime)
+
+계획/전략 (Planning)
+
+오우거/괴수 유형 관련
+
+유혹/유혹성 (Temptation)
+
+민족/문화 개념 (Seafolk 등)
+
+적의 어둠/비열함 (Vile Darkness)
+
+겨울/계절 (Winter, Summer)
+
+탐욕/비밀 욕망 (Spite)
+
+광야/하늘 (Sky)
+Beauty (아름다움)
+Blood (혈액/생명력)
+Cataclysm (대재앙)
+Chaos (혼돈)
+Hearth (난로/가정)
+Time (시간)
+Shelter (피난/보호)
+Mysticism (신비)
+Prosperity (번영/풍요)
+Poverty (가난)
+Thieves (도둑/절도)
+Shadow (그림자)
+Luck (운/행운)
+Funk (리듬/기운)
+Hunt (사냥)
+Fate (운명)
+Stone (돌/암석)
+Cold / Ice (냉기/얼음)
+Water (물/해양)
+Earth (대지)
+Fire (불/화염)
+Darkness (어둠)
+Vice (악덕/비열함)
+Virtue (덕/선행)
+Elemental (원소)
+Spirit (영혼/정령)
+Soul (영혼)
+Ocean / Sea (바다/해양)
+Forest (숲/삼림)
+Air (공기)
+Storm / Tempest (폭풍/태풍)
+Sunlight (태양빛)
+Moonlight (달빛)
+Sound (소리/음향)
+Speed (속도/민첩)
+Vengeance (복수/응징)
+Sacrifice (희생)
+Oblivion (망각/무)
+Secrets (비밀/은밀)
+Balance (균형/조화)
+Destiny (숙명)
+Nightmare (악몽)
+Purification (정화)
+Enchantment (마법/매혹)
+Agriculture / Harvest (농업/수확)
+Mechanics / Clockwork (기계/시계)
+Justice / Judgment (정의/심판)
+Exploration (탐험/탐색)
+Wisdom (지혜/통찰)
+Memory (기억/회상)
+Bloodshed (출혈/피비린내)
+Growth (성장/발전)
+Decay (부패/쇠락)
+Communication (소통/연결)
+Protection (보호/수호)
+Endurance (지구력/인내)
+Transformation (변형/전환)
+Awakening (각성/깨달음)
+Dreams (꿈/환상)
+Rebirth (재탄생)
+Entropy (엔트로피/혼돈 증가)
+Fortune (행운/운수)
+Illusion (환각/착시)
+Gravity (중력)
+Light / Radiance (빛/광휘)
+Dark Energy (암흑에너지)
+Purity (순수/청정)
+Tide (조류/흐름)
+Winter / Frost (겨울/서리)
+Volcano / Magma (화산/용암)
+Plague / Disease (병/역병)
+Harvest (추수/수확)
+Journey / Wanderer (여행/방랑)
+Reflection (반사/반영)
+Heritage / Ancestry (유산/혈통)
+Mystery (신비/수수께끼)
+Virtue (선행/덕목)
+Discord (불화/불협화)
+Fervor (열성/열정)
+Reverence (숭배/존경)
+Empathy (공감/감정이입)
+Reckoning (심판/계산)
+Liberation (해방/자유)
+Obsession (집착/열중)
+Resilience (회복력/탄력)
+Radiance (광채/빛남)
+Dominion (지배/통치)
+Frost (서리/냉기)
+Infernal (지옥/악령)
+Celestial (천체/천상)
+Sand (모래)
+Slime (점액)
+Planning (계획/전략)
+Sky (하늘/공중)
+Wyrm (용/드래곤류)
+Snow / Winter (눈/겨울)
+Culture (문화/풍습)
+Temptation (유혹/유혹성)
+Ritual (의식/제의)
+Illusion (환상/착시)
+Spirit (영혼/정령)
+Decay (부패/쇠락)
+Legend (전설/구전)
+Balance (균형/조화)
+Horizon (지평선/시야)
+Journey (여행/여로)
+Ether (에테르/비물질)
+Root (뿌리/근원)
+Pulse (맥동/진동)
+Echo (메아리/반향)
+Cycle (주기/순환)
+Chaos (혼돈)
+Endurance (인내/지구력)
+Harmony (조화/화합)
