@@ -8,7 +8,7 @@
     - [ ] **Fate/Zero 캐릭터 분석:** 7명의 서번트(세이버, 아처, 랜서, 라이더, 캐스터, 어쌔신, 버서커) 핵심 컨셉 추출
     - [ ] **Fate/Stay Night 캐릭터 분석:** 5차 성배전쟁의 주요 서번트 및 마스터 분석
     - [ ] **브레인스토밍:** 추출된 키워드에서 파생되는 연관/반전 특성 및 능력 생성 (`prompt/02_refinement/brainstorm_from_keyword.md` 활용)
-    - [ ] **데이터화:** `data/traits/` 및 `data/skill/`에 정제된 데이터 입력
+    - [ ] **데이터화:** `data/traits/` 및 `data/ability/`에 정제된 데이터 입력
 
 - **진행 현황 (2026-01-21 기준 / `archive/report/concept_analyze/character` Fate만)**
     - **완료 (데이터 적용/아카이브됨)**
@@ -91,8 +91,35 @@
 ### 5. 데이터 정제 및 표준화 (New)
 - **목표:** 기존 데이터의 일관성을 확보하고 허용되지 않은 값을 정제합니다.
 - **작업 내용:**
-    - [ ] **스킬 데이터 대폭 수정 (`data/skill/`):** 2026-01-23 업데이트된 허용 값 목록(물리, 폭발, 어둠, 저주, 강화, 도발, 넘어짐, 속박됨 등)을 기준으로 기존의 부적절한 피해 유형 및 상태 이상 값을 전수 조사하여 수정.
+    - [ ] **어빌리티 데이터 대폭 수정 (`data/ability/`):** 2026-01-23 업데이트된 허용 값 목록(물리, 폭발, 어둠, 저주, 강화, 도발, 넘어짐, 속박됨 등)을 기준으로 기존의 부적절한 피해 유형 및 상태 이상 값을 전수 조사하여 수정.
 
+### 6. 용어 표준화 작업 (스킬 -> 어빌리티) (진행 중)
+- **목표:** 프로젝트 내에서 혼용되는 '스킬(Skill)' 용어를 문맥에 따라 '어빌리티(Ability)' 또는 '**skills <이름>**'으로 표준화하여 혼란을 방지합니다.
+- **작업 규칙:**
+    - 작품 내 캐릭터/몬스터의 능력, 시스템 등을 지칭할 때: **스킬 -> 어빌리티**
+    - 에이전트의 도구/기능을 지칭할 때: **스킬 -> **skills <이름>****
+- **진행 현황 (2026-01-24):**
+    - [x] **manuals/ 폴더 완료:** 모든 매뉴얼 내 용어 치환 완료 (에이전트 도구 제외)
+    - [ ] **.agent/skills/ 폴더 진행 중:**
+        - 완료된 파일:
+            - `write_scene/SKILL.md`
+            - `improve_writing/SKILL.md`
+            - `improve_writing/templates/10_revision_sheet.md`
+            - `extract_creature_tags/SKILL.md`
+            - `create_trait/SKILL.md`
+            - `enhance_entity/SKILL.md`
+            - `create_religion/SKILL.md`
+            - `create_system/SKILL.md`
+        - 대기 중인 파일:
+            - `extract_concepts/SKILL.md`
+            - `create_race/SKILL.md`
+            - `create_plot/SKILL.md`
+            - `create_magic/SKILL.md`
+            - `create_lore/SKILL.md`
+            - `create_history/SKILL.md`
+            - 그 외 `.agent/skills/` 하위 모든 `.md` 파일들
+    - [ ] **_templates/ 폴더 대기 중**
+    - [ ] **data/ 폴더 대기 중**
 
 ---
 
@@ -128,4 +155,4 @@
 - [x] **시소러스 시스템 연동:** 에이전트가 시소러스 데이터를 활용하도록 프로세스 내재화.
 
 ---
-**마지막 업데이트:** 2026년 1월 23일 금요일
+**마지막 업데이트:** 2026년 1월 24일 토요일

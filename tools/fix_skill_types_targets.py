@@ -1,4 +1,4 @@
-FILES = ["data/skill/발동.md", "data/skill/지속.md"]
+FILES = ["data/ability/발동.md", "data/ability/지속.md"]
 
 
 def normalize_type(val):

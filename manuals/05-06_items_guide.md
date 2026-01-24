@@ -53,7 +53,7 @@
 ### 2-1. 작성 원칙
 1. **장르별 키워드 리스트 참조**
    - `data/word_list/` 폴더의 키워드 리스트를 참조하여 아이템 이름과 특성을 선택하세요.
-   - 판타지: `fantasy.md`의 "3. 아이템 및 물품 (Items & Objects)", "4. 마법 및 스킬 (Magic & Skills)" 섹션 참조
+   - 판타지: `fantasy.md`의 "3. 아이템 및 물품 (Items & Objects)", "4. 마법 및 어빌리티 (Magic & Abilities)" 섹션 참조
    - 무협: `martial_arts.md` (예정)
 
 2. **능력에는 반드시 대가**
@@ -161,7 +161,7 @@
   - 성격: (자아가 있는 경우 소통 방식, 성격)
 
 ## 3. 아이템 능력 (Item Abilities)
-> **💡 가이드:** `data/skill/` 폴더 참조 (발동형/지속형 스킬, 특수 효과 등)
+> **💡 가이드:** `data/ability/` 폴더 참조 (발동형/지속형 어빌리티, 특수 효과 등)
 
 | 능력명 | 유형 | 레벨/위력 | 설명/비고 |
 |:---|:---|:---|:---|
@@ -198,7 +198,7 @@
 ```
 
 #### ✅ 작성 예시 (아이템)
-> **[상세 예시: 단죄의 검 (Sword of Judgment)](../../_templates/world_detail/examples/06_example_item_judgment_sword.md)**
+> **[상세 예시: 단죄의 검 (Sword of Judgment)](../_templates/world_detail/examples/06_example_item_judgment_sword.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. `자아(Awakened)`와 `신성` 속성을 가진 아티팩트 예시입니다.
 

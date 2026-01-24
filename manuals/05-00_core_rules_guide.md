@@ -13,7 +13,7 @@
 ### 2-1. 작성 원칙
 1. **장르별 키워드 리스트 참조**
    - `data/word_list/` 폴더의 키워드 리스트를 참조하여 시스템 용어를 선택하세요.
-   - 판타지: `fantasy.md`의 "4. 마법 및 스킬 (Magic & Skills)", "5. 원소 및 속성 (Elements & Attributes)" 섹션 참조
+   - 판타지: `fantasy.md`의 "4. 마법 및 어빌리티 (Magic & Abilities)", "5. 원소 및 속성 (Elements & Attributes)" 섹션 참조
    - 무협: `martial_arts.md` (예정)
 
 2. **일관성이 최우선**

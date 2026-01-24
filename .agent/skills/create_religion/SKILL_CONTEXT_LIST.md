@@ -1,0 +1,2 @@
+_templates/world_detail/04_organizations_template.md
+manuals/05-04_organizations_guide.md

@@ -102,7 +102,7 @@
 ## 4. 종족 특성 및 능력 (Traits & Abilities)
 
 ### 4.1. 상세 특성 및 능력 데이터
-> **💡 가이드:** `data/traits/` 및 `data/skill/` 폴더의 공용 데이터를 참조하여 입력하면 효율적입니다.
+> **💡 가이드:** `data/traits/` 및 `data/ability/` 폴더의 공용 데이터를 참조하여 입력하면 효율적입니다.
 
 #### [종족 특성 (Racial Traits)]
 | 특성명 | 분류 | 효과/설명 |
@@ -139,7 +139,7 @@
 ```
 
 #### ✅ 작성 예시 (종족)
-> **[상세 예시: 하이 엘프 (High Elf)](../../_templates/world_detail/examples/01_example_race_high_elf.md)**
+> **[상세 예시: 하이 엘프 (High Elf)](../_templates/world_detail/examples/01_example_race_high_elf.md)**
 >
 > 위 링크를 클릭하여 최신 테이블 포맷과 `data/traits`가 적용된 전체 예시 파일을 확인하세요. 이 예시는 `Humanoid` 유형과 `배타주의` 외교 특성을 포함하고 있습니다.
 

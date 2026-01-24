@@ -144,7 +144,7 @@
 ```
 
 #### ✅ 작성 예시 (국가)
-> **[상세 예시: 카이만 제국 (Kaiman Empire)](../../_templates/world_detail/examples/05_example_nation_kaiman.md)**
+> **[상세 예시: 카이만 제국 (Kaiman Empire)](../_templates/world_detail/examples/05_example_nation_kaiman.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. `기원(전투민족)`과 `외교(패권주의)` 특성이 적용된 군사 제국 예시입니다.
 

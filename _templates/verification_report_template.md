@@ -29,7 +29,12 @@
 | :--- | :--- | :---: | :--- |
 | **{{resource_name}}** | `{{resource_path}}` | ✅ **유효** / ❌ **누락** | {{resource_description}} |
 
-### 3.4. 공통 요소 (Common)
+### 3.4. 에이전트 스킬 (Agent Skills)
+| 구분 | 스킬명 (폴더) | SKILL.md 상태 | 템플릿 상태 | 비고 |
+| :--- | :--- | :---: | :---: | :--- |
+| **{{skill_name}}** | `.agent/skills/{{skill_folder}}` | ✅ **유효** / ❌ **누락** | ✅ **유효** / ❌ **누락** | {{skill_function}} |
+
+### 3.5. 공통 요소 (Common)
 | 구분 | 파일 경로 | 상태 | 비고 |
 | :--- | :--- | :---: | :--- |
 | **로그 시스템** | `manuals/99_common_logger.md` | ✅ **유효** | 대화 기록 지침 |

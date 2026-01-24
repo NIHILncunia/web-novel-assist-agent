@@ -1,0 +1,2 @@
+_templates/Sheets/08_final_review_checklist.md
+manuals/08_final_review.md

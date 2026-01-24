@@ -39,7 +39,7 @@
 ## 3. 데이터 저장 지침
 
 1.  **대상 파일:** `00_bible/00_framework/litrpg_system.md`
-2.  **형식:** `_templates/note_template.md`를 변형하여 사용. 스탯 표나 스킬 트리를 포함.
+2.  **형식:** `_templates/note_template.md`를 변형하여 사용. 스탯 표나 어빌리티 트리를 포함.
 
 ---
 

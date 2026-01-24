@@ -1,6 +1,6 @@
 # Skill Types and Targets Statistics
 
-### Analyzing data/skill/발동.md...
+### Analyzing data/ability/발동.md...
 
 **[계통 (Type) Stats]**
 - 물리: 163 ✅
@@ -19,7 +19,7 @@
 - 탈것: 2 ✅
 ----------------------------------------
 
-### Analyzing data/skill/지속.md...
+### Analyzing data/ability/지속.md...
 
 **[계통 (Type) Stats]**
 - 특수: 150 ✅

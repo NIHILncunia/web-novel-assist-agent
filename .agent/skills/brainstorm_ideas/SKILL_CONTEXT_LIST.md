@@ -1,0 +1,2 @@
+data/traits/
+data/ability/

@@ -59,8 +59,8 @@ ALLOWED_VALUES = {
 }
 
 FILES = {
-    "data/skill/발동.md": ["계통", "대상", "피해 유형", "상태 이상 유형"],
-    "data/skill/지속.md": ["계통", "대상", "피해 유형", "상태 이상 유형"],
+    "data/ability/발동.md": ["계통", "대상", "피해 유형", "상태 이상 유형"],
+    "data/ability/지속.md": ["계통", "대상", "피해 유형", "상태 이상 유형"],
 }
 
 with open("validation_report.md", "w", encoding="utf-8") as out:

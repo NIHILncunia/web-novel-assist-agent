@@ -1,0 +1,2 @@
+_templates/world_detail/09_relationships_template.md
+manuals/05-09_relationships_guide.md

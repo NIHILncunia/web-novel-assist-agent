@@ -1,6 +1,6 @@
 # Damage Type and Status Effect Statistics
 
-### Analyzing data/skill/발동.md...
+### Analyzing data/ability/발동.md...
 
 **[피해 유형 (Damage Type) Stats]**
 - 해당 없음: 237 ✅
@@ -289,7 +289,7 @@
 - 존재 소거: 1 ❌ (Invalid)
 ----------------------------------------
 
-### Analyzing data/skill/지속.md...
+### Analyzing data/ability/지속.md...
 
 **[피해 유형 (Damage Type) Stats]**
 - 해당 없음: 369 ✅

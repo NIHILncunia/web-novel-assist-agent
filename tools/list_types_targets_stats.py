@@ -1,6 +1,6 @@
 import collections
 
-FILES = ["data/skill/발동.md", "data/skill/지속.md"]
+FILES = ["data/ability/발동.md", "data/ability/지속.md"]
 
 ALLOWED_VALUES = {
     "계통": ["물리", "원소", "정신", "소환", "치유", "생산", "특수"],

@@ -236,11 +236,11 @@
 
 ### 5-2. 능력 스킬 저장
 
-**발동 능력**은 `data/skill/발동.md`에, **지속 능력**은 `data/skill/지속.md`에 저장합니다.
+**발동 능력**은 `data/ability/발동.md`에, **지속 능력**은 `data/ability/지속.md`에 저장합니다.
 
 1.  **저장 위치:**
-    *   발동 능력: `data/skill/발동.md`
-    *   지속 능력: `data/skill/지속.md`
+    *   발동 능력: `data/ability/발동.md`
+    *   지속 능력: `data/ability/지속.md`
 2.  **저장 방식:**
     *   `prompt/01_creation/create_active_skill.md`와 `prompt/01_creation/create_passive_skill.md`의 분류 규칙에 따라 [계통/형태/대상/피해 유형/상태 이상 유형]을 결정합니다.
     *   **형태(Form) 분류 규칙:**
@@ -252,7 +252,7 @@
     *   피해 유형(Damage Type)은 데미지를 주는 능력만 해당하며, 치유/버프 등은 "해당 없음"으로 처리합니다.
     *   상태 이상 유형(Status Effect Type)은 상태 이상을 부여하는 능력만 해당하며, 없으면 "해당 없음"으로 처리합니다.
     *   각각의 파일에 테이블 형식으로 누적 저장합니다.
-3.  **중복 확인:** `data/skill/발동.md` 또는 `data/skill/지속.md` 파일을 확인하여 동일한 이름의 스킬이 이미 존재하는지 체크합니다.
+3.  **중복 확인:** `data/ability/발동.md` 또는 `data/ability/지속.md` 파일을 확인하여 동일한 이름의 스킬이 이미 존재하는지 체크합니다.
 4.  **참조 방식:**
-    *   몬스터 설정 시 능력 이름만 기록하고, 상세 정보는 `data/skill/발동.md` 또는 `data/skill/지속.md`에서 참조합니다.
+    *   몬스터 설정 시 능력 이름만 기록하고, 상세 정보는 `data/ability/발동.md` 또는 `data/ability/지속.md`에서 참조합니다.
     *   각 능력은 해당 유형별 파일에서 관리되므로, 별도의 키워드 파일은 필요하지 않습니다.

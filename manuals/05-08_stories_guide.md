@@ -115,7 +115,7 @@
 ```
 
 #### ✅ 작성 예시 (전설)
-> **[상세 예시: 최초의 불꽃 (The First Flame)](../../_templates/world_detail/examples/08_example_story_creation_myth.md)**
+> **[상세 예시: 최초의 불꽃 (The First Flame)](../_templates/world_detail/examples/08_example_story_creation_myth.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. 전승과 실제 진실(마광석 운석)의 괴리를 설정한 창세 신화 예시입니다.
 

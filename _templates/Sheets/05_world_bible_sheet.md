@@ -580,6 +580,6 @@
 - `00_bible/` 폴더의 8개 카테고리로 분류하여 저장합니다.
 
 ### 3. 참고 문서
-- [세계관 체크리스트](../_templates/world_checklist.md)
-- [세계관 디테일 확정 매뉴얼](../manuals/05_world_detail.md)
-
+> **가이드:** `../../manuals/05_world_detail.md`의 '자가점검' 섹션을 참조하여 진행하세요.
+> **체크리스트 예시:** `../../_templates/world_checklist.md` (미사용 시 삭제)
+- [세계관 디테일 확정 매뉴얼](../../manuals/05_world_detail.md)

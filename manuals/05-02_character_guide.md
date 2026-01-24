@@ -35,8 +35,8 @@
 6. **특성과 능력의 연계 (Trait-Ability Connection)**
    - 캐릭터의 능력은 '특성 → 지속 능력 → 발동 능력'의 흐름으로 구체화됩니다. 이 구조는 능력에 서사적 개연성을 부여합니다.
    - **1단계: 특성 (Traits) 정의**: 캐릭터의 정체성(신체, 정신, 기원, 성향)을 `data/traits/`를 참고하여 정의합니다. 예: `강인한 체력`.
-   - **2단계: 지속 능력 (Passives) 파생**: 정의된 '특성'에서 자연스럽게 파생되는 상시 효과를 `data/skill/지속.md`를 참고하여 설정합니다. 예: `강인한 체력` → `독 저항`.
-   - **3단계: 발동 능력 (Actives) 구체화**: '특성'과 '지속 능력'을 기반으로, 캐릭터가 의지를 갖고 사용하는 능력을 `data/skill/발동.md`를 참고하여 설정합니다. 예: `강인한 체력` → `일시적인 고통 무시`.
+   - **2단계: 지속 능력 (Passives) 파생**: 정의된 '특성'에서 자연스럽게 파생되는 상시 효과를 `data/ability/지속.md`를 참고하여 설정합니다. 예: `강인한 체력` → `독 저항`.
+   - **3단계: 발동 능력 (Actives) 구체화**: '특성'과 '지속 능력'을 기반으로, 캐릭터가 의지를 갖고 사용하는 능력을 `data/ability/발동.md`를 참고하여 설정합니다. 예: `강인한 체력` → `일시적인 고통 무시`.
 
 > **✨ 고급 기능 Tip:**
 > 이 과정을 더 풍부하게 만들고 싶다면 `manuals/98_ai_prompt_guide.md`의 고급 기능들을 활용할 수 있습니다.
@@ -97,7 +97,7 @@
 **(템플릿 내용은 `_templates/world_detail/02-1_character_template.md` 파일을 참조하세요.)**
 
 #### ✅ 작성 예시 (주요 빌런)
-> **[상세 예시: 카이젠 (Kaizen)](../../_templates/world_detail/examples/02-1_example_char_kaizen.md)**
+> **[상세 예시: 카이젠 (Kaizen)](../_templates/world_detail/examples/02-1_example_char_kaizen.md)**
 >
 > 위 링크를 클릭하여 `02-1` 템플릿의 전체 예시를 확인하세요. 욕망의 피라미드와 트라우마가 구조화된 예시입니다.
 
@@ -112,6 +112,6 @@
 **(내용은 `_templates/world_detail/02-2_sub_character_template.md` 참조)**
 
 #### ✅ 작성 예시 (조연 기사)
-> **[상세 예시: 마르쿠스 (Marcus)](../../_templates/world_detail/examples/02-2_example_sub_marcus.md)**
+> **[상세 예시: 마르쿠스 (Marcus)](../_templates/world_detail/examples/02-2_example_sub_marcus.md)**
 >
 > 위 링크를 클릭하여 `02-2` 템플릿의 전체 예시를 확인하세요. 역할과 기능 위주로 간결하게 작성된 예시입니다.

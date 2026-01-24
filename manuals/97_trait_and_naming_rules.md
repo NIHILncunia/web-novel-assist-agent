@@ -1,7 +1,7 @@
 # 특성 및 능력 작명/생성 표준 (Trait & Ability Naming/Creation Standards)
 
 > **작성일:** 2026-01-17
-> **설명:** 데이터베이스(`data/traits`, `data/skill`)의 일관성과 재사용성을 보장하기 위한 작명 및 생성 규칙입니다.
+> **설명:** 데이터베이스(`data/traits`, `data/ability`)의 일관성과 재사용성을 보장하기 위한 작명 및 생성 규칙입니다.
 
 ---
 
