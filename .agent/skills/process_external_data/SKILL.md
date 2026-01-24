@@ -20,7 +20,7 @@ PDF 룰북 등 외부 문서에서 정보를 추출하여 프로젝트 데이터
 - **처리 규칙:**
   - 게임 메카닉(수치) 제거 -> 서사적 묘사로 변환.
   - `data/word_list/dnd_terminology.md` 용어 순화 규칙 적용.
-  - **특성(Traits)** 및 **능력(Abilities)** 분리 추출.
+  - **트레잇(Traits)** 및 **어빌리티(Abilities)** 분리 추출.
 
 ## 3. 실행 프로세스
 1. `library/references/D&D/index.md` 등 인덱스 확인.

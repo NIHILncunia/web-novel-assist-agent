@@ -19,7 +19,7 @@ description: Design a LitRPG System (Status Window, Stats, Progression, Skills) 
 - **옵션:** 홀로그램, 망막 투사, 허공에 뜬 글자, 낡은 양피지 등
 - **노출:** 사용자만 / 타인도 가능 / 특정 어빌리티 필요
 
-### Axis 2. 능력치 (Stats & Attributes)
+### Axis 2. 어빌리티치 (Stats & Attributes)
 - **질문:** "강함을 어떤 수치로 표현합니까?"
 - **기본 스탯:** 힘, 민첩, 지능 등
 - **특수 스탯:** 운, 매력, 신성력, 광기 등 고유 스탯

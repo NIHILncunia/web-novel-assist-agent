@@ -16,7 +16,7 @@ description: Write a high-quality novel scene using provided context, style prot
 
 ### A. 캐릭터 일관성 (Actor Mode)
 - **대사:** 성격/말투/감정 표현 방식 준수.
-- **행동:** 능력치/어빌리티 반영. 임의 능력 창조 금지.
+- **행동:** 어빌리티치/어빌리티 반영. 임의 어빌리티 창조 금지.
 
 ### B. 배경의 침투 (Stage Mode)
 - **묘사:** 단순 나열 지양. 배경 요소(냄새, 소리)가 캐릭터를 압박하거나 상호작용하도록 서술.

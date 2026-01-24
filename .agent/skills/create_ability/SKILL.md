@@ -3,11 +3,11 @@ name: create_ability
 description: An interactive skill that guides the user through creating Active (발동) or Passive (지속) abilities. It enforces the Modular Skill Structure `[Domain:Source]-[Lineage]-[Form]` defined in `manuals/99-1_ability_syntax.md` and saves the result to `data/ability/발동.md` or `data/ability/지속.md`.
 ---
 
-# 기능: 능력 생성 (`create_ability`)
+# 기능: 어빌리티 생성 (`create_ability`)
 
-이 스킬은 캐릭터나 몬스터를 위한 **능력 (Ability = Skill)**을 생성하는 데 사용됩니다. **발동 능력(Active)**과 **지속 능력(Passive)**을 모두 포함하며, 프로젝트 표준인 **모듈형 스킬 구조**를 강제합니다.
+이 어빌리티는 캐릭터나 몬스터를 위한 **어빌리티 (Ability = Skill)**을 생성하는 데 사용됩니다. **발동 어빌리티(Active)**과 **지속 어빌리티(Passive)**을 모두 포함하며, 프로젝트 표준인 **모듈형 어빌리티 구조**를 강제합니다.
 
-## 1. 능력 유형 결정 (Determine Ability Type)
+## 1. 어빌리티 유형 결정 (Determine Ability Type)
 
 - **발동 (Active):** 의지, 행동, 자원 소모(마나/기력), 쿨타임이 동반되는 기술.
     - **대상 파일:** `data/ability/발동.md`
@@ -15,33 +15,33 @@ description: An interactive skill that guides the user through creating Active (
     - **대상 파일:** `data/ability/지속.md`
 
 > **[필수] 작명 및 생성 규칙:**
-> 모든 능력 생성 시 **`manuals/97_trait_and_naming_rules.md`**를 반드시 준수하십시오.
+> 모든 어빌리티 생성 시 **`manuals/97_trait_and_naming_rules.md`**를 반드시 준수하십시오.
 > *   **모듈화 원칙:** '화염구' (O) vs '강력한 지옥의 화염구' (X - 수식어 지양)
 > *   **이중 수식 금지:** 이름에 불필요한 형용사를 붙이지 말고, 설명(Description) 필드에 상세히 서술하십시오.
 
-> **[참고] 특성(Trait) vs 능력(Skill/Ability) 구분 기준:**
-> *   **특성:** 타고난 것, 생물학적 특징, 의지 없이도 존재하는 상태. (예: 야간 시야, 비늘 피부)
-> *   **능력:** 후천적으로 습득하거나, 의지/자원을 소모하여 '사용'하는 기술. (예: 정밀 사격, 마나 실드)
-> *   *지속 능력(Passive)은 '특성'과 헷갈릴 수 있으나, 시스템적 효과나 조건부 발동이 명확한 경우 능력으로 분류합니다.*
+> **[참고] 트레잇(Trait) vs 어빌리티(Skill/Ability) 구분 기준:**
+> *   **트레잇:** 타고난 것, 생물학적 특징, 의지 없이도 존재하는 상태. (예: 야간 시야, 비늘 피부)
+> *   **어빌리티:** 후천적으로 습득하거나, 의지/자원을 소모하여 '사용'하는 기술. (예: 정밀 사격, 마나 실드)
+> *   *지속 어빌리티(Passive)은 '트레잇'과 헷갈릴 수 있으나, 시스템적 효과나 조건부 발동이 명확한 경우 어빌리티로 분류합니다.*
 
 ## 2. 속성 정의 (Define Attributes)
 
-모든 능력은 다음 컬럼을 포함해야 합니다.
+모든 어빌리티는 다음 컬럼을 포함해야 합니다.
 **중요 (CRITICAL):** **구조 (Structure)** 컬럼은 반드시 `[권역:원천] - [계통] - [형태]` 문법을 엄격히 따라야 합니다.
 
 | 컬럼 | 설명 |
 |:---|:---|
-| **이름 (Name)** | 능력의 이름 (영문명 병기 권장). 예: "화염구 (Fireball)" |
+| **이름 (Name)** | 어빌리티의 이름 (영문명 병기 권장). 예: "화염구 (Fireball)" |
 | **구조 (Structure)** | **[권역:원천] - [계통] - [형태]** (3번 항목 참조) |
 | **계통 (System)** | 근본적인 유형. **4번 항목 참조.** |
-| **대상 (Target)** | 능력의 영향 범위. **4번 항목 참조.** |
+| **대상 (Target)** | 어빌리티의 영향 범위. **4번 항목 참조.** |
 | **피해 유형 (Damage Type)** | 피해를 주는 방식. **4번 항목 참조.** |
 | **상태 이상 유형 (Status Effect)** | 부여하는 버프/디버프. **4번 항목 참조.** |
-| **설명 (Description)** | 능력의 효과에 대한 서사적 묘사. |
+| **설명 (Description)** | 어빌리티의 효과에 대한 서사적 묘사. |
 
 ## 3. 모듈형 구조 문법 (Modular Structure Syntax)
 
-모든 능력은 **`[권역:원천] - [계통] - [형태]`** 라는 3단계 구조로 정의됩니다.
+모든 어빌리티는 **`[권역:원천] - [계통] - [형태]`** 라는 3단계 구조로 정의됩니다.
 상세한 정의는 **`resources/99-1_ability_syntax.md`**를 참고하십시오.
 
 > **구조 작성 팁:**
@@ -99,18 +99,18 @@ description: An interactive skill that guides the user through creating Active (
 
 ## 5. 실행 단계 (Execution Steps)
 
-1.  **요청 분석:** 사용자가 원하는 것이 발동 능력인지 지속 능력인지 파악합니다.
-2.  **구조 결정:** 스킬 컨셉에 가장 적합한 권역, 계통, 형태를 선택합니다.
+1.  **요청 분석:** 사용자가 원하는 것이 발동 어빌리티인지 지속 어빌리티인지 파악합니다.
+2.  **구조 결정:** 어빌리티 컨셉에 가장 적합한 권역, 계통, 형태를 선택합니다.
     - 예: "화염구" -> 마법 권역 -> 방출계 -> 구체 형태.
     - 구조 문자열: `[마법:화염] - [방출계] - [구체]`
 3.  **데이터 초안 작성:** 스키마에 맞춰 데이터 행을 작성합니다.
 4.  **대상 파일 확인:** `data/ability/발동.md` 또는 `data/ability/지속.md`를 읽어 중복을 확인합니다.
 5.  **데이터 추가:** 대상 파일의 테이블에 새로운 행을 추가합니다.
-6.  **결과 보고:** 생성된 능력을 사용자에게 알립니다.
+6.  **결과 보고:** 생성된 어빌리티를 사용자에게 알립니다.
 
 ## 6. 출력 예시 (Example Output)
 
-**입력:** "풀밭에 서 있으면 체력을 회복하는 패시브 스킬 만들어줘."
+**입력:** "풀밭에 서 있으면 체력을 회복하는 패시브 어빌리티 만들어줘."
 
 **수행:**
 1.  **유형:** 지속 (상태/조건) -> `data/ability/지속.md`

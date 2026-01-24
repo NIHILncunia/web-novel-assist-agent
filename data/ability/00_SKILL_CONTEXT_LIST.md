@@ -1,6 +1,6 @@
-# 스킬 시스템 파일 목록 (Skill System File Manifest)
+# 어빌리티 시스템 파일 목록 (Skill System File Manifest)
 
-> **목적:** AI에게 스킬 관련 컨텍스트를 제공할 때, 이 파일에 있는 링크들을 참고하거나 드래그하여 사용하십시오.
+> **목적:** AI에게 어빌리티 관련 컨텍스트를 제공할 때, 이 파일에 있는 링크들을 참고하거나 드래그하여 사용하십시오.
 
 ## 1. 매뉴얼 (Manual)
 - **문법 및 구조 정의**: [99-1_skill_syntax.md](file:///c:/Users/nihil/coding/novel/novel-assist-agent/manuals/99-1_ability_syntax.md)

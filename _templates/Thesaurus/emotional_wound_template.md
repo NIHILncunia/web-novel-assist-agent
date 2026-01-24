@@ -17,8 +17,8 @@
     - 공포증이나 회피 대상. 불릿으로 나열.
 - **가능한 반응과 결과들 (POSSIBLE RESPONSES AND RESULTS)**:
     - 행동 패턴이나 결과. 불릿으로 나열.
-- **형성될 수 있는 성격 특성 (PERSONALITY TRAITS THAT MAY FORM)**:
-    - 방어기제로서 형성되는 성격 특성. 불릿으로 나열.
+- **형성될 수 있는 성격 트레잇 (PERSONALITY TRAITS THAT MAY FORM)**:
+    - 방어기제로서 형성되는 성격 트레잇. 불릿으로 나열.
 - **상처가 악화될 수 있는 계기 (TRIGGERS THAT MIGHT AGGRAVATE THIS WOUND)**:
     - 상처를 악화시킬 수 있는 상황. 불릿으로 나열.
 - **상처를 직면하고 극복할 기회 (OPPORTUNITIES TO FACE OR OVERCOME THIS WOUND)**:

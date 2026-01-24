@@ -10,9 +10,9 @@
 - **필요한 훈련, 교육 (NECESSARY TRAINING)**:
     - 학위, 자격증, 수습 기간 등 준비 과정 나열. 쉼표 혹은 불릿으로 나열.
 - **이 직업에 유용한 기술, 재능 (USEFUL SKILLS, TALENTS, OR ABILITIES)**:
-    - 직업 수행에 도움이 되는 기술/능력을 쉼표로 나열.
+    - 직업 수행에 도움이 되는 기술/어빌리티를 쉼표로 나열.
 - **이 직업에 도움이 되는 성격 (HELPFUL CHARACTER TRAITS)**:
-    - 유리한 성격 특성을 쉼표로 나열.
+    - 유리한 성격 트레잇을 쉼표로 나열.
 - **갈등이 벌어지는 상황 (SOURCES OF FRICTION)**:
     - 직업 수행 중 겪을 수 있는 어려움, 갈등 요소 나열. 불릿으로 나열.
 - **주로 접하는 사람들 (PEOPLE THE CHARACTER INTERACTS WITH)**:

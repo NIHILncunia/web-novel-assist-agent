@@ -5,7 +5,7 @@ description: Analyze a monster description to extract standardized Traits (Origi
 
 # 기능: 몬스터 태그 추출 (`extract_creature_tags`)
 
-이 **skills extract_creature_tags**는 입력된 몬스터(생물) 정보를 분석하여 **생물 유형, 핵심 특성, 2대 생물 능력(발동/지속)**을 추출하고, 이를 기반으로 데이터베이스를 확장합니다.
+이 **skills extract_creature_tags**는 입력된 몬스터(생물) 정보를 분석하여 **생물 유형, 핵심 트레잇, 2대 생물 어빌리티(발동/지속)**을 추출하고, 이를 기반으로 데이터베이스를 확장합니다.
 
 ## 1. 개요 및 저장 위치
 
@@ -22,24 +22,24 @@ description: Analyze a monster description to extract standardized Traits (Origi
 ### 2-2. 분석 축 (Classification Axes)
 
 1. **생물 유형/크기:** `data/traits/00_유형.md`, `01_크기.md` 참조.
-2. **핵심 특성 키워드:**
+2. **핵심 트레잇 키워드:**
    - 기원 (Origin): 출생, 배경.
    - 신체 (Physical): 재질, 형태, 내성.
    - 지성 (Intellect): 지능, 성격, 소통.
    - 군집 (Social): 사회성, 서열.
    - 약점 (Weakness): 치명적 결함.
    - 이동 (Mobility): 이동 방식 (비행 등).
-   - 감각 (Senses): 인지 능력 (야간 시야 등).
-3. **생물 능력 (Abilities):**
+   - 감각 (Senses): 인지 어빌리티 (야간 시야 등).
+3. **생물 어빌리티 (Abilities):**
    - **발동 (Active):** 행동 소모 기술.
    - **상시 (Passive):** 상시 적용 효과.
-   - **전설 (Legendary):** 전설적 행동/특성.
+   - **전설 (Legendary):** 전설적 행동/트레잇.
 
 ### 2-3. 확장 (Brainstorming)
 - 주된 유형 외에 파생/반대/심화 키워드를 5개 이상 추가 연상.
 
 ## 3. 데이터 저장 지침
 
-1. **특성 키워드:** `data/traits/[분류].md`에 누적 저장.
+1. **트레잇 키워드:** `data/traits/[분류].md`에 누적 저장.
 2. **어빌리티:** `data/ability/발동.md` 또는 `data/ability/지속.md`에 테이블 형식으로 추가.
    - 구조: `[권역:원천]-[계통]-[형태]` 준수.

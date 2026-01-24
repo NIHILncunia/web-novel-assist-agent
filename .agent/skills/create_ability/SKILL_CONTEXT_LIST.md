@@ -4,7 +4,7 @@
 
 ## 1. 매뉴얼 (Manual)
 - **문법 및 구조 정의**: [99-1_skill_syntax.md](file:///c:/Users/nihil/coding/novel/novel-assist-agent/manuals/99-1_ability_syntax.md)
-- **특성 및 작명 규칙**: [97_trait_and_naming_rules.md](file:///c:/Users/nihil/coding/novel/novel-assist-agent/manuals/97_trait_and_naming_rules.md)
+- **트레잇 및 작명 규칙**: [97_trait_and_naming_rules.md](file:///c:/Users/nihil/coding/novel/novel-assist-agent/manuals/97_trait_and_naming_rules.md)
 
 ## 2. 발동 어빌리티 (Active Skills)
 > **권역별 데이터 파일**

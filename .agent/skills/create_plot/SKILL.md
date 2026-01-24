@@ -5,7 +5,7 @@ description: A skill to design the plot outline (Arcs and Episodes) based on the
 
 # 기능: 플롯 생성 (`create_plot`)
 
-이 스킬은 시놉시스(Step 4)를 바탕으로, 실제 집필 가능한 단위인 **'아크(Arc)'**와 **'에피소드(Episode)'**를 설계하는 **[Step 6] 플롯 아웃라인** 단계의 작업 지침입니다.
+이 어빌리티는 시놉시스(Step 4)를 바탕으로, 실제 집필 가능한 단위인 **'아크(Arc)'**와 **'에피소드(Episode)'**를 설계하는 **[Step 6] 플롯 아웃라인** 단계의 작업 지침입니다.
 
 ## 1. 개요 및 저장 위치
 

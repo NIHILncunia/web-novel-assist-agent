@@ -17,11 +17,11 @@
     - 감정들, 쉼표로 나열.
 - **생길 수 있는 내적 갈등 (POSSIBLE INTERNAL STRUGGLES)**:
     - 내적 갈등 요소들, 불릿으로 나열.
-- **상황을 악화시킬 수 있는 부정적인 특성 (NEGATIVE TRAITS THAT MAY WORSEN THE SITUATION)**:
+- **상황을 악화시킬 수 있는 부정적인 트레잇 (NEGATIVE TRAITS THAT MAY WORSEN THE SITUATION)**:
     - 성격들, 쉼표로 나열.
 - **기본욕구에 미치는 영향 (IMPACT ON BASIC NEEDS)**:
     - **[욕구명]**: 내용.
-- **대처에 도움이 되는 긍정적인 특성 (POSITIVE TRAITS TO HELP THE CHARACTER COPE)**:
+- **대처에 도움이 되는 긍정적인 트레잇 (POSITIVE TRAITS TO HELP THE CHARACTER COPE)**:
     - 성격들, 쉼표로 나열.
 - **긍정적인 결과 (POSITIVE OUTCOMES)**:
     - 결과들, 불릿으로 나열.

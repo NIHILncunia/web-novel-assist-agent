@@ -5,7 +5,7 @@ description: A keyword brainstorming engine that expands a single keyword into r
 
 # 기능: 키워드 확장 엔진 (`brainstorm_ideas`)
 
-이 스킬은 단일 '핵심 키워드'를 입력받아, 세계관 구축에 필요한 '특성'과 '능력'으로 확장하는 범용 브레인스토밍 지침입니다.
+이 어빌리티는 단일 '핵심 키워드'를 입력받아, 세계관 구축에 필요한 '트레잇'과 '어빌리티'으로 확장하는 범용 브레인스토밍 지침입니다.
 
 ## 1. 개요 및 저장 위치
 
@@ -21,20 +21,20 @@ description: A keyword brainstorming engine that expands a single keyword into r
 ### 1단계: 신규 아이디어 확장
 다음 4가지 방향으로 **새로운** 아이디어를 생성합니다.
 
-1. **연관 특성 (Related Traits):**
-   - 질문: "이 키워드와 직접적으로 연관되거나 본질적인 특성은?"
+1. **연관 트레잇 (Related Traits):**
+   - 질문: "이 키워드와 직접적으로 연관되거나 본질적인 트레잇은?"
    - 목표: 2~3개 (`data/traits/`용)
 
-2. **반전 특성 (Contrasting Traits):**
-   - 질문: "정반대 개념이거나, 왜곡/극복 시 나타나는 특성은?"
+2. **반전 트레잇 (Contrasting Traits):**
+   - 질문: "정반대 개념이거나, 왜곡/극복 시 나타나는 트레잇은?"
    - 목표: 2~3개 (`data/traits/`용)
 
-3. **연관 지속 능력 (Related Passives):**
-   - 질문: "파생되는 상시 발현 능력은?"
+3. **연관 지속 어빌리티 (Related Passives):**
+   - 질문: "파생되는 상시 발현 어빌리티는?"
    - 목표: 1~2개 (`data/ability/지속.md`용)
 
-4. **연관 발동 능력 (Related Actives):**
-   - 질문: "의지를 갖고 사용하는 능력은?"
+4. **연관 발동 어빌리티 (Related Actives):**
+   - 질문: "의지를 갖고 사용하는 어빌리티는?"
    - 목표: 1~2개 (`data/ability/발동.md`용)
 
 ## 3. 데이터 저장 지침
