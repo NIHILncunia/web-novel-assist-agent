@@ -1,0 +1,450 @@
+Total missing trait_mcls records: 447
+
+[missing_mcls_records.csv]
+  - Line 2: 광적인 신앙
+  - Line 3: 피에 굶주림
+  - Line 4: 집착
+  - Line 5: 이중인격
+  - Line 6: 복수심
+  - Line 7: 탐욕
+  - Line 8: 명예 중시
+  - Line 9: 사이코패스
+  - Line 10: 왕의 자존심
+  - Line 11: 신성 거부
+  - Line 12: 편집증적 광기
+  - Line 13: 광적인 수집벽
+  - Line 14: 파괴적 본능
+  - Line 15: 마술 혐오
+  - Line 16: 마모된 감정
+  - Line 17: 생존자의 죄책감
+  - Line 18: 왜곡된 이타심
+  - Line 19: 강철의 마음
+  - Line 20: 감정 동조
+  - Line 21: 광기의 전염
+  - Line 22: 현실 조작
+  - Line 23: 기억 포식
+  - Line 24: 하이브 마인드
+  - Line 25: 유리 멘탈
+  - Line 26: 공허한 영혼
+  - Line 27: 고결한 기사도
+  - Line 28: 타락한 신념
+  - Line 29: 예술적 광기
+  - Line 30: 자기 파괴적 충동
+  - Line 31: 멸사봉공
+  - Line 32: 회귀 본능
+  - Line 33: 이상주의
+  - Line 34: 충절의 강박
+  - Line 35: 유열 추구
+  - Line 36: 인간 찬가
+  - Line 37: 허무주의
+  - Line 38: 쾌락적 구도자
+  - Line 39: 순교자 콤플렉스
+  - Line 40: 비겁함
+  - Line 41: 완벽주의
+  - Line 42: 열등감
+  - Line 43: 메시아 콤플렉스
+  - Line 44: 사디즘 (가학증)
+  - Line 45: 마조히즘 (피학증)
+  - Line 46: 금욕주의
+  - Line 47: 비틀린 인과
+  - Line 48: 혐오스러운 오라
+  - Line 49: 마나 중독
+  - Line 50: 순수한 영혼
+  - Line 51: 끝없는 탐구심
+  - Line 52: 시련의 즐거움
+  - Line 53: 냉철한 계산
+  - Line 54: 대인배
+  - Line 55: 무방비의 방어
+  - Line 56: 영겁의 권태
+  - Line 57: 정신 간섭 면역
+  - Line 58: 희망의 상징
+  - Line 59: 침략자의 본능
+  - Line 60: 동족 혐오
+  - Line 61: 이중인격의 괴리
+  - Line 62: 관심 종자
+  - Line 63: 사랑의 사도
+  - Line 64: 무력에 의한 평화
+  - Line 65: 도시전설
+  - Line 66: 생존자 증후군
+  - Line 67: 이타적 기계
+  - Line 68: 차용된 이상
+  - Line 69: 파탄 난 가치관
+  - Line 70: 냉소적 실용주의
+  - Line 71: 자기 혐오
+  - Line 72: 타락의 산파
+  - Line 73: 이중 자아
+  - Line 74: 고통 내성
+  - Line 75: 억눌린 분노
+  - Line 76: 결정적 실수
+  - Line 77: 명문가의 긍지
+  - Line 78: 책임감
+  - Line 79: 왕의 위엄
+  - Line 80: 무거운 왕관
+  - Line 81: 기사의 맹세
+  - Line 82: 정면 승부
+  - Line 83: 완벽주의자의 고뇌
+  - Line 84: 이종족의 고독
+  - Line 85: 전투 경험자
+  - Line 86: 수호자의 고뇌
+  - Line 87: 자기 부정
+  - Line 88: 냉소적 현실주의
+  - Line 89: 영웅이 되지 못한 자
+  - Line 90: 복제품의 자존심
+  - Line 91: 인간성 상실 (Humanity Loss)
+  - Line 92: 조기 교육의 흔적
+  - Line 93: 가문의 사명
+  - Line 94: 가문의 기대
+  - Line 95: 냉정한 판단
+  - Line 96: 감정 억제
+  - Line 97: 감정 마비
+  - Line 98: 냉정함의 가면
+  - Line 99: 마술사의 자존심
+  - Line 100: 패배 불수용
+  - Line 101: 자존심 회복
+  - Line 102: 자존심의 가면
+  - Line 103: 이성 상실 (Loss of Reason)
+  - Line 104: 마모된 영혼
+  - Line 105: 흑막
+  - Line 106: 인간 혐오
+  - Line 107: 망각된 초심
+  - Line 108: 비틀린 사랑
+  - Line 109: 비틀린 긍지
+  - Line 110: 현실 부정
+  - Line 111: 과거의 망령
+  - Line 112: 불굴의 투사
+  - Line 113: 비극의 영웅
+  - Line 114: 제약과 서약
+  - Line 115: 교단의 율법
+  - Line 116: 장인의 고집
+  - Line 117: 수호자의 맹세
+  - Line 118: 허무의 삶
+  - Line 119: 구도자
+  - Line 120: 풍류가
+  - Line 121: 낭만주의자
+  - Line 122: 무구한 살의
+  - Line 123: 도구적 이성
+  - Line 124: 사심 없음
+  - Line 125: 배신의 낙인
+  - Line 126: 비련의 악녀
+  - Line 127: 헌신과 집착
+  - Line 128: 시스템 파괴자
+  - Line 129: 수집가
+  - Line 130: 오만
+  - Line 131: 수집광
+  - Line 132: 진실을 아는 자
+  - Line 133: 파괴의 화신
+  - Line 134: 재력 과시
+  - Line 135: 관측자
+  - Line 136: 스포일러
+  - Line 137: 사냥꾼의 집요함
+  - Line 138: 고지식한 융통성
+  - Line 139: 문신 중독
+  - Line 140: 보복주의자
+  - Line 141: 전투광
+  - Line 142: 가문의 굴레
+  - Line 143: 목적 상실
+  - Line 144: 감정의 블랙홀
+  - Line 145: 쾌락 살인귀
+  - Line 146: 뒤틀린 거울
+  - Line 147: 권위에 대한 복종
+  - Line 148: 소유욕
+  - Line 149: 감정 결여
+  - Line 150: 이방인의 고독
+  - Line 151: 투쟁 본능
+  - Line 152: 순교자 정신
+  - Line 153: 데이터적 사고
+  - Line 154: 기록 말살형
+  - Line 155: 불가해한 사고
+  - Line 156: 존재의 권태
+  - Line 157: 지식의 저주
+  - Line 158: 인간성 소거
+  - Line 159: 광기 전염
+  - Line 160: 군인 정신
+  - Line 161: 외상 후 스트레스 (PTSD)
+  - Line 162: 전투 본능
+  - Line 163: 냉혹한 살의
+  - Line 164: 대지와의 유대
+  - Line 165: 명예의 굴레
+  - Line 166: 기회주의적 사고
+  - Line 167: 포식자의 인내
+  - Line 168: 공포 결핍
+  - Line 169: 배신의 낙인
+  - Line 170: 짐승의 공감
+  - Line 171: 집단주의
+  - Line 172: 단독자
+  - Line 173: 광전사의 피
+  - Line 174: 정신적 요새
+  - Line 175: 탈출 강박
+  - Line 176: 승부 집착
+  - Line 177: 오컬트 지식욕
+  - Line 178: 신성 거부
+  - Line 179: 예언적 몽상
+  - Line 180: 빙의 체질
+  - Line 181: 문명 부적응
+  - Line 182: 미적 감각
+  - Line 183: 호기심
+  - Line 184: 평화주의
+  - Line 185: 낙천주의
+  - Line 186: 낭만주의
+  - Line 187: 완벽주의 (생활)
+  - Line 188: 사교성
+  - Line 189: 동물 애호
+  - Line 190: 식도락
+  - Line 191: 수집광 (취미)
+  - Line 192: 가정적
+  - Line 193: 유머 감각
+  - Line 194: 겸손
+  - Line 195: 학구열
+  - Line 196: 자연 친화
+  - Line 197: 가스라이팅
+  - Line 198: 그루밍 (Grooming)
+  - Line 199: 감정 쓰레기통
+  - Line 200: 죄책감 유발
+  - Line 201: 피해자 코스프레
+  - Line 202: 착취 관계
+  - Line 203: 공의존
+  - Line 204: 가학적 통제
+  - Line 205: 인질극 (감정)
+  - Line 206: 애증 (Love-Hate)
+  - Line 207: 혐관 (Enemies to Lovers)
+  - Line 208: 짝사랑의 저주
+  - Line 209: 계약 연애/결혼
+  - Line 210: 쇼윈도 부부
+  - Line 211: 정략결혼
+  - Line 212: 환승 이별 (배신)
+  - Line 213: 첫사랑의 망령
+  - Line 214: 집착광
+  - Line 215: 얀데레
+  - Line 216: 구원튀 (Hit & Run)
+  - Line 217: 어장관리
+  - Line 218: 비즈니스 파트너
+  - Line 219: 공범
+  - Line 220: 라이벌 (Rival)
+  - Line 221: 앙숙 (Nemesis)
+  - Line 222: 악우 (Bad Friend)
+  - Line 223: 소꿉친구
+  - Line 224: 유사 가족
+  - Line 225: 대리 부모
+  - Line 226: 멘토-멘티
+  - Line 227: 충성 경쟁
+  - Line 228: 낙하산 (Nepotism)
+  - Line 229: 정치적 희생양
+  - Line 230: 운명적 파트너
+  - Line 231: 영혼의 쌍둥이
+  - Line 232: 붉은 실 (악연)
+  - Line 233: 저주받은 인연
+  - Line 234: 윤회의 고리
+  - Line 235: 대체품
+  - Line 236: 관측자와 피관측자
+  - Line 237: 브로맨스/워맨스
+  - Line 238: 스승 살해 (살부계승)
+  - Line 239: 하극상
+  - Line 240: 짝패 (Partner)
+  - Line 241: 팬심 (Fanaticism)
+  - Line 242: 스토커
+  - Line 243: 감정적 갑을관계
+  - Line 244: 트로피 와이프/허즈번드
+  - Line 245: 대리 만족
+  - Line 246: 비밀 친구
+  - Line 247: 랜선 연애
+  - Line 248: 원나잇 (One Night)
+  - Line 249: 섹스 파트너
+  - Line 250: 기둥서방/정부
+  - Line 251: 마마보이/파파걸
+  - Line 252: 츤데레
+  - Line 253: 메가데레
+  - Line 254: 쿨데레
+  - Line 255: 하라구로 (속검음)
+  - Line 256: 여왕님/주인님
+  - Line 257: 노예/하인
+  - Line 258: 소울 메이트
+  - Line 259: 악마의 속삭임
+  - Line 260: 수호 천사
+  - Line 261: 오이디푸스 콤플렉스
+  - Line 262: 유사가족 놀이
+  - Line 263: 배신자 (Traitor)
+  - Line 264: 내부 고발자
+  - Line 265: 희생양 (Scapegoat)
+  - Line 266: 따돌림 주도
+  - Line 267: 방관자
+  - Line 268: 호구
+  - Line 269: 여왕벌
+  - Line 270: 감시자
+  - Line 271: 정보원 (빨대)
+  - Line 272: 정치적 정략
+  - Line 273: 임시 동맹
+  - Line 274: 후견인 (Patron)
+  - Line 275: 뮤즈 (Muse)
+  - Line 276: 플라토닉 러브
+  - Line 277: 아가페
+  - Line 278: 불륜/바람
+  - Line 279: 동거
+  - Line 280: 별거
+  - Line 281: 이혼/파혼
+  - Line 282: 재혼
+  - Line 283: 입양
+  - Line 284: 의남매/의형제
+  - Line 285: 대리전
+  - Line 286: 꼭두각시
+  - Line 287: 흑막의 장기말
+  - Line 288: 구애
+  - Line 289: 밀당 (밀고 당기기)
+  - Line 290: 철벽
+  - Line 291: 금사빠
+  - Line 292: 모태솔로
+  - Line 293: 약탈 본능
+  - Line 294: 비열함
+  - Line 295: 배신
+  - Line 296: 사과 반사
+  - Line 297: 의식적 자결
+  - Line 298: 결사적 헌신
+  - Line 299: 찰나의 미학
+  - Line 300: 미시적 탐구
+  - Line 301: 사물의 영혼
+  - Line 302: 무상감
+  - Line 303: 마니아
+  - Line 304: 가상 연애
+  - Line 305: 도피성 전생
+  - Line 306: 명분 중시
+  - Line 307: 청렴의 기풍
+  - Line 308: 문명 계승자
+  - Line 309: 정벌론
+  - Line 310: 속도 지상주의
+  - Line 311: 위험 불감증
+  - Line 312: 결과 중심주의
+  - Line 313: 기복 신앙
+  - Line 314: 끈끈한 유대
+  - Line 315: 국가 자부심
+  - Line 316: 관조적 권태
+  - Line 317: 군집 의식
+  - Line 318: 위험 중독
+  - Line 319: 결벽증
+  - Line 320: 왕자의 긍지
+  - Line 321: 열등감의 원동력
+  - Line 322: 전투 바보
+  - Line 323: 슬로우 스타터
+  - Line 324: 선량함의 자격
+  - Line 325: 봐주기 (Mercy)
+  - Line 326: 전투 적응 (Combat Adaptation)
+  - Line 327: 동물 친화 (Animal Affinity)
+  - Line 328: 명령 거부 (Refusal of Orders)
+  - Line 329: 노력의 천재 (Genius of Effort)
+  - Line 330: 철저한 마무리 (Thorough Finish)
+  - Line 331: 딸바보 (Daughter Fool)
+  - Line 332: 고독한 수행자 (Solitary Practitioner)
+  - Line 333: 생전의 기억 (Memory of Life)
+  - Line 334: 
+  - Line 335: 
+  - Line 336: 
+  - Line 337: 
+  - Line 338: 
+  - Line 339: 
+  - Line 340: 
+  - Line 341: 
+  - Line 342: 
+  - Line 343: 
+  - Line 344: 
+  - Line 345: 
+  - Line 346: 
+  - Line 347: 
+  - Line 348: 
+  - Line 349: 
+  - Line 350: 
+  - Line 351: 
+  - Line 352: 
+  - Line 353: 
+  - Line 354: 
+  - Line 355: 
+  - Line 356: 
+  - Line 357: 
+  - Line 358: 
+  - Line 359: 
+  - Line 360: 
+  - Line 361: 
+  - Line 362: 
+  - Line 363: 
+  - Line 364: 
+  - Line 365: 
+  - Line 366: 
+  - Line 367: 
+  - Line 368: 
+  - Line 369: 
+  - Line 370: 
+  - Line 371: 
+  - Line 372: 
+  - Line 373: 
+  - Line 374: 
+  - Line 375: 
+  - Line 376: 
+  - Line 377: 
+  - Line 378: 
+  - Line 379: 
+  - Line 380: 
+  - Line 381: 
+  - Line 382: 
+  - Line 383: 
+  - Line 384: 
+  - Line 385: 
+  - Line 386: 
+  - Line 387: 
+  - Line 388: 
+  - Line 389: 
+  - Line 390: 
+  - Line 391: 
+  - Line 392: 
+  - Line 393: 
+  - Line 394: 
+  - Line 395: 
+  - Line 396: 
+  - Line 397: 
+  - Line 398: 
+  - Line 399: 
+  - Line 400: 
+  - Line 401: 
+  - Line 402: 
+  - Line 403: 
+  - Line 404: 
+  - Line 405: 
+  - Line 406: 
+  - Line 407: 
+  - Line 408: 
+  - Line 409: 
+  - Line 410: 
+  - Line 411: 
+  - Line 412: 
+  - Line 413: 
+  - Line 414: 
+  - Line 415: 
+  - Line 416: 
+  - Line 417: 
+  - Line 418: 
+  - Line 419: 
+  - Line 420: 
+  - Line 421: 
+  - Line 422: 
+  - Line 423: 
+  - Line 424: 
+  - Line 425: 
+  - Line 426: 
+  - Line 427: 
+  - Line 428: 
+  - Line 429: 
+  - Line 430: 
+  - Line 431: 
+  - Line 432: 
+  - Line 433: 
+  - Line 434: 
+  - Line 435: 
+  - Line 436: 
+  - Line 437: 
+  - Line 438: 
+  - Line 439: 
+  - Line 440: 
+  - Line 441: 
+  - Line 442: 
+  - Line 443: 
+  - Line 444: 
+  - Line 445: 
+  - Line 446: 
+  - Line 447: 
+  - Line 448: 
