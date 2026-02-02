@@ -18,8 +18,9 @@ description: Analyze an entity (character, monster, etc.) and suggest existing T
 - 핵심 테마 키워드 3~5개 추출.
 
 ### 2단계: DB 검색 및 매칭
-- 각 키워드에 대해 `data/traits/` 및 `data/ability/` 검색.
+- 각 키워드에 대해 `data/traits/` 및 `data/ability/detailed_lists/` 검색.
 - 연관되거나 시너지가 있는 기존 항목 식별.
+- **데이터 부족 시:** `skills create_ability`를 통해 해당 키워드에 맞는 새로운 어빌리티 생성을 제안.
 
 ### 3단계: 제안 목록 구성
 - **직관적 매칭 (3+):** 키워드와 정확히 일치.

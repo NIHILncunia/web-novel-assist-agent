@@ -35,6 +35,11 @@ description: Extracts and classifies new Traits (트레잇) for characters, mons
 | **11** | **지역환경 (Environment)** | 지형, 기후, 시설 특징. | `data/traits/11_지역환경.md` |
 | **12** | **외교 (Diplomacy)** | 정치적 입장, 대외 관계 성향. | `data/traits/12_외교.md` |
 | **13** | **경영 (Management)** | 행정, 경제, 인프라 운영 어빌리티. | `data/traits/13_경영.md` |
+| **14** | **제작 (Craft)** | 가공, 연금, 대장 기술의 기반. | `data/traits/14_제작.md` |
+| **15** | **속성 (Element)** | 화염, 빙결 등 원소적 친화력. | `data/traits/15_속성.md` |
+| **16** | **전투 (Combat)** | 무기 숙련, 야수성 등 전투적 기질. | `data/traits/16_전투.md` |
+| **17** | **관계 (Relation)** | 인물 간 서사, 우호/적대 관계. | `data/traits/17_관계.md` |
+| **18** | **직업 (Job)** | 사회적 지위, 직함, 역할. | `data/traits/18_직업.md` |
 
 ## 3. 실행 단계 (Execution Steps)
 

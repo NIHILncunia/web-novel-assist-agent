@@ -55,7 +55,7 @@ description: Analyzes external entities (Characters, Objects, Nations from other
 
 1. **기존 데이터 로드:**
    - `data/traits/` 폴더의 모든 `.md` 파일을 읽어 기존 트레잇 데이터를 확인합니다.
-   - `data/ability/발동.md` 및 `data/ability/지속.md` 파일을 읽어 기존 어빌리티 데이터를 확인합니다.
+   - `data/ability/detailed_lists/` 하위의 모든 파일을 스캔하여 기존 어빌리티 데이터를 확인합니다.
 
 2. **중복 검사 수행:**
    - 리포트에서 생성한 모든 트레잇/어빌리티의 **이름**을 기존 데이터와 비교합니다.
@@ -130,9 +130,9 @@ description: Analyzes external entities (Characters, Objects, Nations from other
     *   **제안 사유:** 서리한을 얻은 후 창백해진 피부와 죽음의 기사로 변모한 외형 반영.
     *   **설명:** 내면의 사악한 기운이 육체에 영향을 미쳐, 피부가 창백해지거나 신체 일부가 기괴하게 변형됨.
 
-#### [신규 지속 어빌리티 제안]
-*   **[지속] 부정한 오라 (Unholy Aura)**
-    *   **분류:** `data/ability/지속.md`
+#### [신규 어빌리티 제안]
+*   **[어빌리티] 부정한 오라 (Unholy Aura)**
+    *   **분류:** `detailed_lists/3.정신권역/정신_간섭계_주입.md`
     *   **구조:** `[정신:공포]-[간섭]-[주입]`
     *   **계통:** 정신
     *   **대상:** 범위 (주변 10m)
@@ -142,9 +142,9 @@ description: Analyzes external entities (Characters, Objects, Nations from other
     *   **설명:** 주변 생물의 활력을 미약하게 저하시키고, 살아있는 존재에게 본능적인 불쾌감과 공포를 지속적으로 유발함.
 
 #### [신규 발동 어빌리티 제안]
-*   **[발동] 생명력 흡수 (Drain Life)**
-    *   **분류:** `data/ability/발동.md`
-    *   **계통:** 특수(흑마법)
+*   **[어빌리티] 생명력 흡수 (Drain Life)**
+    *   **분류:** `detailed_lists/4.특수권역/특수_흡수계_강탈.md`
+    *   **구조:** `[특수:생명]-[흡수]-[강탈]`
     *   **대상:** 단일
     *   **피해 유형:** 해당 없음
     *   **상태 이상 유형:** 해당 없음
