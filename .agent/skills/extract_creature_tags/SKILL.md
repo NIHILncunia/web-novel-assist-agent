@@ -25,7 +25,7 @@ description: Analyze a monster description to extract standardized Traits (Origi
 2. **핵심 트레잇 키워드:**
    - 기원 (Origin): 출생, 배경.
    - 신체 (Physical): 재질, 형태, 내성.
-   - 지성 (Intellect): 지능, 성격, 소통.
+   - 지성 (Intellect): 지능, 성격, 소통 (`04_지식_지혜.md` 참조).
    - 군집 (Social): 사회성, 서열.
    - 약점 (Weakness): 치명적 결함.
    - 이동 (Mobility): 이동 방식 (비행 등).
@@ -41,5 +41,5 @@ description: Analyze a monster description to extract standardized Traits (Origi
 ## 3. 데이터 저장 지침
 
 1. **트레잇 키워드:** `data/traits/[분류].md`에 누적 저장.
-2. **어빌리티:** `data/ability/발동.md` 또는 `data/ability/지속.md`에 테이블 형식으로 추가.
+2. **어빌리티:** `data/ability/detailed_lists/[권역]권역/[권역]_[계통]계_[형태].md`에 테이블 형식으로 추가.
    - 구조: `[권역:원천]-[계통]-[형태]` 준수.
