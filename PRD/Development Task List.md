@@ -34,6 +34,11 @@
     - [ ] 분류 적절성 확인
     - [ ] 신규 추가된 트레잇 퀄리티 확인
 
-### Phase 5: Documentation
+### Phase 5: Ability Tagging & Analysis (어빌리티 태그화 및 분석)
+- [x] **Physical Realm Analysis**: 물리 권역 어빌리티 태그 분석 및 프로토콜 작성 (완료)
+- [x] **Magic Realm Extraction**: 마법 권역 어빌리티 설명 추출 (완료)
+- [x] **Magic Realm Tagging**: 마법 권역 어빌리티 태그 추출 및 프로토콜 업데이트 (완료)
+
+### Phase 6: Documentation
 - [ ] **Update Manual**: `manuals/` 내의 관련 문서 업데이트 (트레잇 데이터 활용법 등)
 - [ ] **Archive**: 구버전 데이터 백업 및 아카이빙

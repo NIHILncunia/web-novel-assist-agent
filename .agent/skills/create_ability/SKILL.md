@@ -12,8 +12,9 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
 
 1.  **모듈형 구조 준수 (Critical):** 모든 어빌리티는 반드시 `[권역:원천] - [계통] - [형태]` 구조를 따라야 합니다.
     *   참조: `manuals/99-1_ability_syntax.md` (새로운 형태 창조 금지, 정의된 형태만 사용)
-2.  **저장 경로 자동화:** 구조에 따라 `data/ability/detailed_lists/` 하위의 정확한 파일에 저장해야 합니다.
-    *   경로 규칙: `[권역]권역/[권역]_[계통]계_[형태].md`
+2.  **선-리포트 후-저장 (Report First):** 생성된 어빌리티를 즉시 `data/` 폴더에 저장하지 않습니다.
+    *   반드시 **리포트(`report/ability/`)를 우선 생성**하고, 사용자의 검토 승인을 거쳐야 합니다.
+    *   승인 후 저장되는 경로: `data/ability/detailed_lists/[권역]권역/[권역]_[계통]계_[형태].md`
 3.  **대량 생성 프로토콜:** 1회 실행 시 **총 15개** (기본 5 + 확장 10)의 데이터를 다룹니다.
 
 ## 2. 실행 프로세스 (Execution Process)
