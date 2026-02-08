@@ -12,6 +12,7 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
 
 1.  **모듈형 구조 준수 (Critical):** 모든 어빌리티는 반드시 `[권역:원천] - [계통] - [형태]` 구조를 따라야 합니다.
     *   참조: `manuals/99-1_ability_syntax.md` (새로운 형태 창조 금지, 정의된 형태만 사용)
+    *   참조: `manuals/99-2_ability_tags.md` (태그 프로토콜 준수, 태그 필드 필수)
 2.  **선-리포트 후-저장 (Report First):** 생성된 어빌리티를 즉시 `data/` 폴더에 저장하지 않습니다.
     *   반드시 **리포트(`report/ability/`)를 우선 생성**하고, 사용자의 검토 승인을 거쳐야 합니다.
     *   승인 후 저장되는 경로: `data/ability/detailed_lists/[권역]권역/[권역]_[계통]계_[형태].md`
@@ -88,23 +89,10 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
 
 ## 4. 허용된 값 목록 (Allowed Values)
 
-어빌리티 생성 시, 아래의 미리 정의된 값들을 사용하여 일관성을 유지하십시오. 새로운 값을 임의로 추하지 마십시오.
-(참조: `data/traits/15_속성.md` - 속성에 따른 피해 유형 및 상태 이상 업데이트)
+어빌리티 생성 시, `manuals/99-2_ability_tags.md`에 정의된 **태그 프로토콜**을 따르십시오.
+새로운 개념이 필요하다면 **오픈 태깅 규칙**에 따라 자유롭게 태그를 확장할 수 있습니다.
 
-*   **Target (대상):**
-    *   `자신`, `단일`, `다수`, `범위`, `탈것`, `해당 없음`
-
-*   **Damage Type (피해 유형) - (35 types):**
-    *   **물리:** `해당 없음`, `물리(Physical)`, `참격(Slashing)`, `관통(Piercing)`, `타격(Bludgeoning)`, `음파(Sonic)`
-    *   **원소:** `화염(Fire)`, `냉기(Cold)`, `전기(Lightning)`, `폭풍(Storm)`, `수류(Water)`, `대지(Earth)`, `금속(Metal)`, `자연(Nature)`, `용암(Magma)`, `증기(Steam)`, `산성(Acid)`, `소독(Poison)`
-    *   **신비:** `광휘(Radiance)`, `어둠(Darkness)`, `그림자(Shadow)`, `사령(Necrotic)`, `영혼(Soul)`, `피(Blood)`, `저주(Curse)`, `석화(Petrification)`, `정신(Psychic)`, `꿈(Dream)`, `혼돈(Chaos)`, `질서(Order)`, `운명(Fate)`, `폭발(Explosive)`
-    *   **초상:** `플라즈마(Plasma)`, `방사능(Radiation)`, `역장(Force Field)`, `중력(Gravity)`, `시간(Time)`, `공간(Space)`, `에테르(Aether)`, `공허(Void)`
-
-*   **Status Effect (상태 이상) - (Expanded List):**
-    *   **기본/물리:** `강화`, `도발`, `넘어짐`, `넉백`, `골절`, `출혈`, `심층 창상`, `신체 훼손`, `방어구 관통`, `기절`, `청각 마비`, `균형 감각 상실`
-    *   **원소:** `화상`, `동상`, `동결`, `둔화`, `빙결`, `감전`, `마비`, `젖음`, `질식`, `매몰`, `단단함`, `절단`, `충격 반사`, `강철화`, `구속(덩굴)`, `수면`, `성장`, `융해`, `지형 파괴`, `시야 차단`, `부식`, `허약`, `실명`
-    *   **신비/정신:** `공포`, `은신`, `부패`, `오염`, `최대 체력 감소`, `정신 붕괴`, `마력 흡수`, `흡혈`, `질병`, `불운`, `혼란`, `변이`, `석화(돌)`, `즉사`, `기억 조작`, `환각`, `악몽`, `현실 조작`, `이형화`, `구조 붕괴`, `무효화`, `정화`, `고정`, `치명타 확정`, `인과율 간섭`
-    *   **초상:** `소멸`, `세포 파괴`, `압착`, `압사`, `비행 불가`, `블랙홀`, `정지`, `가속`, `노화`, `되감기`, `전이`, `왜곡`, `격리`, `위상 변화`, `침묵`, `마력 삭제`, `속박`, `처형`, `광분`
+*   **참조 파일:** `manuals/99-2_ability_tags.md` (무기, 속성, 상태이상, 일반 태그 전체 목록)
 
 ## 5. 데이터 스키마 (Data Schema)
 
@@ -112,9 +100,9 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
 사용자와 대화하거나 리포트를 생성할 때에는 **전체 구조**를 명확히 보여주기 위해 아래 형식을 사용합니다.
 
 ```markdown
-| 이름 (Name) | 구조 (Structure) | 대상 (Target) | 피해 (Dmg.Type) | 상태이상 (Effect) | 설명 (Description) |
-|:---|:---|:---|:---|:---|:---|
-| (예시) 파이어볼 | [마법:화염] - [방출] - [구체] | 범위 | 화염 | 화상 | 지정한 위치에 화염 구체를 던져 폭발시킨다. |
+| 이름 (Name) | 구조 (Structure) | 대상 (Target) | 피해 (Dmg.Type) | 상태이상 (Effect) | 태그 (Tags) | 설명 (Description) |
+|:---|:---|:---|:---|:---|:---|:---|
+| (예시) 파이어볼 | [마법:화염] - [방출] - [구체] | 범위 | 화염 | 화상 | #화염 #폭발 #1서클 | 지정한 위치에 화염 구체를 던져 폭발시킨다. |
 ```
 
 ### B. [File Storage] 데이터 파일 저장용 스키마
@@ -124,7 +112,7 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
 *   **예시:** `[마법:화염] - [방출] - [구체]` -> `화염` (파일명이 `마법_방출계_구체.md` 이므로)
 
 ```markdown
-| 이름 (Name) | 원천 (Source) | 대상 (Target) | 피해 (Dmg.Type) | 상태이상 (Effect) | 설명 (Description) |
-|:---|:---:|:---:|:---:|:---:|:---|
-| 파이어볼 | 화염 | 범위 | 화염 | 화상 | 지정한 위치에 화염 구체를 던져 폭발시킨다. |
+| 이름 (Name) | 원천 (Source) | 대상 (Target) | 피해 (Dmg.Type) | 상태이상 (Effect) | 태그 (Tags) | 설명 (Description) |
+|:---|:---:|:---:|:---:|:---:|:---|:---|
+| 파이어볼 | 화염 | 범위 | 화염 | 화상 | #화염 #폭발 #1서클 | 지정한 위치에 화염 구체를 던져 폭발시킨다. |
 ```
