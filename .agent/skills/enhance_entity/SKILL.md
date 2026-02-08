@@ -10,6 +10,7 @@ description: Analyze an entity (character, monster, etc.) and suggest existing T
 ## 1. 핵심 철학
 - **LEGO Block:** 모든 트레잇/어빌리티는 출처 불문 자유롭게 조립 가능한 '공용 레고 블록'입니다.
 - **재해석:** 몬스터의 트레잇을 인물에게, 혹은 그 반대로 재해석하여 적용합니다.
+- **저작권 회피:** 원작의 고유 명사(예: 에네르기파, 건담 등)는 피하고, **범용적인 설명조의 명칭**(예: 에너지 파동, 거대 로봇)으로 순화하여 제안합니다.
 
 ## 2. 작업 프로세스
 
@@ -20,7 +21,8 @@ description: Analyze an entity (character, monster, etc.) and suggest existing T
 ### 2단계: DB 검색 및 매칭
 - 각 키워드에 대해 `data/traits/` 및 `data/ability/detailed_lists/` 검색.
 - 연관되거나 시너지가 있는 기존 항목 식별.
-- **데이터 부족 시:** `skills create_ability`를 통해 해당 키워드에 맞는 새로운 어빌리티 생성을 제안.
+- **데이터 부족 시:** 
+    - `skills create_ability`를 사용하거나, `manuals/99-1_ability_syntax.md`와 `manuals/99-2_ability_tags.md`를 참조하여 올바른 형식의 어빌리티 생성을 제안.
 
 ### 3단계: 제안 목록 구성
 - **직관적 매칭 (3+):** 키워드와 정확히 일치.

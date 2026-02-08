@@ -30,6 +30,9 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
     *   `manuals/99-1`에 정의된 형태 준수 여부
     *   권역과 계통의 일치 여부
     *   데이터 스키마 준수 여부
+*   **태그 유효성 검사 (Tag Verification):**
+    *   사용된 모든 태그를 `manuals/99-2_ability_tags.md`의 목록과 대조합니다.
+    *   목록에 없는 **새로운 태그**가 발견될 경우, 이를 별도로 기록해둡니다.
 
 ### 단계 3: 리포트 생성 (Report Generation) - **CRITICAL**
 *   **절대 data 폴더에 바로 저장하지 마십시오.**
@@ -37,6 +40,7 @@ description: Interactive skill to create Active/Passive abilities. Generates 5 b
     *   파일명 예시: `report/ability/[YYYYMMDD]_[요청주제]_생성리포트.md`
 *   리포트에는 다음 내용이 포함되어야 합니다:
     *   생성된 어빌리티 목록 (테이블 형식)
+    *   **신규 발견 태그 (New Tags Detected):** `manuals/99-2`에 존재하지 않는 태그 목록 및 추가 제안.
     *   적용 대상 파일 경로 (`data/ability/detailed_lists/...`)
     *   특이 사항 및 검토 요청
 

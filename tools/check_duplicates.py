@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-중복 검사 스크립트: 리포트에서 추출된 특성/능력을 기존 데이터와 대조
+중복 검사 스크립트: 리포트에서 추출된 특성/어빌리티를 기존 데이터와 대조
 
 사용법:
     python tools/check_duplicates.py <리포트_파일_경로>
@@ -18,7 +18,7 @@ from typing import Any, Dict, List, Set
 # 프로젝트 루트 경로
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_TRAITS_DIR = PROJECT_ROOT / "data" / "traits"
-DATA_SKILL_DIR = PROJECT_ROOT / "data" / "skill"
+DATA_ABILITY_DIR = PROJECT_ROOT / "data" / "ability"
 
 
 def _force_utf8_stdio() -> None:
@@ -51,7 +51,7 @@ def normalize_name(name: str) -> str:
 
 
 def extract_name_from_markdown_table(content: str) -> Set[str]:
-    """마크다운 테이블에서 특성/능력 이름 추출"""
+    """마크다운 테이블에서 특성/어빌리티 이름 추출"""
     names = set()
 
     # 마크다운 테이블 형식: | **이름** | 설명 |
@@ -67,7 +67,7 @@ def extract_name_from_markdown_table(content: str) -> Set[str]:
 
 
 def load_existing_data() -> Dict[str, Set[str]]:
-    """기존 데이터 파일에서 모든 특성/능력 이름 로드"""
+    """기존 데이터 파일에서 모든 특성/어빌리티 이름 로드"""
     existing = defaultdict(set)
 
     # Traits 파일들 읽기
@@ -77,68 +77,137 @@ def load_existing_data() -> Dict[str, Set[str]]:
             names = extract_name_from_markdown_table(content)
             existing[f"traits/{trait_file.name}"] = names
 
-    # Skill 파일들 읽기
-    if DATA_SKILL_DIR.exists():
-        for skill_file in DATA_SKILL_DIR.glob("*.md"):
-            content = skill_file.read_text(encoding="utf-8")
+    # Ability 파일들 읽기 (하위 폴더 포함)
+    if DATA_ABILITY_DIR.exists():
+        for ability_file in DATA_ABILITY_DIR.rglob("*.md"):
+            content = ability_file.read_text(encoding="utf-8")
             names = extract_name_from_markdown_table(content)
-            existing[f"skill/{skill_file.name}"] = names
+            # 상대 경로를 키로 사용 (예: ability/detailed_lists/1.마법권역/마법_방출계_구체.md)
+            rel_path = ability_file.relative_to(DATA_ABILITY_DIR.parent)
+            existing[str(rel_path).replace("\\", "/")] = names
 
     return existing
 
 
 def parse_report(report_path: Path) -> Dict[str, List[Dict[str, Any]]]:
-    """리포트 파일에서 특성/능력 추출"""
+    """리포트 파일에서 특성/어빌리티 추출"""
     content = report_path.read_text(encoding="utf-8")
 
-    extracted: Dict[str, List[Dict[str, Any]]] = {"traits": [], "발동": [], "지속": []}
+    extracted: Dict[str, List[Dict[str, Any]]] = {"traits": [], "ability": []}
 
     # 리포트 형식 파싱
-    # 예: **[특성] 이름** 또는 **[발동] 이름** 또는 **[지속] 이름**
-    trait_pattern = r"\*\*\[특성\]\s+([^*]+)\*\*"
-    active_pattern = r"\*\*\[발동\]\s+([^*]+)\*\*"
+    # 예: **[트레잇] 이름**, **[특성] 이름**, **[발동] 이름**, **[지속] 이름**, **[어빌리티] 이름**
+    trait_pattern = r"\*\*\[(?:특성|트레잇)\]\s+([^*]+)\*\*"
+    active_pattern = r"\*\*\[(?:발동|어빌리티)\]\s+([^*]+)\*\*"
     passive_pattern = r"\*\*\[지속\]\s+([^*]+)\*\*"
 
     # 분류 정보도 함께 추출
     # 예: **분류:** `data/traits/10_정신.md`
-    classification_pattern = r"\*\*분류:\*\*\s*`([^`]+)`"
+    # 예: **구조:** [마법:원소] - [제어계] - [영역]
+    classification_pattern = r"\*\*분류:\*\*\s*(?:`([^`]+)`|([^\n]+))"
+    structure_pattern = (
+        r"\*\*구조:\*\*\s*\[([^\]]+)\]\s*-\s*\[([^\]]+)\]\s*-\s*\[([^\]]+)\]"
+    )
 
     # 각 항목 블록 찾기
-    blocks = re.split(r"\n\n+", content)
+    blocks = re.split(
+        r"\n\s*\d+\.\s+", content
+    )  # 번호 매겨진 리스트 항목(1. 2. 등)으로 분할
 
     for block in blocks:
-        # 특성 추출
+        # 중복 표기 확인
+        is_already_exists = "(이미 존재)" in block
+
+        # 특성/트레잇 추출
         trait_match = re.search(trait_pattern, block)
         if trait_match:
-            name = normalize_name(trait_match.group(1).strip())
+            full_name = trait_match.group(1).strip()
+            name = normalize_name(full_name)
             class_match = re.search(classification_pattern, block)
-            classification = class_match.group(1) if class_match else "unknown"
+            classification = ""
+            if class_match:
+                classification = (class_match.group(1) or class_match.group(2)).strip()
+                # '02_기원' 처럼 파일명만 온 경우 경로 보정
+                if not classification.startswith(
+                    "data/"
+                ) and not classification.startswith("traits/"):
+                    classification = f"traits/{classification}"
+                if not classification.endswith(".md"):
+                    classification += ".md"
+
             extracted["traits"].append(
                 {
                     "name": name,
                     "classification": classification,
-                    "block": block[:200],  # 컨텍스트 일부
+                    "is_already_exists": is_already_exists,
+                    "block": block[:200],
                 }
             )
 
-        # 발동 능력 추출
+        # 발동/어빌리티 추출 (이제 일반 어빌리티로 취급)
         active_match = re.search(active_pattern, block)
         if active_match:
-            name = normalize_name(active_match.group(1).strip())
+            full_name = active_match.group(1).strip()
+            name = normalize_name(full_name)
+
+            # 구조 정보 추출 시도
+            struct_match = re.search(structure_pattern, block)
+            classification = ""
+            if struct_match:
+                domain_raw, lineage, form = struct_match.groups()
+                # '정신:소리' 에서 '정신'만 추출
+                domain = domain_raw.split(":")[0].strip()
+
+                # 권역 번호 매칭 시도 (기존 어빌리티 폴더 구조 활용)
+                domain_map = {
+                    "마법": "1.마법권역",
+                    "물리": "2.물리권역",
+                    "정신": "3.정신권역",
+                    "특수": "4.특수권역",
+                    "전술": "5.전술권역",
+                    "생산": "6.생산권역",
+                }
+                domain_folder = domain_map.get(domain, "unknown")
+                if domain_folder != "unknown":
+                    classification = f"ability/detailed_lists/{domain_folder}/{domain}_{lineage}_{form}.md"
+
+            # 분류 정보가 직접 명시된 경우 우선함
             class_match = re.search(classification_pattern, block)
-            classification = class_match.group(1) if class_match else "unknown"
-            extracted["발동"].append(
-                {"name": name, "classification": classification, "block": block[:200]}
+            if class_match:
+                classification = (class_match.group(1) or class_match.group(2)).strip()
+
+            extracted["ability"].append(
+                {
+                    "name": name,
+                    "classification": classification,
+                    "is_already_exists": is_already_exists,
+                    "block": block[:200],
+                }
             )
 
-        # 지속 능력 추출
+        # 지속 어빌리티 추출 (이제 트레잇으로 취급)
         passive_match = re.search(passive_pattern, block)
         if passive_match:
-            name = normalize_name(passive_match.group(1).strip())
+            full_name = passive_match.group(1).strip()
+            name = normalize_name(full_name)
             class_match = re.search(classification_pattern, block)
-            classification = class_match.group(1) if class_match else "unknown"
-            extracted["지속"].append(
-                {"name": name, "classification": classification, "block": block[:200]}
+            classification = ""
+            if class_match:
+                classification = (class_match.group(1) or class_match.group(2)).strip()
+                if not classification.startswith(
+                    "data/"
+                ) and not classification.startswith("traits/"):
+                    classification = f"traits/{classification}"
+                if not classification.endswith(".md"):
+                    classification += ".md"
+
+            extracted["traits"].append(
+                {
+                    "name": name,
+                    "classification": classification,
+                    "is_already_exists": is_already_exists,
+                    "block": block[:200],
+                }
             )
 
     return extracted
@@ -151,7 +220,7 @@ def check_duplicates(
     results: Dict[str, List[Dict[str, Any]]] = {
         "duplicates": [],
         "new_items": [],
-        "similar_names": [],  # 유사한 이름 (나중에 확장 가능)
+        "similar_names": [],
     }
 
     # 추출된 항목들을 분류별로 확인
@@ -159,10 +228,22 @@ def check_duplicates(
         for item in items:
             name = item["name"]
             classification = item["classification"]
+            is_already_exists = item.get("is_already_exists", False)
 
             # 분류에서 파일명 추출
-            # 예: `data/traits/10_정신.md` -> `traits/10_정신.md`
             target_file = classification.replace("data/", "").replace("`", "").strip()
+
+            # 리포트 자체에 '이미 존재' 표기가 있으면 중복으로 처리
+            if is_already_exists:
+                results["duplicates"].append(
+                    {
+                        "name": name,
+                        "category": category,
+                        "file": target_file,
+                        "note": "리포트에서 '이미 존재'로 표시됨",
+                    }
+                )
+                continue
 
             # 해당 파일에서 중복 확인
             if target_file in existing:
@@ -202,14 +283,16 @@ def check_duplicates(
                             }
                         )
             else:
-                # 분류 파일이 없으면 새 항목으로 처리
+                # 분류 파일이 없거나 경로가 불완전하면 새 항목으로 처리하되 경고 표시
                 results["new_items"].append(
                     {
                         "name": name,
                         "category": category,
                         "file": target_file,
                         "classification": classification,
-                        "note": "분류 파일이 존재하지 않음",
+                        "note": "분류 파일이 존재하지 않거나 경로가 불명확함"
+                        if not target_file.endswith(".md")
+                        else "신규 파일 대상",
                     }
                 )
 
@@ -272,15 +355,14 @@ def main():
         f"  - Traits 파일: {len([f for f in existing.keys() if f.startswith('traits/')])}개"
     )
     print(
-        f"  - Skill 파일: {len([f for f in existing.keys() if f.startswith('skill/')])}개"
+        f"  - 어빌리티 파일: {len([f for f in existing.keys() if f.startswith('ability/')])}개"
     )
 
     # 리포트 파싱
     print(f"\n리포트 파싱 중: {report_path.name}")
     extracted = parse_report(report_path)
-    print(f"  - 특성: {len(extracted['traits'])}개")
-    print(f"  - 발동 능력: {len(extracted['발동'])}개")
-    print(f"  - 지속 능력: {len(extracted['지속'])}개")
+    print(f"  - 트레잇 (지속 포함): {len(extracted['traits'])}개")
+    print(f"  - 어빌리티 (발동): {len(extracted['ability'])}개")
 
     # 중복 검사
     print("\n중복 검사 수행 중...")
