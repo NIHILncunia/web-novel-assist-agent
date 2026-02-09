@@ -47,7 +47,8 @@ def check_traits():
             keyword = raw_keyword.replace("*", "").strip()
 
             # 헤더 행 스킵
-            if keyword == "키워드" or not keyword:
+            header_keywords = ["키워드", "트레잇 이름", "트레잇명", "트레잇", "이름"]
+            if keyword in header_keywords or not keyword:
                 continue
 
             # 중복 검사
