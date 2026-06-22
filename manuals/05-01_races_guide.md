@@ -139,7 +139,7 @@
 ```
 
 #### ✅ 작성 예시 (종족)
-> **[상세 예시: 하이 엘프 (High Elf)](../_templates/world_detail/examples/01_example_race_high_elf.md)**
+> **[상세 예시: 하이 엘프 (High Elf)](../.agent/skills/create_race/examples/high_elf.md)**
 >
 > 위 링크를 클릭하여 최신 테이블 포맷과 `data/traits`가 적용된 전체 예시 파일을 확인하세요. 이 예시는 `Humanoid` 유형과 `배타주의` 외교 트레잇을 포함하고 있습니다.
 

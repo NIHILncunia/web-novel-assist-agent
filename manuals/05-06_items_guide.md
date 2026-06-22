@@ -22,7 +22,7 @@
 2. **분류 결과 저장:** 
    - 분류된 아이템의 요약 정보(테이블 형식)는 `data/아이템.md`에 저장합니다.
    - 아이템의 상세한 서사적 설명은 개별 파일(`00_bible/06_items/[Item_Name].md`)에 기록합니다.
-   - **⚠️ 중요:** 템플릿(`_templates/world_detail/06_items_template.md`)의 **"1. 정의 및 외형"** 섹션에 분류 정보(대분류, 소분류, 등급)를 포함하고, **"2. 기능"** 섹션에 속성, 피해 유형, 자아 정보를 포함하세요.
+   - **⚠️ 중요:** 템플릿(`.agent/skills/create_item/templates/06_items_template.md`)의 **"1. 정의 및 외형"** 섹션에 분류 정보(대분류, 소분류, 등급)를 포함하고, **"2. 기능"** 섹션에 속성, 피해 유형, 자아 정보를 포함하세요.
    - 자세한 내용은 아래 "2-0-1. 아이템 목록과 개별 파일의 관계" 섹션을 참조하세요.
 
 3. **아이템 검색:** 아이템이 필요할 때는 먼저 `data/아이템.md` 파일에서 기존 아이템을 검색하여 재사용 가능한지 확인합니다.
@@ -39,7 +39,7 @@
 
 2. **개별 파일: `00_bible/06_items/[Item_Name].md`**
    - 아이템의 상세한 서사적 설명을 기록하는 개별 파일
-   - 템플릿(`_templates/world_detail/06_items_template.md`)을 사용하여 생성
+   - 템플릿(`.agent/skills/create_item/templates/06_items_template.md`)을 사용하여 생성
    - **"1. 정의 및 외형"** 섹션에 분류 정보(대분류, 소분류, 등급)를 포함
    - **"2. 기능"** 섹션에 속성, 피해 유형, 자아 정보를 포함
    - 분류 정보는 `data/아이템.md`에도 테이블 형식으로 저장
@@ -198,7 +198,7 @@
 ```
 
 #### ✅ 작성 예시 (아이템)
-> **[상세 예시: 단죄의 검 (Sword of Judgment)](../_templates/world_detail/examples/06_example_item_judgment_sword.md)**
+> **[상세 예시: 단죄의 검 (Sword of Judgment)](../.agent/skills/create_item/examples/judgment_sword.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. `자아(Awakened)`와 `신성` 속성을 가진 아티팩트 예시입니다.
 

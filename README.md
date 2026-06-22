@@ -30,7 +30,7 @@
 
 ## 🏗️ 폴더 구조 (Directory Structure)
 
-이 프로젝트는 체계적인 창작 과정을 지원하기 위해 다음과 같은 주요 폴더들로 구성됩니다. 각 폴더와 파일의 상세한 역할 및 AI 에이전트의 작동 방식에 대한 기술적인 설명은 **[GEMINI.md](./GEMINI.md)** 파일을 참조하십시오.
+이 프로젝트는 체계적인 창작 과정을 지원하기 위해 다음과 같은 주요 폴더들로 구성됩니다. 각 폴더와 파일의 상세한 역할 및 AI 에이전트의 작동 방식에 대한 기술적인 설명은 **[AGENTS.md](./AGENTS.md)** 파일을 참조하십시오.
 
 -   `manuals/`: 11단계 창작 프로세스를 안내하는 핵심 가이드 문서들이 저장됩니다.
 -   `_templates/`: 공용 **노트 템플릿(note_template.md)**을 보관합니다. (기획 시트 등은 각 **skills** 폴더 내 `templates/`로 이동되었습니다.)
@@ -54,7 +54,7 @@
 - `incubator/[가제_컨셉명]/` 폴더 생성
 
 **산출물:**
-- 아이디어 시드 노트 (`incubator/[가제_컨셉명]/01_planning/00_idea_seed.md`)
+- 아이디어 시드 노트 (`incubator/[가제_컨셉명]/01_planning/00_idea_note.md`)
 
 ---
 
@@ -91,8 +91,8 @@
 - **중요:** 제목이 없는 한은 인큐베이터에 유지합니다.
 
 **산출물:** 
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/01_concept_note.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/01_concept_note.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/02_world_concept.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/02_world_concept.md` (이동됨)
 
 **장점:** 세계관을 먼저 정함으로써 이야기의 "무대"를 명확히 하고, 설정 충돌을 사전 방지합니다.
 
@@ -107,8 +107,8 @@
 - 3~5가지 로그라인 변형 제안 및 선택
 
 **산출물:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/02_logline.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/02_logline.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/03_logline.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/03_logline.md` (이동됨)
 
 **장점:** 작품의 방향성을 명확히 하여, 집필 중 이야기가 산으로 가는 것을 방지합니다.
 
@@ -124,8 +124,8 @@
 - **작품명 확정 프로세스** (시놉시스 완성 후 필수)
 
 **산출물:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/03_synopsis.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/03_synopsis.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/04_synopsis_sheet.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/04_synopsis_sheet.md` (이동됨)
 
 **작품명 확정 프로세스:**
 - 시놉시스 완성 후 반드시 작품명 확정 여부를 확인합니다.
@@ -146,14 +146,14 @@
 - **자가점검:** 시놉시스에 언급된 모든 고유명사에 대한 설정 파일이 존재하는지 확인
 - **메인 가이드:** `05_world_detail.md` 참조
 - **하위 가이드:** 각 설정 타입별 전용 가이드 및 템플릿 활용
-  - 세계관 구조 (`05-00_framework_guide.md`)
+  - 세계관 구조 (`05-00_core_rules_guide.md`)
   - 종족 (`05-01_races_guide.md`)
   - 인물 (`05-02_character_guide.md`)
   - 지역, 단체, 국가, 아이템, 사건, 전설 등
 
 **산출물:**
 - **설정 파일들:** `00_bible/` 하위 폴더들에 생성되는 각 설정 파일들
-- **월드디테일 점검 파일 (필수):** `01_planning/04_world_detail_check.md`
+- **월드디테일 점검 파일 (필수):** `01_planning/05_world_detail_check.md`
   - 목표 리스트 (시놉시스에서 추출한 고유명사 목록)
   - 점검 결과 (완료/누락 상태)
   - 점검 일시
@@ -183,8 +183,8 @@
 - 각 아크의 목표와 에피소드 리스트 작성
 
 **산출물:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/05_plot_outline.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/05_plot_outline.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/06_plot_outline.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/06_plot_outline.md` (이동됨)
 
 **장점:**
 - 연재 분량을 미리 계획하여 완급 조절 가능
@@ -202,8 +202,8 @@
 - "다음 화가 궁금해지는" 구조 설계
 
 **산출물:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/06_chapter_plans/ep_001.md` (회차별 파일)
-- **작품명 확정 후:** `projects/[작품명]/01_planning/06_chapter_plans/ep_001.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/07_chapter_plans/ch_001.md` (회차별 파일)
+- **작품명 확정 후:** `projects/[작품명]/01_planning/07_chapter_plans/ch_001.md` (이동됨)
 
 **장점:**
 - 각 회차마다 명확한 목표가 생겨 집필이 수월해짐
@@ -219,14 +219,14 @@
 
 **작업 내용:**
 - 챕터 설계도(Step 7)와 플롯 아웃라인(Step 6) 검증
-- 세계관 설정(Step 5) 일관성 체크 (`world_checklist.md` 활용)
+- 세계관 설정(Step 5) 일관성 체크 (`.agent/skills/review_world/templates/world_checklist.md` 활용)
 - 플롯 구멍 탐지 (인과관계, 캐릭터 동기 등)
 - 화수 배분 적정성 검토
 - 설정 충돌 여부 확인
 
 **산출물:**
-- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/07_review_reports/ep_N_QA_report.md`
-- **작품명 확정 후:** `projects/[작품명]/01_planning/07_review_reports/ep_N_QA_report.md` (이동됨)
+- **작품명 미정 시:** `incubator/[가제_컨셉명]/01_planning/08_review_reports/ep_N_QA_report.md`
+- **작품명 확정 후:** `projects/[작품명]/01_planning/08_review_reports/ep_N_QA_report.md` (이동됨)
 
 **다음 단계 연결:**
 - Step 7 완료 후 반드시 Step 8(최종 점검)을 먼저 수행
@@ -268,7 +268,7 @@
 
 **산출물:**
 - 수정된 원고 (`projects/[작품명]/02_drafts/[화차]_revised.md`)
-- 수정 리포트 (`projects/[작품명]/03_revisions/revision_report_001.md`)
+- 수정 리포트 (`projects/[작품명]/02_drafts/revisions/10_revision_sheet_001.md`)
 
 ---
 
@@ -336,15 +336,15 @@ README.md와 manuals/ 폴더의 가이드를 참조하여 11단계 프로세스�
 
 ### ✅ **3. 방향성 상실 방지 (No More Lost Direction)**
 
-Step 2의 로그라인과 Step 3의 시놉시스로 이야기의 "시작"과 "끝"이 명확합니다. 작가는 집필 중 "이제 어디로 가야 하지?"라는 불안 없이 자신 있게 나아갈 수 있습니다.
+Step 3의 로그라인과 Step 4의 시놉시스로 이야기의 "시작"과 "끝"이 명확합니다. 작가는 집필 중 "이제 어디로 가야 하지?"라는 불안 없이 자신 있게 나아갈 수 있습니다.
 
 ### ✅ **4. 완급 조절 최적화 (Optimized Pacing)**
 
-Step 5와 Step 6에서 아크별 화수를 미리 배분하여, 독자가 지루함을 느끼기 전에 사이다를 터트리고, 안주하기 전에 새로운 갈등을 던지는 전략적 배치가 가능합니다.
+Step 6과 Step 7에서 아크와 회차 구조를 미리 배분하여, 독자가 지루함을 느끼기 전에 사이다를 터트리고, 안주하기 전에 새로운 갈등을 던지는 전략적 배치가 가능합니다.
 
 ### ✅ **5. 작가 고유성 보존 (Preserve Author's Voice)**
 
-Step 0의 스타일 프로필 설정으로, AI가 작가의 고유한 문체와 어투를 학습합니다. 이로써 "AI가 쓴 티"가 나지 않는 자연스러운 문장을 생성할 수 있습니다.
+Step 1의 스타일 프로필 설정으로, AI가 작가의 고유한 문체와 어투를 학습합니다. 이로써 "AI가 쓴 티"가 나지 않는 자연스러운 문장을 생성할 수 있습니다.
 
 ### ✅ **6. 집필 속도 향상 (Faster Writing)**
 
@@ -378,7 +378,7 @@ Step 2~Step 6까지의 산출물은 그대로 출판사나 플랫폼에 제출�
    * **위치:** `projects/[작품명]/00_conversation_log.md` (작품명 확정 후)
 
 2. **로그 기록 규칙:** 자세한 포맷(블록, 전문 코드블럭 등)과 규칙은 반드시 **📄 [99_common_logger.md](./manuals/99_common_logger.md)** 파일을 참조하여 준수하십시오. 상호작용의 전문(Verbatim)을 기록하는 것이 핵심입니다.(2024-01-15 14:36)
-   Option A 컨셉 확정, 01_concept_note.md 파일 저장 완료
+   Option A 컨셉 확정, 02_world_concept.md 파일 저장 완료
    
    ---
 - **전체 창작 과정 추적:** 나중에 어떻게 결정했는지 확인 가능
@@ -394,19 +394,19 @@ Step 2~Step 6까지의 산출물은 그대로 출판사나 플랫폼에 제출�
 - **작품명 확정 후:** `projects/[작품명]/` 하위 (이동됨)
 
 **파일 구조 (인큐베이터와 프로젝트 동일):**
-- **Step 0:** `00_bible/style_profile.md` - 작가 문체 프로필
-- **Step 1:** `01_planning/01_style_survey.md` - 스타일 설문 결과
-- **Step 2:** `01_planning/01_concept_note.md` - 최종 확정된 컨셉
-- **Step 3:** `01_planning/02_logline.md` - 최종 확정된 로그라인
-- **Step 4:** `01_planning/03_synopsis.md` - 최종 확정된 시놉시스
+- **Step 0:** `01_planning/00_idea_note.md` - 아이디어 시드 노트
+- **Step 1:** `00_bible/style_profile.md` - 작가 문체 프로필
+- **Step 2:** `01_planning/02_world_concept.md` - 최종 확정된 컨셉
+- **Step 3:** `01_planning/03_logline.md` - 최종 확정된 로그라인
+- **Step 4:** `01_planning/04_synopsis_sheet.md` - 최종 확정된 시놉시스
 - **Step 5:** 
   - `00_bible/` 하위 폴더들 - 최종 확정된 세계관 설정 파일들
-  - `01_planning/04_world_detail_check.md` - 설정 목표 리스트 및 점검 결과
-- **Step 6:** `01_planning/05_story_arc.md` - 최종 확정된 스토리 아크
-- **Step 7:** `01_planning/06_chapter_plans/` - 최종 확정된 챕터 설계
-- **Step 8:** `01_planning/07_review_reports/` - 최종 점검 리포트
+  - `01_planning/05_world_detail_check.md` - 설정 목표 리스트 및 점검 결과
+- **Step 6:** `01_planning/06_plot_outline.md` - 최종 확정된 스토리 아크
+- **Step 7:** `01_planning/07_chapter_plans/` - 최종 확정된 챕터 설계
+- **Step 8:** `01_planning/08_review_reports/` - 최종 점검 리포트
 - **Step 9:** `02_drafts/` - 최종 원고
-- **Step 10:** `03_revisions/` - 퇴고 및 수정본
+- **Step 10:** `02_drafts/revisions/` - 퇴고 및 수정본
 
 **핵심 원칙:**
 - **로그 파일:** 전체 대화 과정 (요청-응답 반복)

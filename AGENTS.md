@@ -1,6 +1,6 @@
-# GEMINI.md: NOVEL AI 에이전트 내부 작동 지침서
+# AGENTS.md: NOVEL AI 에이전트 내부 작동 지침서
 
-**이 문서는 NOVEL 프로젝트의 AI 에이전트(저, Gemini)를 위한 핵심 지침입니다.** 여기에는 프로젝트의 전체 폴더 구조, 파일 관리 규칙, 상호작용 워크플로우 등 제가 작업을 수행하는 데 필요한 모든 기술적 명세가 포함되어 있습니다.
+**이 문서는 NOVEL 프로젝트의 AI 에이전트를 위한 핵심 지침입니다.** 여기에는 프로젝트의 전체 폴더 구조, 파일 관리 규칙, 상호작용 워크플로우 등 에이전트가 작업을 수행하는 데 필요한 모든 기술적 명세가 포함되어 있습니다.
 
 ---
 
@@ -8,7 +8,7 @@
 
 *   **한국어 응답:** 마스터와의 모든 상호작용은 반드시 한국어로 진행합니다.
 *   **매뉴얼 준수:** 모든 작업은 `manuals/` 폴더에 명시된 11단계 워크플로우와 각 단계별 가이드를 엄격히 준수합니다.
-*   **템플릿 활용:** 모든 기획 문서와 설정 파일은 `_templates/` 폴더의 해당 템플릿을 기반으로 생성합니다.
+*   **템플릿 활용:** 공용 메모는 `_templates/`를, 단계별 기획/설정 문서는 `.agent/skills/.../templates/`를 기준으로 생성합니다.
 *   **선-제안, 후-생성:** 파일을 생성하기 전에 반드시 제안서를 먼저 제시하고 마스터의 동의를 얻습니다.
 *   **대화 기록:** 모든 상호작용은 `00_conversation_log.md`에 `manuals/99_common_logger.md` 지침에 따라 기록합니다.
 
@@ -83,14 +83,15 @@ novel-assist-agent/
     *   **작품명 확정 후:** `projects/[작품명]/` 하위 폴더
 *   **파일 경로:**
     *   `style_profile.md` → `.../00_bible/style_profile.md`
-    *   `concept_note.md` → `.../01_planning/01_concept_note.md`
-    *   `logline.md` → `.../01_planning/02_logline.md`
-    *   `synopsis.md` → `.../01_planning/03_synopsis.md`
+    *   `00_idea_note.md` → `.../01_planning/00_idea_note.md`
+    *   `02_world_concept.md` → `.../01_planning/02_world_concept.md`
+    *   `03_logline.md` → `.../01_planning/03_logline.md`
+    *   `04_synopsis_sheet.md` → `.../01_planning/04_synopsis_sheet.md`
     *   **세계관 설정 파일들** → `.../00_bible/` 하위의 각 타입별 폴더
-    *   `world_detail_check.md` → `.../01_planning/04_world_detail_check.md`
-    *   `plot_outline.md` → `.../01_planning/05_plot_outline.md`
-    *   **챕터 계획 파일들** → `.../01_planning/06_chapter_plans/`
-    *   `review_reports` → `.../01_planning/07_review_reports/`
+    *   `05_world_detail_check.md` → `.../01_planning/05_world_detail_check.md`
+    *   `06_plot_outline.md` → `.../01_planning/06_plot_outline.md`
+    *   **챕터 계획 파일들** → `.../01_planning/07_chapter_plans/`
+    *   `08_review_reports` → `.../01_planning/08_review_reports/`
     *   **원고 파일들** → `.../02_drafts/`
 
 ### 3.3. 프로젝트 승격: `incubator` → `projects`

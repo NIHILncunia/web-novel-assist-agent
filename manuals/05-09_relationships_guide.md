@@ -15,12 +15,12 @@
 ## 2. 작업 프로세스
 
 ### Phase 1. 관계 설정 파일 생성
-1.  `_templates/world_detail/09_relationships_template.md` 템플릿을 복사합니다.
+1.  `.agent/skills/analyze_relations/templates/09_relationships_template.md` 템플릿을 복사합니다.
 2.  아래 위치에 `09_relationships.md` 라는 이름으로 파일을 생성합니다.
     - **저장 위치:** `[프로젝트 폴더]/00_bible/09_relationships.md`
 
 ### Phase 2. 관계 내용 채우기
-> **[상세 예시: 황실 관계도](../_templates/world_detail/examples/09_example_relationships_imperial.md)**
+> **[상세 예시: 황실 관계도](../.agent/skills/analyze_relations/examples/imperial_court.md)**
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. 인물, 단체, 국가 간의 복합적인 관계 설정 예시입니다.
 
 생성된 파일의 테이블에 맞춰 인물, 단체, 국가 간의 관계를 상세히 기록합니다.

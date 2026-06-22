@@ -61,7 +61,7 @@
 
 ## [Template 00] 코어 규칙 (Core Rules)
 > **저장 위치:** `00_bible/00_core_rules/[Rule_Name].md`  
-> **템플릿 참조:** `_templates/world_detail/00_core_rules_template.md`
+> **템플릿 참조:** `.agent/skills/create_core_rules/templates/core_rules_template.md`
 
 ```markdown
 ---

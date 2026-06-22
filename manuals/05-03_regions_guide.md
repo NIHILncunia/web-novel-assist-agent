@@ -145,7 +145,7 @@
 ```
 
 #### ✅ 작성 예시 (지역)
-> **[상세 예시: 검은 속삭임의 숲 (Black Forest)](../_templates/world_detail/examples/03_example_region_black_forest.md)**
+> **[상세 예시: 검은 속삭임의 숲 (Black Forest)](../.agent/skills/create_region/examples/black_forest.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. 상태 이상과 지역 트레잇(`죽음의 늪`, `마나 교란`)이 적용된 예시입니다.
 

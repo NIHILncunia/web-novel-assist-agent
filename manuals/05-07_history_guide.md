@@ -107,7 +107,7 @@
 ```
 
 #### ✅ 작성 예시 (사건)
-> **[상세 예시: 제 1차 북부 전쟁 (First Northern War)](../_templates/world_detail/examples/07_example_history_northern_war.md)**
+> **[상세 예시: 제 1차 북부 전쟁 (First Northern War)](../.agent/skills/create_history/examples/northern_war.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. 원인, 전개, 결과를 구조적으로 정리한 전쟁사 예시입니다.
 

@@ -136,7 +136,7 @@
 ```
 
 #### ✅ 작성 예시 (단체)
-> **[상세 예시: 은연 (Silver Lotus)](../_templates/world_detail/examples/04_example_org_silver_lotus.md)**
+> **[상세 예시: 은연 (Silver Lotus)](../.agent/skills/create_organization/examples/silver_lotus.md)**
 >
 > 위 링크를 클릭하여 전체 예시 파일을 확인하세요. `외교(중립주의, 기회주의)` 트레잇이 적용된 비밀 결사 예시입니다.
 
